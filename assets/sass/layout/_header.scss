@@ -1,0 +1,136 @@
+.header {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 99;
+    width: 100%;
+    padding-top: 24px;
+
+    &_logo {
+
+        img {
+            max-width: 250px;
+
+            @include media-breakpoint-down(lg) {
+                max-width: 200px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                max-width: 140px;
+            }
+        }
+    }
+
+    &_btn {
+        min-width: 225px;
+    }
+
+    .navbar-toggler {
+        padding: 0;
+        border: none;
+        box-shadow: none;
+        opacity: 1;
+
+        .navbar-toggler-icon {
+            background-image: url(../images/header/hamburger.png);
+            background-repeat: no-repeat;
+            background-position: center center;
+            width: 25px;
+            height: 25px;
+        }
+    }
+
+    .offcanvas {
+
+        @include media-breakpoint-down(sm) {
+            width: 100%;
+            border: none;
+        }
+
+        &-body {
+            width: 100%;
+            align-items: center;
+        }
+
+        &-menu {
+            margin: 0 auto;
+
+            ul {
+                display: flex;
+
+                @include media-breakpoint-up(lg) {
+                    backdrop-filter: blur(24px);
+                    background-color: #FFFFFF1A;
+                    align-items: center;
+                    border-radius: 10px;
+                    height: 56px;
+                }
+
+                @include media-breakpoint-down(lg) {
+                    flex-direction: column;
+                    margin-bottom: 30px;
+                }
+
+                li {
+                    transition: .3s all ease-in-out;
+
+                    &:first-child {
+                        a {
+                            border-radius: 10px 0 0 10px;
+                        }
+                    }
+
+                    &:last-child {
+                        a {
+                            border-radius: 0 10px 10px 0;
+                        }
+                    }
+
+                    a {
+                        font-size: 16px;
+                        font-weight: 600;
+                        line-height: 20.08px;
+                        color: #ffffff;
+                        padding: 18px 16px;
+                        transition: .3s all ease-in-out;
+
+                        @include media-breakpoint-down(lg) {
+                            padding: 18px 0;
+                            width: 100%;
+                            display: block;
+                        }
+
+                        &:hover {
+                            background: linear-gradient(92.77deg, #0B65BE -2.11%, #052F59 100%);
+                            transition: .3s all ease-in-out;
+
+                            @include media-breakpoint-down(lg) {
+                                background: none;
+                            }
+                        }
+                    }
+
+                    &.current-menu-item {
+                        a {
+                            background: linear-gradient(92.77deg, #0B65BE -2.11%, #052F59 100%);
+                            color: #ffffff;
+
+                            @include media-breakpoint-down(lg) {
+                                background: none;
+                                color: #0B65BE;
+                            }
+
+
+                            @include media-breakpoint-down(lg) {
+                                background: linear-gradient(92.77deg, #0B65BE -2.11%, #052F59 100%);
+                                -webkit-background-clip: text;
+                                -webkit-text-fill-color: transparent;
+                            }
+                        }
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+@import "./utilities/variables";
+
+@import "./vendors/bootstrap/bootstrap.scss";
+
+@import "./core/reset",
+"./core/typography";
+
+@import "./layout/footer",
+"./layout/header";
+
+@import "./components/buttons";
+
+@import "./pages/index";
+@import "./pages/service";
+@import "./pages/projects";
+@import "./pages/news";
+@import "./pages/news-detail";
+@import "./pages/contact";
+@import "./pages/engineering";
+@import "./pages/about";
