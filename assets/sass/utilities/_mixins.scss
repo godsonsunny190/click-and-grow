@@ -47,3 +47,8 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin alignCenter {
+    display: flex;
+    align-items: center;
+}

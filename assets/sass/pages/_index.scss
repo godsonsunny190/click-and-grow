@@ -82,11 +82,29 @@
         grid-template-columns: repeat(4, 1fr);
         grid-column-gap: 8px;
         grid-row-gap: 32px;
+        margin-top: 24px;
+
+        @include media-breakpoint-down(md) {
+            grid-template-columns: repeat(2, 1fr);
+        }
     }
 
     &_item {
+        @include flexColumn;
+        gap: 4px;
+
         img {
             border-radius: 8px;
+            height: 43.3333333333vw;
+            object-fit: contain;
+
+            @media (min-width: 1280px) {
+                height: 284px;
+            }
+
+            @media (min-width: 768px) and (max-width: 1280px) {
+                height: 21.3541666667vw;
+            }
         }
 
         h4 {
@@ -94,12 +112,84 @@
             font-size: 14px;
             font-weight: 500;
             line-height: 20px;
-            background-color: $font-hanken;
+            padding: 4px;
 
             @media screen and (min-width: 1280px) {
                 font-size: 16px;
-                color: $font;
             }
+        }
+
+        span {
+            padding: 4px;
+            font-weight: 400;
+            padding: 4px;
+            font-size: 14px;
+            line-height: 20px;
+            font-family: $font-hanken;
+
+            @media (min-width: 1280px) {
+                font-size: 16px;
+                line-height: 24px;
+            }
+        }
+
+        a {
+            @include alignCenter;
+            gap: 4px;
+            padding: 2px 0;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            letter-spacing: .1px;
+            font-family: $font-hanken;
+            color: $color-2e;
+
+            @media (min-width: 1280px) {
+                font-size: 16px;
+                line-height: 24px;
+
+            }
+
+            img {
+                width: 18px;
+                height: 20px;
+            }
+        }
+    }
+
+    &_color {
+        display: flex;
+        padding: 4px;
+        gap: 4px;
+
+        &-option {
+            width: 20px;
+            height: 20px;
+            padding: 2.5px;
+            border-radius: 100%;
+            border: 1px solid #a39766;
+            box-shadow: 0 0 0 2px #fff inset;
+
+            &.white {
+                background-color: #fff;
+            }
+
+            &.grey {
+                background-color: #858080;
+            }
+
+            &.beige {
+                background-color: #d3d3d3;
+            }
+        }
+    }
+
+    &_btn {
+        @include flexCenter;
+        margin-top: 40px;
+
+        @include media-breakpoint-down(md) {
+            margin-top: 32px;
         }
     }
 }
