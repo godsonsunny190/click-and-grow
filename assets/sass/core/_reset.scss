@@ -3,11 +3,14 @@ body {
   padding: 0;
   position: relative;
   box-sizing: border-box;
-  font-family: "Mulish", serif;
+  font-family: 'Futura PT';
+  background-color: #fff;
 }
 
 a {
   text-decoration: none;
+  color: #747474;
+
 
   &:hover {
     text-decoration: none;
@@ -83,11 +86,9 @@ $grid-breakpoints: (xs: 0,
 );
 
 .container {
-
-  @media (max-width: 1399.98px) {
-    max-width: 100%;
-    width: 89.7%;
-  }
+  max-width: 1280px;
+  width: 100%;
+  padding: 0px 16px;
 
   @include media-breakpoint-down(sm) {
     width: 100%;

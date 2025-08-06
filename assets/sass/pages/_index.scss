@@ -1,0 +1,105 @@
+/* ===================================== */
+/*         HERO SECTION STYLE            */
+/* ===================================== */
+.hero {
+    background-color: $color-f6;
+
+    &_flex {
+        @include media-breakpoint-up(md) {
+            @include flexCenter;
+        }
+    }
+
+    &_content {
+        width: 40%;
+        @include flexColumn;
+        gap: 16px;
+        padding: 32px 48px 24px;
+
+        @media (max-width: 1280px) and (min-width: 768px) {
+            padding: 2.5vw 3.75vw 1.875vw;
+        }
+
+        @include media-breakpoint-down(md) {
+            width: 100%;
+            padding: 32px 16px;
+            align-items: center;
+            text-align: center;
+        }
+
+        h1 {
+            font-family: $font-spirit;
+            max-width: 242px;
+            width: 100%;
+            letter-spacing: -.52px;
+        }
+
+        p {
+            color: $color-2e;
+            font-family: $font-hanken;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: -.18px;
+
+            @include media-breakpoint-down(md) {
+                font-size: 16px;
+            }
+        }
+    }
+
+    &_video {
+        flex-basis: 60%;
+
+        @include media-breakpoint-down(md) {
+            margin: 0 2px;
+        }
+
+        video {
+            width: 100%;
+        }
+    }
+}
+
+/* ===================================== */
+/*         MARQUEE SECTION STYLE         */
+/* ===================================== */
+.marquee {
+    background-color: $color-1e;
+    padding: 24px 0;
+    min-height: 76px;
+}
+
+/* ===================================== */
+/*        PRODUCT SECTION STYLE          */
+/* ===================================== */
+.products {
+    background-color: $color-f6;
+    padding-top: 24px;
+
+    &_grid {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-column-gap: 8px;
+        grid-row-gap: 32px;
+    }
+
+    &_item {
+        img {
+            border-radius: 8px;
+        }
+
+        h4 {
+            font-family: $font-spirit;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 20px;
+            background-color: $font-hanken;
+
+            @media screen and (min-width: 1280px) {
+                font-size: 16px;
+                color: $font;
+            }
+        }
+    }
+}
