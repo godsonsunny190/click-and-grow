@@ -23,12 +23,22 @@
         }
     }
 
+    &_logo {
+        padding: 0 10px;
+        max-width: 300px;
+        width: 100%;
+    }
+
     &_end {
+        padding: 0 10px;
+        max-width: 300px;
+        width: 100%;
 
         ul {
             display: flex;
             column-gap: 24px;
             align-items: center;
+            justify-content: end;
 
             li {
                 a {

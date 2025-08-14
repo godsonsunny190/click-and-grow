@@ -44,13 +44,60 @@
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
 
     <!-- CSS LINK -->
-    <link rel="stylesheet" href="./assets">
+    <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
 <body>
 
-    <!-- HEADER SECTION -->
-    <header id="header"></header>
+    <!-- HEAEDER SECTION START HERE -->
+    <header class="header" id="header">
+        <nav class="navbar navbar-expand-lg p-0" aria-label="Offcanvas navbar large">
+            <div class="container-fluid">
+                <div class="header_logo">
+                    <a class="navbar-brand m-0 p-0 d-flex" href="#"><img src="./assets/images/logo/logo.svg" alt="logo"
+                            class="w-auto"></a>
+                </div>
+
+
+                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                    aria-labelledby="offcanvasNavbar2Label">
+                    <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                            aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <div class="header_menu">
+                            <ul>
+                                <li><a href="">Products</a></li>
+                                <li><a href="">Subscription</a></li>
+                                <li><a href="">Blog </a></li>
+                                <li><a href="">Support</a></li>
+                                <li><a href="">Education</a></li>
+                                <li><a href="">About us</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="header_end">
+                            <ul>
+                                <li><a href=""><img src="./assets/images/header/icon_flat_globe_black.svg" alt="">
+                                        USA</a></li>
+                                <li><a href=""><img src="./assets/images/header/icon_flat_globe_black.svg" alt="">
+                                        Login</a></li>
+                                <li><a href=""><img src="./assets/images/header/icon_flat_cart.svg" alt=""></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+        </nav>
+    </header>
+    <!-- HEAEDER SECTION START HERE -->
 
     <!-- MAIN CONTENT START HERE -->
     <main>
@@ -63,7 +110,8 @@
                         <h1 class="gs_reveal">HERE’S
                             TO ME</h1>
 
-                        <p class="gs_reveal">Upgrade your lifestyle with Smart Gardens — get healthier food, delish
+                        <p class="gs_reveal">Upgrade your lifestyle with <br> Smart Gardens — get healthier food, <br>
+                            delish
                             drinks, or dope
                             dopamine decor.</p>
                         <a href="" class="primary-btn">Shop now</a>
@@ -150,12 +198,117 @@
         </section>
         <!-- ABOUT SECTION END HERE -->
 
+        <!-- PLANT HERO SECTION START HERE -->
+        <section class="planthero">
+            <div class="container">
+                <div class="planthero_wrapper"
+                    style="background-image: url(./assets/images/index/cg-r-birthday-2024-banner-plants-USA.jpg);">
+                    <div class="planthero_content">
+                        <h2 class="gs_reveal">Every plant is a new story</h2>
+                        <p class="gs_reveal">We’ll help you be the main character.
+                            Explore the 65+ ways the story can go.</p>
+                        <div class="gs_reveal"><a href="" class="primary-btn">Shop Plant Pods</a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- PLANT HERO SECTION END HERE -->
+
+        <!-- PLANT CARD SECTION START HERE -->
+        <section class="plantblock">
+            <div class="container">
+                <div class="plantblock_grid">
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+                    <div class="plantcard">
+                        <img class="plantcard-image"
+                            src="./assets/images/index/Basil_plant_1280x960_0fc95446-605c-49e3-aa42-c6f3a171b8ae_600x460_crop_top.jpg"
+                            alt="plant image">
+                        <div class="plantcard-content">
+                            <h3 class="plantcard-title">Green Lettuce</h3>
+                            <h4 class="plantcard-title">3‑pack</h4>
+                            <span class="plantcard-discount">$49.95</span><span class="plantcard-price">$39.95</span>
+                            <span class="plantcard-pricetag">price per pod</span>
+                            <button class="plantcard-btn"><img src="./assets/images/icons/plus.png"
+                                    alt="plus icon"></button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- PLANT CARD SECTION ENDS HERE -->
+
     </main>
     <!-- MAIN CONTENT START HERE -->
 
 
-
-
+    <footer class="footer" id="footer">
+        Footer
+    </footer>
 
     <!-- JQUERY CDN -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>

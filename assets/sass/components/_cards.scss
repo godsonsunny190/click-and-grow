@@ -1,0 +1,88 @@
+.plantcard {
+
+    &-image {
+        @media (min-width: 1280px) {
+            height: 148px;
+        }
+
+        img {
+            object-fit: contain;
+            mix-blend-mode: multiply;
+            vertical-align: bottom;
+        }
+    }
+
+    &-content {
+        text-align: center;
+    }
+
+    &-title {
+        color: $color-2e;
+        text-align: center;
+        font-family: $font-spirit;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 20px;
+        text-wrap: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+
+        @media (min-width: 1280px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &-discount {
+        text-align: center;
+        color: $color-0d;
+        font-family: $font-hanken;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+
+        @media (min-width: 1280px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &-price {
+        text-align: center;
+        color: $color-67;
+        font-family: $font-hanken;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        text-decoration: line-through;
+
+        @media (min-width: 1280px) {
+            font-size: 16px;
+            line-height: 24px;
+        }
+    }
+
+    &-pricetag {
+        display: block;
+        color: $color-67;
+        font-size: 12px;
+        font-weight: 500;
+        line-height: 16px;
+    }
+
+    &-btn {
+        @include flexCenter;
+        width: 40px;
+        height: 40px;
+        border-radius: 512px;
+        background: $color-0d;
+        transition: all .2s ease-in-out;
+        border: none;
+        margin: 4px auto auto;
+
+        img {
+            width: 12px;
+            height: 12px;
+        }
+    }
+}
