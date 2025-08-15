@@ -65,9 +65,25 @@
 /*         MARQUEE SECTION STYLE         */
 /* ===================================== */
 .marquee {
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0;
+    position: relative;
     background-color: $color-1e;
-    padding: 24px 0;
-    min-height: 76px;
+
+    &_wrapper {
+        display: flex;
+        align-items: center;
+        white-space: nowrap;
+        column-gap: 20px;
+    }
+
+    &_item {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+    }
 }
 
 /* ===================================== */
@@ -243,15 +259,10 @@
 /*         PLANT CARDS STYLE             */
 /* ===================================== */
 .plantblock {
+    margin-top: 40px;
 
-
-    &_grid {
-        display: grid;
-        grid-template-columns: repeat(6, 1fr);
-        grid-column-gap: 8px;
-        margin-top: 24px;
-        max-width: 1160px;
-        width: 100%;
-        margin: 32px auto 0 auto;
+    &_btn {
+        text-align: center;
+        margin-top: 54px;
     }
 }

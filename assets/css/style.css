@@ -10961,7 +10961,32 @@ p {
   text-transform: capitalize;
   display: inline-block;
 }
+@media (max-width: 767.98px) {
+  .secondery-btn {
+    padding: 10px 24px;
+    font-size: 14px;
+  }
+}
 
+.plantcard {
+  position: relative;
+}
+.plantcard-getinfo {
+  position: absolute;
+  top: 2%;
+  left: 10%;
+}
+.plantcard-getinfo button {
+  background: none;
+  padding: 0;
+  border: none;
+  display: flex;
+}
+.plantcard-image {
+  margin-bottom: 4px;
+  height: 104px;
+  margin-bottom: 4px;
+}
 @media (min-width: 1280px) {
   .plantcard-image {
     height: 148px;
@@ -11014,6 +11039,7 @@ p {
   font-size: 14px;
   line-height: 20px;
   text-decoration: line-through;
+  margin-left: 4px;
 }
 @media (min-width: 1280px) {
   .plantcard-price {
@@ -11027,6 +11053,7 @@ p {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
+  font-family: "Hanken Grotesk";
 }
 .plantcard-btn {
   display: flex;
@@ -11113,9 +11140,23 @@ p {
 /*         MARQUEE SECTION STYLE         */
 /* ===================================== */
 .marquee {
+  width: 100%;
+  overflow: hidden;
+  padding: 10px 0;
+  position: relative;
   background-color: #43431e;
-  padding: 24px 0;
-  min-height: 76px;
+}
+.marquee_wrapper {
+  display: flex;
+  align-items: center;
+  white-space: nowrap;
+  column-gap: 20px;
+}
+.marquee_item {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
 }
 
 /* ===================================== */
@@ -11283,14 +11324,12 @@ p {
 /* ===================================== */
 /*         PLANT CARDS STYLE             */
 /* ===================================== */
-.plantblock_grid {
-  display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  grid-column-gap: 8px;
-  margin-top: 24px;
-  max-width: 1160px;
-  width: 100%;
-  margin: 32px auto 0 auto;
+.plantblock {
+  margin-top: 40px;
+}
+.plantblock_btn {
+  text-align: center;
+  margin-top: 54px;
 }
 
 /*# sourceMappingURL=style.css.map */
