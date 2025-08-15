@@ -39,6 +39,7 @@
     transition: all .2s ease-in-out;
     text-transform: capitalize;
     display: inline-block;
+    border: none;
 
     @include media-breakpoint-down(md) {
         padding: 10px 24px;

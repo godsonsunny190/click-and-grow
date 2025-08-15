@@ -1,0 +1,11 @@
+.swiper {
+
+    &-pagination {
+        position: unset;
+
+        &-bullet-active {
+            transform: scale(1.4);
+            background: $black-clr;
+        }
+    }
+}
