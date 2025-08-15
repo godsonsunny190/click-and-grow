@@ -10884,6 +10884,78 @@ p {
 
 .footer {
   background-color: #43431e;
+  color: #fafad5;
+  padding: 40px 0 20px;
+  margin-top: 40px;
+}
+.footer_menu {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 40px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #fafad5;
+}
+.footer_column {
+  display: flex;
+  flex-direction: column;
+}
+.footer_column h3, .footer_column .h3 {
+  font-family: "New Spirit";
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 96%;
+  letter-spacing: -0.16px;
+  padding: 8px 0;
+}
+.footer_column ul {
+  display: flex;
+  flex-direction: column;
+}
+.footer_column ul li {
+  line-height: 1.4;
+}
+.footer_column ul li a {
+  font-family: "Hanken Grotesk";
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #fafad5;
+  padding: 6px 0;
+  display: inline-block;
+}
+.footer_social {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.footer_social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer_social a img {
+  width: 16px;
+  height: 16px;
+}
+.footer_bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+.footer_copyright {
+  font-size: 14px;
+  color: #fafad5;
+}
+.footer_legal {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  color: #fafad5;
+  text-decoration: none;
+  font-size: 14px;
+  transition: color 0.3s ease;
 }
 
 .header {
