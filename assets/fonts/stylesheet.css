@@ -173,9 +173,9 @@
 }
 
 @font-face {
-    font-family: 'New Spirit Light Condensed';
-    src: url('NewSpirit-LightCondensed.woff') format('woff');
-    font-weight: 300;
+    font-family: 'New Spirit';
+    src: url('NewSpirit-Regular.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
@@ -189,14 +189,6 @@
 }
 
 @font-face {
-    font-family: 'New Spirit Condensed';
-    src: url('NewSpirit-RegularCondensed.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
     font-family: 'New Spirit';
     src: url('NewSpirit-Medium.woff') format('woff');
     font-weight: 500;
@@ -205,9 +197,9 @@
 }
 
 @font-face {
-    font-family: 'New Spirit';
-    src: url('NewSpirit-Regular.woff') format('woff');
-    font-weight: normal;
+    font-family: 'New Spirit Light Condensed';
+    src: url('NewSpirit-LightCondensed.woff') format('woff');
+    font-weight: 300;
     font-style: normal;
     font-display: swap;
 }
@@ -216,6 +208,14 @@
     font-family: 'New Spirit';
     src: url('NewSpirit-SemiBold.woff') format('woff');
     font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Spirit Condensed';
+    src: url('NewSpirit-RegularCondensed.woff') format('woff');
+    font-weight: normal;
     font-style: normal;
     font-display: swap;
 }
