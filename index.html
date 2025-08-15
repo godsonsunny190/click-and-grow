@@ -35,8 +35,10 @@
     <!-- LENIS SMOOTH SCROLLING  -->
     <link rel="stylesheet" href="https://unpkg.com/lenis@1.1.13/dist/lenis.css">
 
-    <!-- SWIPER CDN -->
+    <!-- SLIDER CDN -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 
     <!-- FONT STYLE LINK -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
@@ -49,19 +51,28 @@
 
     <!-- HEAEDER SECTION START HERE -->
     <header class="header" id="header">
-        <nav class="navbar navbar-expand-lg p-0" aria-label="Offcanvas navbar large">
+        <nav class="navbar navbar-expand-xl p-0" aria-label="Offcanvas navbar large">
             <div class="container-fluid">
+                <div class="header_toggler">
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                        aria-controls="offcanvasNavbar2">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>
                 <div class="header_logo">
-                    <a class="navbar-brand m-0 p-0 d-flex" href="#"><img src="./assets/images/logo/logo.svg" alt="logo"
-                            class="w-auto"></a>
+                    <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start" href="#"><img
+                            src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
                 </div>
 
 
-                <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasNavbar2"
+                <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2"
                     aria-labelledby="offcanvasNavbar2Label">
                     <div class="offcanvas-header">
-                        <h5 class="offcanvas-title" id="offcanvasNavbar2Label">Offcanvas</h5>
-                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas"
+                        <div class="header_logo p-0">
+                            <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start"
+                                href="#"><img src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
+                        </div>
+                        <button type="button" class="btn-close opacity-100" data-bs-dismiss="offcanvas"
                             aria-label="Close"></button>
                     </div>
                     <div class="offcanvas-body">
@@ -69,29 +80,32 @@
                             <ul>
                                 <li><a href="">Products</a></li>
                                 <li><a href="">Subscription</a></li>
-                                <li><a href="">Blog </a></li>
+                                <li><a href="blog.html">Blog </a></li>
                                 <li><a href="">Support</a></li>
                                 <li><a href="">Education</a></li>
-                                <li><a href="">About us</a></li>
+                                <li><a href="about.html">About us</a></li>
                             </ul>
                         </div>
 
-                        <div class="header_end">
+                        <div class="header_login">
                             <ul>
                                 <li><a href=""><img src="./assets/images/header/icon_flat_globe_black.svg" alt="">
                                         USA</a></li>
-                                <li><a href=""><img src="./assets/images/header/icon_flat_globe_black.svg" alt="">
-                                        Login</a></li>
-                                <li><a href=""><img src="./assets/images/header/icon_flat_cart.svg" alt=""></a></li>
+                                <li><a href=""><img class="w-auto" src="./assets/images/header/icon_flat_account.svg"
+                                            alt="">
+                                        Log in</a></li>
+                                <li class="d-xl-block d-none"><a href=""><img
+                                            src="./assets/images/header/icon_flat_cart.svg" alt=""></a></li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
-                    data-bs-target="#offcanvasNavbar2" aria-controls="offcanvasNavbar2">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+                <div class="header_cart">
+                    <button>
+                        <img src="/assets/images/header/icon_flat_cart.svg" alt="cart icon">
+                    </button>
+                </div>
             </div>
         </nav>
     </header>
@@ -127,6 +141,21 @@
         <!-- MARQUEE SECTION START HERE -->
         <section class="marquee" id="marquee">
             <div class="marquee_wrapper" id="marqueeWrapper">
+                <div class="marquee_item">
+                    <img src="./assets/images/index/new york times.svg" alt="New York Times">
+                </div>
+                <div class="marquee_item">
+                    <img src="./assets/images/index/digitaltrend.svg" alt="New York Times">
+                </div>
+                <div class="marquee_item">
+                    <img src="./assets/images/index/vogue.svg" alt="New York Times">
+                </div>
+                <div class="marquee_item">
+                    <img src="./assets/images/index/wired.svg" alt="New York Times">
+                </div>
+                <div class="marquee_item">
+                    <img src="./assets/images/index/fastcompany.svg" alt="New York Times">
+                </div>
                 <div class="marquee_item">
                     <img src="./assets/images/index/new york times.svg" alt="New York Times">
                 </div>
@@ -615,16 +644,18 @@
                     </div>
 
                     <div class="newsletter_content">
-                        <h2>Read our Garden Gazette</h2>
-                        <p>Subscribe to our newsletter for exclusive Click & Grow deals and exciting news.</p>
+                        <h2 class="gs_reveal">Read our Garden Gazette</h2>
+                        <p class="gs_reveal">Subscribe to our newsletter for exclusive Click & Grow deals and exciting
+                            news.</p>
 
                         <form action="">
                             <input type="text" name="name" id="name" placeholder="Name">
                             <input type="email" name="email" id="email" placeholder="Email address">
                         </form>
 
-                        <button class="secondery-btn">Subscribe to Newsletter</button>
-                        <p>By providing your email, you agree to receive marketing messages, including promo codes,
+                        <div class="gs_reveal"><button class="secondery-btn">Subscribe to Newsletter</button></div>
+                        <p class="gs_reveal">By providing your email, you agree to receive marketing messages, including
+                            promo codes,
                             ongoing campaign details, and cart reminders from us.</p>
                     </div>
                 </div>
@@ -639,9 +670,9 @@
                     style="background-image: url(./assets/images/index/cg-r-birthday-2024-banner-readytogrow.webp);">
 
                     <div class="cta_content">
-                        <h2>Ready to Grow?</h2>
-                        <p>Plants made easy, life made better</p>
-                        <a href="" class="primary-btn">Shop now</a>
+                        <h2 class="gs_reveal">Ready to Grow?</h2>
+                        <p class="gs_reveal">Plants made easy, life made better</p>
+                        <div class=" gs_reveal"><a href="" class="primary-btn">Shop now</a></div>
                     </div>
                 </div>
             </div>
@@ -652,52 +683,52 @@
 
 
     <!-- FOOTER SECTION STARTS -->
-      <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer_wrapper">
                 <div class="footer_menu">
                     <div class="footer_column">
                         <h3>Quick links</h3>
                         <ul>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/contact-us" target="_blank"
                                     aria-label="Contact us - Link opens in a new tab">Contact us</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/find-us-in-stores-near-you" target="_blank"
                                     aria-label="Find us in store - Link opens in a new tab">Find us in store</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/referral-program" target="_blank"
                                     aria-label="Refer a friend - Link opens in a new tab">Refer a friend</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/affiliate-program" target="_blank"
                                     aria-label="Affiliate program - Link opens in a new tab">Affiliate program</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/partnerships" target="_blank"
                                     aria-label="Partnership program - Link opens in a new tab">Partnership program</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://docs.google.com/forms/d/e/1FAIpQLScvL6hRFgWIBYVqkLIAU5h5iZ6xBRGa5Kqj-kxHBos1cMkzKw/viewform"
                                     target="_blank" aria-label="Reseller application - Link opens in a new tab">Reseller
                                     application</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/policies/refund-policy" target="_blank"
                                     aria-label="Refund policy - Link opens in a new tab">Refund policy</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/privacy-policy-app" target="_blank"
                                     aria-label="Privacy policy for app - Link opens in a new tab">Privacy policy for
                                     app</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/policies/terms-of-service" target="_blank"
                                     aria-label="Terms of Service - Link opens in a new tab">Terms of Service</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://www.affirm.com" target="_blank"
                                     aria-label="Affirm - Link opens in a new tab">Affirm</a>
                             </li>
@@ -707,20 +738,20 @@
                     <div class="footer_column">
                         <h3>Media &amp; Press</h3>
                         <ul>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://www.facebook.com/groups/1513116612329115" target="_blank"
                                     aria-label="Community group - Link opens in a new tab">Community
                                     group</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://gardeners.clickandgrow.com/" target="_blank"
                                     aria-label="Ask a gardener forum - Link opens in a new tab">Ask a gardener forum</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/blogs/news" target="_blank"
                                     aria-label="Blog - Link opens in a new tab">Blog</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://drive.google.com/drive/folders/1vObByC3NVU1J6tuCMAxIqCvfpb-3rE-6?usp=share_link"
                                     target="_blank" aria-label="Digital Press Kit - Link opens in a new tab">Digital
                                     Press
@@ -732,13 +763,13 @@
                     <div class="footer_column">
                         <h3>App</h3>
                         <ul>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://apps.apple.com/us/app/click-grow-official/id1451077111" target="_blank"
                                     aria-label="Available on the App Store - Link opens in a new tab">Available on the
                                     App
                                     Store</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://play.google.com/store/apps/details?id=com.clickandgrow.activation"
                                     target="_blank"
                                     aria-label="Available on Google Play - Link opens in a new tab">Available on Google
@@ -748,24 +779,24 @@
                     </div>
 
                     <div class="footer_column">
-                        <h3>Explore</h3>
+                        <h3 class="gs_reveal">Explore</h3>
                         <ul>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="https://support.clickandgrow.com/hc/en-us">FAQ</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/about-us">About us</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/technology">Technology</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/careers">Careers</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/collections/products">Products</a>
                             </li>
-                            <li>
+                            <li class="gs_reveal">
                                 <a href="/pages/research-and-development">Research and
                                     development</a>
                             </li>
@@ -773,29 +804,46 @@
                     </div>
 
                     <div class="footer_column">
-                        <h3>Follow us</h3>
+                        <h3 class="gs_reveal">Follow us</h3>
                         <div class="footer_social">
-                            <a href="https://facebook.com/clickandgrow" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/images/icons/facebook.svg" alt="facebook">
-                            </a>
-                            <a href="https://instagram.com/clickandgrow" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/images/icons/instagram.svg" alt="instagram">
-                            </a>
-                            <a href="https://www.linkedin.com/company/click-&-grow" target="_blank"
-                                rel="noopener noreferrer">
-                                <img src="./assets/images/icons/linkedin.svg" alt="linkedin">
-                            </a>
-                            <a href="https://www.pinterest.com/clickandgrow" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/images/icons/pinterest.svg" alt="pinterest">
-                            </a>
-                            <a href="https://www.tiktok.com/@clickandgrow" target="_blank" rel="noopener noreferrer">
-                                <img src="./assets/images/icons/tiktok.svg" alt="tiktok">
-                            </a>
+                            <ul class="social-links">
+                                <li>
+                                    <a href="https://facebook.com/clickandgrow" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/images/icons/facebook.svg" alt="facebook">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://instagram.com/clickandgrow" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/images/icons/instagram.svg" alt="instagram">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.linkedin.com/company/click-&-grow" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/images/icons/linkedin.svg" alt="linkedin">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.pinterest.com/clickandgrow" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/images/icons/pinterest.svg" alt="pinterest">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.tiktok.com/@clickandgrow" target="_blank"
+                                        rel="noopener noreferrer">
+                                        <img src="./assets/images/icons/tiktok.svg" alt="tiktok">
+                                    </a>
+                                </li>
+                            </ul>
+
                         </div>
                     </div>
                 </div>
 
-                <div class="footer_bottom">
+                <div class="footer_bottom gs_reveal">
                     <p class="footer_copyright">© CLICK &amp; GROW LLC 2025. All Rights Reserved.</p>
 
                     <nav class="footer_legal">
@@ -807,16 +855,18 @@
                                 <a href="/policies/terms-of-service">Terms of Service</a>
                             </li>
                             <li>
-                                Select region <a href="/pages/region-selector">USA</a>
+                                Select region <a href="/pages/region-selector" class="region">USA</a>
                             </li>
                         </ul>
                     </nav>
 
                     <div class="footer_payment-icons">
-                        <span class="sr-only">American express</span>
-                        <span class="sr-only">Master card</span>
-                        <span class="sr-only">Visa</span>
-                        <span class="sr-only">Pay Pal</span>
+                        <ul>
+                            <li><img src="./assets/images/icons/amex.svg" alt="amex"></li>
+                            <li><img src="./assets/images/icons/mastercard.svg" alt=" mastercard"></li>
+                            <li><img src="./assets/images/icons/visa.svg" alt="visa"></li>
+                            <li><img src="./assets/images/icons/paypal.svg" alt=" paypal"></li>
+                        </ul>
                     </div>
                 </div>
             </div>
@@ -838,8 +888,9 @@
     <!-- BOOTSTRAP CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js"> </script>
 
-    <!-- SWIPER CDN -->
+    <!-- SLIDER CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
 
     <!-- LENIS SMOOTH SCROLLING  -->
     <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>

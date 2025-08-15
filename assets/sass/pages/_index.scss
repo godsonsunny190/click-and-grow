@@ -83,18 +83,20 @@
     position: relative;
     background-color: $color-1e;
 
-    &_wrapper {
-        display: flex;
-        align-items: center;
-        white-space: nowrap;
-        column-gap: 20px;
+    .slick-slide {
+        margin: 0 14px;
+
+        >div {
+            display: flex;
+            align-items: center;
+        }
     }
 
     &_item {
-        display: inline-flex;
-        align-items: center;
-        justify-content: center;
-        flex-shrink: 0;
+
+        img {
+            width: auto;
+        }
     }
 }
 
