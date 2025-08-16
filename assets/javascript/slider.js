@@ -7,11 +7,11 @@ var swiper = new Swiper(".plantblock_slider", {
   spaceBetween: 20,
   loop: true,
   speed: 1000,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-    pauseOnHover: false,
-  },
+  // autoplay: {
+  //   delay: 1000,
+  //   disableOnInteraction: false,
+  //   pauseOnHover: false,
+  // },
 
   pagination: {
     el: ".swiper-pagination",

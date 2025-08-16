@@ -11345,6 +11345,72 @@ p {
   background: #000000;
 }
 
+body.modal-open {
+  padding-right: 0 !important;
+}
+
+.plantcard-modal .modal-header {
+  border-bottom: 0;
+}
+.plantcard-modal .modal-header h3, .plantcard-modal .modal-header .h3 {
+  font-size: 24px;
+  line-height: 23px;
+  font-weight: 600;
+  font-family: "Futura PT";
+  margin-bottom: 12px;
+}
+.plantcard-modal .modal-header .btn-close {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  width: 30px;
+  height: 30px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  opacity: 1;
+  padding: 0;
+  box-shadow: none;
+}
+.plantcard-modal .modal-content {
+  width: calc(100% - 40px);
+  max-width: 450px;
+  height: fit-content;
+  max-height: 70svh;
+  padding: 32px;
+  border-radius: 16px;
+  background-color: #fff;
+  color: #222;
+  box-shadow: rgba(149, 157, 165, 0.2) 0 8px 24px;
+  position: relative;
+  border: none;
+}
+.plantcard-modal .modal-body {
+  overflow-y: auto;
+}
+.plantcard-modal .modal-body p {
+  font-family: "Futura PT";
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 400;
+}
+.plantcard-modal .modal-body h4, .plantcard-modal .modal-body .h4 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 15px;
+}
+.plantcard-modal .modal-body ul {
+  margin-left: 40px;
+}
+.plantcard-modal .modal-body ul li {
+  list-style: disc;
+  margin-bottom: 5px;
+  font-weight: 400;
+  font-size: 14px;
+}
+
 /* ===================================== */
 /*         HERO SECTION STYLE            */
 /* ===================================== */
