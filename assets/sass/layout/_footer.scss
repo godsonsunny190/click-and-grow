@@ -38,6 +38,10 @@
                     color: $color-d5;
                     padding: 6px 0;
                     display: inline-block;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
                 }
             }
         }
