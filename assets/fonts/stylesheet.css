@@ -276,3 +276,21 @@
     font-weight: normal;
     src: local('Helvetica Light'), url('helvetica-light-587ebe5a59211.woff') format('woff');
 }
+
+@font-face {
+    font-family: 'futura-pt';
+    src: url('fonts/futura-pt-regular.woff2') format('woff2'),
+        url('fonts/futura-pt-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'futura-pt';
+    src: url('fonts/futura-pt-bold.woff2') format('woff2'),
+        url('fonts/futura-pt-bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}

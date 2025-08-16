@@ -17,8 +17,8 @@ body.modal-open {
 
         .btn-close {
             position: absolute;
-            top: 8px;
-            right: 8px;
+            top: 14px;
+            right: 14px;
             width: 30px;
             height: 30px;
             border-radius: 100%;
@@ -27,6 +27,9 @@ body.modal-open {
             opacity: 1;
             padding: 0;
             box-shadow: none;
+            background-image: url(../images/icons/close-button.png);
+            background-size: 10px;
+
         }
     }
 
