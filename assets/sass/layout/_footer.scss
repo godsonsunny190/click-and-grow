@@ -85,13 +85,17 @@
         padding: 6px 0;
         color: $color-d5;
         font-family: $font-hanken;
+
+        @include media-breakpoint-down(sm) {
+            order: 2;
+        }
     }
 
     &_legal {
 
         ul {
             display: flex;
-            gap: 20px;
+            gap: 8px;
             flex-wrap: wrap;
 
             li {

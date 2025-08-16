@@ -5,9 +5,21 @@
 var swiper = new Swiper(".plantblock_slider", {
   slidesPerView: 6,
   spaceBetween: 20,
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+    pauseOnHover: false,
+  },
+
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 3,
   },
 
   breakpoints: {
@@ -80,9 +92,20 @@ var swiper = new Swiper(".features_slider", {
 var swiper = new Swiper(".social_slider", {
   slidesPerView: 4.3,
   spaceBetween: 16,
+  loop: true,
+  speed: 1000,
+  autoplay: {
+    delay: 1000,
+    disableOnInteraction: false,
+    pauseOnHover: false,
+  },
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
+    el: ".swiper-pagination",
+    clickable: true,
+    dynamicBullets: true,
+    dynamicMainBullets: 3,
   },
 
   breakpoints: {

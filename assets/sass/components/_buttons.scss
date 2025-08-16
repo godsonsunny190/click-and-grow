@@ -14,8 +14,9 @@
     display: inline-block;
 
     &:hover {
-        background-color: $color-f6;
-        color: $color-33;
+        transition: all .2s ease-in-out;
+        box-shadow: 0 1px 2px #34312e4d, 0 1px 3px 1px #34312e26;
+        color: $white-clr;
     }
 
     @include media-breakpoint-down(md) {
@@ -40,6 +41,12 @@
     text-transform: capitalize;
     display: inline-block;
     border: none;
+
+    &:hover {
+        color: $color-f6;
+        transition: all .2s ease-in-out;
+        box-shadow: 0 1px 2px #34312e4d, 0 1px 3px 1px #34312e26;
+    }
 
     @include media-breakpoint-down(md) {
         padding: 10px 24px;

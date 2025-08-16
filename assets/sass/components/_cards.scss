@@ -51,6 +51,26 @@
         }
     }
 
+    &-off {
+        background-color: $color-0d;
+        border-radius: 2px;
+        border: 1px solid $color-0d;
+        padding: 2px 6px;
+        width: fit-content;
+        color: $color-f6;
+        font-family: $font-hanken;
+        display: block;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 20px;
+        letter-spacing: .48px;
+        text-transform: uppercase;
+        white-space: nowrap;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
     &-discount {
         text-align: center;
         color: $color-0d;
@@ -72,7 +92,6 @@
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
-        text-decoration: line-through;
         margin-left: 4px;
 
         @media (min-width: 1280px) {
