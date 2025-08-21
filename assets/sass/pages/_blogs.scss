@@ -1,0 +1,28 @@
+/* ===================================== */
+/*           BLOGS PAGE INTRO            */
+/* ===================================== */
+.blogintro {
+    background-color: $color-fa;
+
+    &_wrapper {
+        @include flexBetween;
+
+        @media (min-width: 1200px) {
+            padding: 60px 0;
+        }
+    }
+
+    &_content {
+        h2 {
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 1.1;
+            font-family: $font-futura;
+        }
+
+        p {
+            margin-top: 20px;
+        }
+    }
+
+}

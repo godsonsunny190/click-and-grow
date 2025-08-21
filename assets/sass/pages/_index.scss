@@ -119,11 +119,37 @@
         @include media-breakpoint-down(md) {
             grid-template-columns: repeat(2, 1fr);
         }
+
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: repeat(1, 1fr);
+        }
+
     }
 
     &_item {
         @include flexColumn;
         gap: 4px;
+        position: relative;
+
+        &-new {
+            background-color: $color-0d;
+            border-radius: 2px;
+            border: 1px solid $color-0d;
+            padding: 2px 6px;
+            width: fit-content;
+            color: $color-f6;
+            font-family: $font-hanken;
+            display: block;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 20px;
+            letter-spacing: 0.48px;
+            text-transform: uppercase;
+            white-space: nowrap;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
 
         &-img {
             background-color: $white-clr;
@@ -190,6 +216,16 @@
             img {
                 width: 18px;
                 height: 20px;
+                transition: all .3s ease-in-out;
+            }
+
+            &:hover {
+                transition: all .3s ease-in-out;
+
+                img {
+                    transform: translateX(5px);
+                    transition: all .3s ease-in-out;
+                }
             }
         }
     }
@@ -353,6 +389,7 @@
             line-height: 150%;
             letter-spacing: -.18px;
             font-family: $font-hanken;
+            color: $white-clr;
 
             @include media-breakpoint-down(md) {
                 font-size: 16px;
