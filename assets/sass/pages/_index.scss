@@ -104,7 +104,6 @@
 /*        PRODUCT SECTION STYLE          */
 /* ===================================== */
 .products {
-    margin-top: 24px;
 
     &_grid {
         display: grid;
@@ -114,7 +113,8 @@
         // margin-top: 24px;
         max-width: 1160px;
         width: 100%;
-        margin: 0 auto;
+        margin-left: auto;
+        margin-right: auto;
 
         @include media-breakpoint-down(md) {
             grid-template-columns: repeat(2, 1fr);
@@ -125,18 +125,23 @@
         @include flexColumn;
         gap: 4px;
 
-        img {
-            border-radius: 8px;
-            height: 43.3333333333vw;
-            object-fit: contain;
+        &-img {
+            background-color: $white-clr;
 
-            @media (min-width: 1280px) {
-                height: 284px;
+            img {
+                border-radius: 8px;
+                height: 43.3333333333vw;
+                object-fit: contain;
+
+                @media (min-width: 1280px) {
+                    height: 284px;
+                }
+
+                @media (min-width: 768px) and (max-width: 1280px) {
+                    height: 21.3541666667vw;
+                }
             }
 
-            @media (min-width: 768px) and (max-width: 1280px) {
-                height: 21.3541666667vw;
-            }
         }
 
         h4 {

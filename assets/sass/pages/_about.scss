@@ -158,6 +158,14 @@
             }
         }
 
+        .primary-btn {
+            margin-top: 64px;
+
+            @include media-breakpoint-down(md) {
+                margin-top: 54px;
+            }
+        }
+
     }
 }
 

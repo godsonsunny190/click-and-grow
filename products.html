@@ -39,7 +39,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.7/swiper-bundle.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+    <!-- Montserrat (similar geometric sans-serif) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 
+    <!-- OR Nunito Sans -->
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
     <!-- FONT STYLE LINK -->
     <link rel="stylesheet" href="./assets/fonts/stylesheet.css">
 
@@ -60,8 +66,8 @@
                     </button>
                 </div>
                 <div class="header_logo">
-                    <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start"
-                        href="index.html"><img src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
+                    <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start" href="#"><img
+                            src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
                 </div>
 
 
@@ -80,7 +86,7 @@
                             <ul>
                                 <li><a href="">Products</a></li>
                                 <li><a href="">Subscription</a></li>
-                                <li><a href="">Blog </a></li>
+                                <li><a href="blog.html">Blog </a></li>
                                 <li><a href="">Support</a></li>
                                 <li><a href="">Education</a></li>
                                 <li><a href="about.html">About us</a></li>
@@ -94,255 +100,56 @@
                                 <li><a href=""><img class="w-auto" src="./assets/images/header/icon_flat_account.svg"
                                             alt="">
                                         Log in</a></li>
-                                <li class="d-xl-block d-none"><a href=""><img
-                                            src="./assets/images/header/icon_flat_cart.svg" alt=""></a></li>
+                                <li class="d-xl-block d-none">
+                                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                                        aria-controls="staticBackdrop" class="border-0 bg-transparent p-0 d-flex"><img
+                                            src="./assets/images/header/icon_flat_cart.svg" alt="">
+                                    </button>
+                                </li>
                             </ul>
                         </div>
                     </div>
                 </div>
 
                 <div class="header_cart">
-                    <button>
-                        <img src="/assets/images/header/icon_flat_cart.svg" alt="cart icon">
+                    <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                        aria-controls="staticBackdrop">
+                        <img src="./assets/images/header/icon_flat_cart.svg" alt="cart icon">
                     </button>
                 </div>
             </div>
         </nav>
     </header>
-    <!-- HEAEDER SECTION START HERE -->
 
-    <!-- MAIN SECTION STAERS HERE -->
+    <div class="offcanvas offcanvas-cart offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+        aria-labelledby="staticBackdropLabel">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="staticBackdropLabel">Shopping Cart</h5>
+            <button type="button" class="btn-close cart-btn-close" data-bs-dismiss="offcanvas"
+                aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+            <p class="cart-empty">
+                Your cart is currently empty.
+            </p>
+        </div>
+    </div>
+    <!-- HEAEDER SECTION ENDS HERE -->
+
+    <!-- MAIN SECTION STARTS HERE -->
     <main>
 
-        <!-- ABOUT HERO SECTION STARTS -->
-        <section class="abouthero">
-            <div class="abouthero_wrapper">
-                <div class="abouthero_content">
-                    <h1 class="gs_reveal">The Joy of Nature for All</h1>
-                    <p class="gs_reveal">We Believe Everyone Deserves the Benefits of a Garden</p>
-                </div>
-
-                <div class="abouthero_image">
-                    <img src="./assets/images/about/cg-r-about-hero.jpg" alt="about hero image">
-                </div>
-            </div>
-            </div>
-        </section>
-        <!-- ABOUT HERO ENDS STARTS -->
-
-        <!-- THREE COLUMN SECTION STARTS HERE -->
-        <section class="tricol">
-            <div class="container">
-                <div class="section-head">
-                    <h2 class="gs_reveal">The Big Why?</h2>
-                    <p class="gs_reveal">Here’s What We Know Is True</p>
-                </div>
-                <div class="tricol_grid">
-                    <article class="tricol_item">
-                        <img class="gs_reveal" src="./assets/images/about/cg-r-about-img1_600x.webp" alt="images">
-                        <h3 class="gs_reveal">Indoor Plants</h3>
-                        <p class="gs_reveal">Boost Health, Reduce Stress, Purify Air, and Enhance Happiness.</p>
-                    </article>
-                    <article class="tricol_item">
-                        <img class="gs_reveal" src="./assets/images/about/cg-r-about-img2.webp" alt="images">
-                        <h3 class="gs_reveal">A Fresh Take on Nature</h3>
-                        <p class="gs_reveal">Smart Gardens Bridge Modern Life with Nature, Letting You Grow Fresh Plants
-                            Year-Round—Hassle-Free.</p>
-                    </article>
-                    <article class="tricol_item">
-                        <img class="gs_reveal" src="./assets/images/about/cg-r-about-img3_600x.webp" alt="images">
-                        <h3 class="gs_reveal">It Needs a Connection: You</h3>
-                        <p class="gs_reveal">Click & Grow: Your Perfect Hobby or Deep Dive into Horticulture. Our System
-                            Adapts to Your Needs Anytime, Anywhere.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-        <!-- THREE COLUMN SECTION ENDS HERE -->
-
-        <!-- COMMON BANNER SECTION STARTS HERE -->
-        <section class="banner">
-            <div class="container">
-                <div class="banner_wrapper"
-                    style="background-image: url(./assets/images/about/cg-r-birthday-2024-banner-SG9-gray.webp);">
-                    <div class="banner_content">
-                        <h2 class="gs_reveal color-2e">Pioneers of Smart Gardening for 15 Years</h2>
-                        <p class="gs_reveal color-2e">Beyond Gimmicks and Gadgets</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <!-- COMMON BANNER SECTION ENDS HERE -->
-
-        <!-- SHOCASE SECTION STARTS HERE -->
-        <section class="showcase">
-            <div class="container">
-                <div class="showcase_grid">
-                    <div class="showcase_col-1">
-                        <article>
-                            <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp" alt="showcase image">
-                        </article>
-
-                        <article>
-                            <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp" alt="showcase image">
-                        </article>
-
-                        <article>
-                            <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp" alt="showcase image">
-                        </article>
-                    </div>
-
-                    <div class="showcase_col-2">
-                        <div class="showcase_col-2-1">
-                            <article>
-                                <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp"
-                                    alt="showcase image">
-                            </article>
-
-                            <article>
-                                <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp"
-                                    alt="showcase image">
-                            </article>
-
-                            <article>
-                                <div class="article_bg">
-                                    <img src="//www.clickandgrow.com/cdn/shop/t/160/assets/cg-gift-guide-silent-operation_1200x.jpeg?v=141823299383038539601699968299"
-                                        alt="Over 75 plants to choose from">
-                                </div>
-                                <div class="p-cover"></div>
-                                <p class="p-img-overlay">Silent operation</p>
-
-                            </article>
-
-                            <article>
-                                <div class="article_bg">
-                                    <img src="//www.clickandgrow.com/cdn/shop/t/160/assets/cg-gift-guide-silent-operation_1200x.jpeg?v=141823299383038539601699968299"
-                                        alt="Over 75 plants to choose from">
-                                </div>
-                                <div class="p-cover"></div>
-                                <p class="p-img-overlay">Silent operation</p>
-
-                            </article>
-                        </div>
-                        <div class="showcase_col-2-2">
-                            <article>
-                                <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp"
-                                    alt="showcase image">
-                            </article>
-                            <article>
-                                <img src="./assets/images/about/cg-gift-guide-fresh-plants_1200x.webp"
-                                    alt="showcase image">
-                            </article>
-                        </div>
-                    </div>
-                </div>
-        </section>
-        <!-- SHOCASE SECTION ENDS HERE -->
-
-        <!-- SOCIAL PROOF SECTION START HERE -->
-        <section class="social">
-            <div class="container">
-                <div class="section-head">
-                    <h2 class="gs_reveal">Over 10, 000, 000 Plants grown</h2>
-                    <p class="gs_reveal">Join our thriving community!</p>
-                </div>
-                <div class="social_slider swiper">
-                    <div class="swiper-wrapper">
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_02_2021.jpg"
-                                alt="Cup of mint tea with fresh green leaves image">
-                            <p class="gs_reveal">I very much enjoy of a good cup of mint tea so having it this fresh
-                                every morning it’s
-                                truly something else! 😍 you don’t understand the joy until you grow your own 🌱💕</p>
-                            <a href="" class="gs_reveal">greciadelapaz</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg3_01_2021.jpg"
-                                alt="Small healthy indoor plant in a white pot image">
-                            <p class="gs_reveal">Perfect for a green thumb like me, who normally isn't able to keep
-                                plants alive.</p>
-                            <a href="" class="gs_reveal">dinajessica</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_09_2021.jpg"
-                                alt="Fresh homegrown tomatoes and lettuce on kitchen counter image">
-                            <p class="gs_reveal">In our opinion, nothing tastes as good as self-grown tomatoes or
-                                lettuce, without
-                                unnecessary additives and fertilizers 💗</p>
-                            <a href="" class="gs_reveal">qualitytestpl</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_07_2021.jpg"
-                                alt="Indoor garden seedlings sprouting in pods image">
-                            <p class="gs_reveal">I’ve never been so excited to watch plants before. Can’t wait!</p>
-                            <a href="" class="gs_reveal">gailofthegarden</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg3_09_2021.jpg"
-                                alt="Fresh peppermint leaves in indoor garden image">
-                            <p>Mojitos with fresh peppermint all year around!😍🙈</p>
-                            <a href="">homeinestonia</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img src="./assets/images/index/insta_sg3_10.jpg"
-                                alt="Child looking at new plant sprouts with excitement image">
-                            <p class="gs_reveal">The way his eyes lit up when those first sprouts appeared? Priceless.
-                            </p>
-                            <a href="" class="gs_reveal">somedayilllearn</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_06.jpg"
-                                alt="Small dog watching over strawberry plants image">
-                            <p class="gs_reveal">Whiskey’s at his little garden to keep track of his strawberry plants
-                                🍓</p>
-                            <a href="" class="gs_reveal">whiskey_the_yorkie</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_07.jpg"
-                                alt="Indoor smart garden with young green sprouts image">
-                            <p class="gs_reveal">Pretty much the greatest invention ever! We've had so much fun watching
-                                these lil sprouts
-                                grow from their seed pods.</p>
-                            <a href="" class="gs_reveal">thismamaloveslife</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg3_02_2021.jpg"
-                                alt="Indoor garden growing fresh herbs and vegetables image">
-                            <p class="gs_reveal">I get so much joy out of cooking my own food...but I didn’t know that
-                                the pleasures that
-                                lay in GROWING my own food!!!</p>
-                            <a href="" class="gs_reveal">blogilates</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_09.jpg"
-                                alt="Close-up of fast-growing indoor plants image">
-                            <p class="gs_reveal">I love it! The plants grew so fast, it blew my mind.</p>
-                            <a href="" class="gs_reveal">reeseology_</a>
-                        </div>
-                        <div class="social_item swiper-slide">
-                            <img class="gs_reveal" src="./assets/images/index/insta_sg9_11.jpg"
-                                alt="Hands planting seed pods in a smart garden image">
-                            <p class="gs_reveal">Planting our seed pods in our Click and Grow Smart Garden.</p>
-                            <a href="" class="gs_reveal">childrensgardenschool</a>
-                        </div>
-                    </div>
-                    <div class="swiper-pagination"></div>
-                </div>
-            </div>
-        </section>
-        <!-- SOCIAL PROOF SECTION START HERE -->
-
         <!-- PRODUCTS SECTION START HERE -->
-        <section class="products mt-24">
+        <section class="products mt-40">
             <div class="container">
                 <div class="section-head">
-                    <h2 class="gs_reveal">Jump In—It’s Worth It!</h2>
-                    <p class="gs_reveal">Explore Our Smart Garden Family</p>
+                    <h2 class="gs_reveal">Indoor Gardens</h2>
+                    <p class="gs_reveal mw-100">We’ve got a size for every taste and they’re all equally exceptional</p>
                 </div>
 
                 <div class="products_grid">
                     <article class="products_item">
-                        <img src="./assets/images/index/SG9_white_lettuce_basil_tomato_large_f9dd8ed8-0eca-41d3-9045-a1c4a90da898_450x.jpg"
+                        <img src="./assets/images/products/SG3-pack_609c4046-a89f-4d41-92a4-6e5ad0faaac3_450x.webp"
                             alt="product image">
                         <h4>The Smart Garden 3</h4>
                         <span>$99.95</span>
@@ -353,11 +160,10 @@
                         </div>
                         <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
                     </article>
-
                     <article class="products_item">
                         <img src="//www.clickandgrow.com/cdn/shop/products/SG9_white_lettuce_basil_tomato_large_89d87c04-f9ab-4d70-a57e-55a1f13b8b18_450x.jpg?v=1746704779"
                             alt="product image">
-                        <h4>The Smart Garden 3</h4>
+                        <h4>The Smart Garden 9 Limited Edition</h4>
                         <span>$249.95</span>
                         <div class="products_color">
                             <div class="products_color-option white"><span></span></div>
@@ -366,11 +172,10 @@
                         </div>
                         <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
                     </article>
-
                     <article class="products_item">
-                        <img src="./assets/images/index/product_SG3_01_2560w_450x.jpg" alt="product image">
-                        <h4>The Smart Garden 27</h4>
-                        <span>$899.95</span>
+                        <img src="./assets/images/products/SG9-Navy-Blue-Front-2560x1920_450x.webp" alt="product image">
+                        <h4>Link to The Smart Garden 3</h4>
+                        <span>$249.95</span>
                         <div class="products_color">
                             <div class="products_color-option white"><span></span></div>
                             <div class="products_color-option grey"><span></span></div>
@@ -378,10 +183,51 @@
                         </div>
                         <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
                     </article>
-
                     <article class="products_item">
-                        <img src="./assets/images/index/HVwhitePetunia2540x1920_9467f2fe-44b1-4a6d-8e28-aebfa420af9b_450x.webp"
+                        <img src="./assets/images/products/SG9_white_lettuce_basil_tomato_large_bb44c6c9-9379-4c69-972b-72faee9e1f60_450x.webp"
                             alt="product image">
+                        <h4>The Smart Garden 9 PRO</h4>
+                        <span>$299.95</span>
+                        <div class="products_color">
+                            <div class="products_color-option white"><span></span></div>
+                            <div class="products_color-option grey"><span></span></div>
+                            <div class="products_color-option beige"><span></span></div>
+                        </div>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- PRODUCTS SECTION END HERE -->
+
+        <!-- COMMON BANNER SECTION STARTS HERE -->
+        <section class="banner">
+            <div class="container">
+                <div class="banner_wrapper"
+                    style="background-image: url(./assets/images/about/cg-r-birthday-2024-banner-SG9-gray.webp);">
+                    <div class="banner_content">
+                        <h2 class="gs_reveal color-7e">Bloom in Grayscale</h2>
+                        <p class="gs_reveal color-7e">Explore a more modest Smart Garden 9.</p>
+                        <div class="gs_reveal">
+                            <a href="" class="primary-btn bg-7e">Shop Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- COMMON BANNER SECTION ENDS HERE -->
+
+        <!-- PRODUCTS SECTION START HERE -->
+        <section class="products mt-88">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="gs_reveal">Large Gardens</h2>
+                    <p class="gs_reveal mw-100">Grow big or grow home</p>
+                </div>
+
+                <div class="products_grid">
+                    <article class="products_item">
+                        <img src="./assets/images/products/CG25wfmix_2_450x.webp" alt="product image">
                         <h4>The Click & Grow 25</h4>
                         <span>$999.95</span>
                         <div class="products_color">
@@ -391,10 +237,132 @@
                         </div>
                         <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
                     </article>
+                    <article class="products_item">
+                        <img src="./assets/images/products/sg27_turn_w_450x.webp" alt="product image">
+                        <h4>The Smart Garden 27</h4>
+                        <span>$899.95</span>
+                        <div class="products_color">
+                            <div class="products_color-option white"><span></span></div>
+                            <div class="products_color-option grey"><span></span></div>
+                            <div class="products_color-option beige"><span></span></div>
+                        </div>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
+                    </article>
+                    <article class="products_item">
+                        <img src="./assets/images/products/Wall-Farm-front-1280x960_450x.webp" alt="product image">
+                        <h4>The Wall Farm Indoor Vertical Garden</h4>
+                        <span>$2,799.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow image"></a>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!-- PRODUCTS SECTION END HERE -->
+
+        <!-- COMMON BANNER SECTION STARTS HERE -->
+        <section class="banner">
+            <div class="container">
+                <div class="banner_wrapper"
+                    style="background-image: url(./assets/images/products/cg-r-birthday-2024-banner-CG25.webp);">
+                    <div class="banner_content">
+                        <h2 class="gs_reveal color-80">Twenty-fine</h2>
+                        <p class="gs_reveal color-80">Grow leafy greens in a cycle</p>
+                        <div class="gs_reveal">
+                            <a href="" class="primary-btn bg-80">See Click & Grow 25</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- COMMON BANNER SECTION ENDS HERE -->
+
+        <!-- PRODUCTS SECTION START HERE -->
+        <section class="products mt-88">
+            <div class="container">
+                <div class="section-head">
+                    <h2 class="gs_reveal">Partner Products</h2>
+                    <p class="gs_reveal mw-100">Compatible and certified fresh.</p>
                 </div>
 
-                <div class="products_btn">
-                    <a href="" class="secondery-btn">Discover all Gardens</a>
+                <div class="products_grid mt-24">
+                    <article class="products_item">
+                        <div class="products_item-img"><img
+                                src="./assets/images/products/HVwhitePetunia2540x1920_9467f2fe-44b1-4a6d-8e28-aebfa420af9b_450x.webp"
+                                alt="HydroVase By Ermonix"></div>
+                        <h4>HydroVase By Ermonix</h4>
+                        <span>$69.95</span>
+                        <div class="products_color">
+                            <div class="products_color-option white"><span></span></div>
+                            <div class="products_color-option grey"><span></span></div>
+                        </div>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img">
+                            <img src="./assets/images/products/sustee_M-WH_450x.webp"
+                                alt="Plant Watering Indicator, Size M">
+                        </div>
+                        <h4>Plant Watering Indicator, Size M</h4>
+                        <span>$9.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img">
+                            <img src="./assets/images/products/M_sustee_refill_packed_450x.webp"
+                                alt="Refills For Plant Watering Indicator, Size M">
+                        </div>
+                        <h4>Refills For Plant Watering Indicator, Size M</h4>
+                        <span>$6.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img">
+                            <img src="./assets/images/products/sustee_L-WH_450x.webp"
+                                alt="Plant Watering Indicator, Size L">
+                        </div>
+                        <h4>Plant Watering Indicator, Size L</h4>
+                        <span>$12.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img">
+                            <img src="./assets/images/products/Lsusteerefillpacked_450x.webp"
+                                alt="Refills For Plant Watering Indicator, Size L">
+                        </div>
+                        <h4>Refills For Plant Watering Indicator, Size L</h4>
+                        <span>$7.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img"><img src="./assets/images/products/jc_lamp_1_450x.webp"
+                                alt="Tabletop Grow Light"></div>
+                        <h4>Tabletop Grow Light</h4>
+                        <span>$69.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img"><img
+                                src="./assets/images/products/self_watering_pot_0_basil_450x.webp"
+                                alt="Self Watering Pot"></div>
+                        <h4>Self Watering Pot</h4>
+                        <span>$34.95</span>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
+
+                    <article class="products_item">
+                        <div class="products_item-img">
+                            <img src="./assets/images/products/uc_commerical_front_open_450x.webp"
+                                alt="Urban Cultivator Commercial">
+                        </div>
+                        <h4>Urban Cultivator Commercial</h4>
+                        <a href="">View product <img src="./assets/images/index/arrow.svg" alt="arrow"></a>
+                    </article>
                 </div>
             </div>
         </section>
@@ -403,7 +371,9 @@
     </main>
     <!-- MAIN SECTION ENDS HERE -->
 
-    <!-- FOOTER SECTION STARTS -->
+
+
+    <!-- FOOTER SECTION STARTS HERE -->
     <footer class="footer">
         <div class="container">
             <div class="footer_wrapper">
@@ -593,7 +563,7 @@
             </div>
         </div>
     </footer>
-    <!-- FOOTER SECTION STARTS -->
+    <!-- FOOTER SECTION ENDS HERE -->
 
 
     <!-- JQUERY CDN -->
