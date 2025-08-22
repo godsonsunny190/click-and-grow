@@ -10,9 +10,22 @@
         @media (min-width: 1200px) {
             padding: 60px 0;
         }
+
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+        }
     }
 
     &_content {
+        flex: 0 0 58.33333333%;
+        max-width: 58.33333333%;
+        padding: 10px;
+
+        @include media-breakpoint-down(lg) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
         h2 {
             font-size: 32px;
             font-weight: 600;
@@ -25,4 +38,153 @@
         }
     }
 
+    &_search {
+        flex: 0 0 41.66666667%;
+        max-width: 41.66666667%;
+        padding: 10px;
+
+        @include media-breakpoint-down(lg) {
+            flex: 0 0 100%;
+            max-width: 100%;
+        }
+
+        input {
+            border: 1px solid $color-e5;
+            max-width: 100%;
+            padding: 8px 10px;
+            background-color: $white-clr;
+            color: #333;
+            font-family: $font-futura;
+            line-height: 1.15;
+            font-size: 18px;
+            font-weight: 300;
+            border-radius: 10px 0 0 10px;
+            -webkit-font-smoothing: antialiased;
+            -webkit-text-size-adjust: 100%;
+
+            &::placeholder {
+                color: #333;
+            }
+        }
+
+        button {
+            @include flexCenter;
+            height: 50px;
+            border: none;
+            font-size: 20px;
+            font-weight: 600;
+            color: $color-40;
+            padding: 0 1.25em;
+            border-radius: 50px;
+            text-align: center;
+            white-space: nowrap;
+            cursor: pointer;
+            background-color: $color-800;
+            letter-spacing: 0;
+            font-family: $font-futura;
+            border-radius: 0 10px 10px 0;
+        }
+    }
+
+}
+
+/* ===================================== */
+/*          BLOGS PAGE CONTENT           */
+/* ===================================== */
+.blogs {
+    background-color: $color-fa;
+    margin-bottom: 200px;
+
+    &_nav {
+        padding: 20px 0;
+        background: $color-fa;
+        border-top: 1px solid #eee;
+        border-bottom: 1px solid #eee;
+
+        ul {
+            @include flexCenter;
+            flex-wrap: wrap;
+
+            li {
+                position: relative;
+                overflow: hidden;
+                font-size: 20px;
+                font-weight: 400;
+                font-family: $font-futura;
+                margin: 0 10px 10px;
+
+                @media (min-width: 720px) {
+                    margin: 0 20px;
+                }
+
+                a {
+                    color: $color-40;
+                    text-transform: capitalize;
+                }
+
+            }
+        }
+    }
+
+    &_grid {
+        margin-top: 50px;
+    }
+
+    &_card {
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto 20px;
+
+        &::after {
+            position: absolute;
+            content: "";
+            background: linear-gradient(0deg, #000000b8 14.98%, #0000 40.05%);
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+        }
+
+        &-image {
+            position: relative;
+            background-color: $black-clr;
+            border-radius: 10px;
+
+            img {
+                height: 505px;
+                border-radius: 10px;
+                opacity: .96;
+            }
+
+        }
+
+
+        &-content {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            padding: 30px;
+            z-index: 2;
+
+            h3 {
+                font-size: 24px;
+                color: $white-clr;
+                margin-bottom: 10px;
+                font-weight: 600;
+                text-transform: capitalize;
+                font-family: $font-futura;
+            }
+
+            time {
+                font-size: 14px;
+                font-family: $font-futura;
+                font-weight: 400;
+                color: $white-clr;
+            }
+        }
+    }
 }
