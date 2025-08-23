@@ -37,6 +37,22 @@
   background-color: #b23f0d;
 }
 
+.bg-c7 {
+  background-color: #fef3c7;
+}
+
+.bg-cb {
+  background-color: #ecfccb;
+}
+
+.bg-f1 {
+  background-color: #ccfbf1;
+}
+
+.bg-fe {
+  background-color: #cffafe;
+}
+
 .mt-24 {
   margin-top: 24px;
 }
@@ -12559,6 +12575,295 @@ p {
 .blogs .pagination-number.active {
   font-weight: 600;
   color: #333;
+}
+
+/* ===================================== */
+/*          CAREERS HERO STYLE           */
+/* ===================================== */
+.chero_wrapper {
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 991.98px) {
+  .chero_wrapper {
+    flex-direction: column;
+  }
+}
+.chero_content {
+  width: 50%;
+}
+@media (min-width: 1280px) {
+  .chero_content {
+    padding-left: 60px;
+  }
+}
+@media (min-width: 1200px) {
+  .chero_content {
+    padding-right: 50px;
+  }
+}
+@media (max-width: 991.98px) {
+  .chero_content {
+    width: 100%;
+    padding: 30px 20px 40px 20px;
+    order: 2;
+    text-align: center;
+  }
+}
+.chero_content h2, .chero_content .h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  line-height: 1.1;
+  font-family: "Futura PT";
+  font-weight: 600;
+  color: #404040;
+  max-width: 440px;
+  width: 100%;
+}
+@media (min-width: 720px) {
+  .chero_content h2, .chero_content .h2 {
+    font-size: 38px;
+  }
+}
+@media (min-width: 1200px) {
+  .chero_content h2, .chero_content .h2 {
+    font-size: 48px;
+  }
+}
+@media (max-width: 991.98px) {
+  .chero_content h2, .chero_content .h2 {
+    max-width: 100%;
+  }
+}
+.chero_content p {
+  font-family: "Futura PT";
+  line-height: 1.3;
+  font-weight: 400;
+  color: #404040;
+  letter-spacing: normal;
+  margin-bottom: 30px;
+  max-width: 440px;
+}
+@media (max-width: 991.98px) {
+  .chero_content p {
+    max-width: 100%;
+    margin-bottom: 20px;
+  }
+}
+.chero_content a {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #404040;
+  transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+  padding: 0 1.25em;
+  border-radius: 50px;
+  background-color: #ffb800;
+  line-height: 1.15;
+}
+.chero_content a.btn-2 {
+  background-color: #f2f2f2;
+}
+@media (min-width: 720px) {
+  .chero_content a.btn-2 {
+    margin-left: 10px;
+  }
+}
+@media (max-width: 991.98px) {
+  .chero_content a.btn-2 {
+    margin-top: 10px;
+  }
+}
+.chero_content a:hover {
+  color: #ffffff;
+  background-color: #333;
+}
+.chero_image {
+  width: 50%;
+}
+@media (max-width: 991.98px) {
+  .chero_image {
+    width: 100%;
+  }
+}
+.chero_image .parent {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 10px;
+}
+.chero_image .parent div {
+  position: relative;
+  height: 0;
+}
+.chero_image .parent div img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+.chero_image .parent .div1 {
+  grid-column: span 12/span 12;
+  grid-row: span 2/span 2;
+  padding-bottom: 54.1026%;
+}
+.chero_image .parent .div2 {
+  grid-column: span 6/span 6;
+  grid-row: span 2/span 2;
+  grid-row-start: 3;
+  padding-bottom: 66.6667%;
+}
+.chero_image .parent .div3 {
+  grid-column: span 6/span 6;
+  grid-row: span 2/span 2;
+  grid-column-start: 7;
+  grid-row-start: 3;
+  padding-bottom: 66.6667%;
+}
+@media (max-width: 991.98px) {
+  .chero_image .parent .div2,
+  .chero_image .parent .div3 {
+    display: none;
+  }
+}
+
+/* ===================================== */
+/*           OUR VALUES STYLE            */
+/* ===================================== */
+.ourvalues {
+  margin-top: 105px;
+}
+@media (max-width: 991.98px) {
+  .ourvalues {
+    margin-top: 100px;
+  }
+}
+.ourvalues .section-title h2, .ourvalues .section-title .h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+@media (min-width: 720px) {
+  .ourvalues .section-title h2, .ourvalues .section-title .h2 {
+    font-size: 32px;
+  }
+}
+.ourvalues_grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  margin-top: 40px;
+}
+@media (max-width: 991.98px) {
+  .ourvalues_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media (max-width: 575.98px) {
+  .ourvalues_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.ourvalues_item {
+  padding: 30px 10px;
+  border-radius: 16px;
+  text-align: center;
+}
+.ourvalues_item h4, .ourvalues_item .h4 {
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-family: "Futura PT";
+  line-height: 1.4;
+}
+.ourvalues_item p {
+  margin-top: 10px;
+  font-family: "Futura PT";
+  line-height: 1.3;
+}
+
+/* ===================================== */
+/*            ECOGRID STYLE              */
+/* ===================================== */
+.ecogrid {
+  margin-top: 186px;
+}
+@media (max-width: 767.98px) {
+  .ecogrid {
+    margin-top: 100px;
+  }
+}
+.ecogrid .section-title h2, .ecogrid .section-title .h2 {
+  text-align: center;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+@media (min-width: 720px) {
+  .ecogrid .section-title h2, .ecogrid .section-title .h2 {
+    font-size: 32px;
+  }
+}
+.ecogrid_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  margin-top: 40px;
+}
+@media (max-width: 991.98px) {
+  .ecogrid_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.ecogrid_item img {
+  height: 100%;
+}
+.ecogrid_fourgrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.ecogrid_fourgrid img {
+  height: 188px;
+}
+@media (max-width: 991.98px) {
+  .ecogrid_fourgrid:last-child {
+    order: 1;
+  }
+}
+.ecogrid_content {
+  background-color: #f4f4f4;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.ecogrid_content h4, .ecogrid_content .h4 {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.4;
+  text-transform: capitalize;
+}
+@media (min-width: 720px) {
+  .ecogrid_content h4, .ecogrid_content .h4 {
+    font-size: 22px;
+  }
+}
+.ecogrid_content p {
+  margin-top: 22px;
+  line-height: 1.3;
+  font-weight: 400;
+  font-family: "Futura PT";
+}
+@media (max-width: 991.98px) {
+  .ecogrid_single {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
