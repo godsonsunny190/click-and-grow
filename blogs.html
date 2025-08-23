@@ -135,14 +135,14 @@
 
         <!-- BLOG INTRO SECTION STARTS HERE -->
         <section class="blogintro">
-            <div class="container">
-                <div class="blogintro_wrapper">
-                    <div class="blogintro_content">
+            <div class="container-pall">
+                <div class="blogintro_wrapper row align-items-center">
+                    <div class="blogintro_content col-md-7">
                         <h2 class="gs_reveal">News</h2>
                         <p class="gs_reveal">Your guide to plants, recipes and much more</p>
                     </div>
 
-                    <div class="blogintro_search">
+                    <div class="blogintro_search col-md-5">
                         <div class="d-flex">
                             <input type="search" placeholder="Search blog" class="w-100" aria-label="Search our store">
                             <button type="submit">Search</button>
@@ -169,169 +169,318 @@
             </div>
 
             <div class="blogs_wrapper">
-                <div class="container">
-                    <div class="blogs_grid">
-                        <div class="row">
-                            <!-- Indoor Gardens Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
-                                            alt="Indoor garden">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Click & Grow Partners with Little Kitchen Academy as their Exclusive Indoor
-                                            Garden Provider</h3>
-                                        <time>May 28, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                <div class="container-pall">
+                    <div class="row blogs_grid" id="paginated-list">
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
+                            <article class="blogs_card">
+                                <span class="blogs_card-tag">Indoor gardens</span>
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Click & Grow Partners with Little Kitchen Academy as their Exclusive Indoor
+                                        Garden Provider</h3>
+                                    <time>May 28, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=250&fit=crop"
-                                            alt="Indoor garden">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>5 Best Plants for Your Indoor Hydroponic Garden</h3>
-                                        <time>May 25, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>5 Best Plants for Your Indoor Hydroponic Garden</h3>
+                                    <time>May 25, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&h=250&fit=crop"
-                                            alt="Indoor garden">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Setting Up Your First Smart Garden: A Complete Guide</h3>
-                                        <time>May 22, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Setting Up Your First Smart Garden: A Complete Guide</h3>
+                                    <time>May 22, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <!-- Recipes Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=250&fit=crop"
-                                            alt="Recipe">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Fresh Herb Salad Recipes from Your Garden</h3>
-                                        <time>May 20, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=250&fit=crop"
+                                        alt="Recipe">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Fresh Herb Salad Recipes from Your Garden</h3>
+                                    <time>May 20, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400&h=250&fit=crop"
-                                            alt="Recipe">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>10 Quick Smoothie Recipes Using Garden Greens</h3>
-                                        <time>May 18, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400&h=250&fit=crop"
+                                        alt="Recipe">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>10 Quick Smoothie Recipes Using Garden Greens</h3>
+                                    <time>May 18, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <!-- Gardening Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
-                                            alt="Gardening">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Understanding Plant Growth Cycles</h3>
-                                        <time>May 15, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
+                                        alt="Gardening">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Understanding Plant Growth Cycles</h3>
+                                    <time>May 15, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=250&fit=crop"
-                                            alt="Gardening">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Common Plant Problems and Solutions</h3>
-                                        <time>May 12, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=250&fit=crop"
+                                        alt="Gardening">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Common Plant Problems and Solutions</h3>
+                                    <time>May 12, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <!-- Sustainability Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=250&fit=crop"
-                                            alt="Sustainability">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Reducing Food Waste with Home Gardens</h3>
-                                        <time>May 10, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=250&fit=crop"
+                                        alt="Sustainability">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Reducing Food Waste with Home Gardens</h3>
+                                    <time>May 10, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop"
-                                            alt="Sustainability">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Eco-Friendly Gardening Practices</h3>
-                                        <time>May 8, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop"
+                                        alt="Sustainability">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Eco-Friendly Gardening Practices</h3>
+                                    <time>May 8, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <!-- Nutrition Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item nutrition">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=250&fit=crop"
-                                            alt="Nutrition">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>Nutritional Benefits of Homegrown Vegetables</h3>
-                                        <time>May 5, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item nutrition">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=250&fit=crop"
+                                        alt="Nutrition">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Nutritional Benefits of Homegrown Vegetables</h3>
+                                    <time>May 5, 2025</time>
+                                </div>
+                            </article>
+                        </div>
 
-                            <!-- Mental Health Posts -->
-                            <div class="col-12 col-sm-6 col-md-4 blogs_item mental-health">
-                                <article class="blogs_card">
-                                    <div class="blogs_card-image">
-                                        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop"
-                                            alt="Mental health">
-                                    </div>
-                                    <div class="blogs_card-content">
-                                        <h3>The Mental Health Benefits of Indoor Gardening</h3>
-                                        <time>May 3, 2025</time>
-                                    </div>
-                                </article>
-                            </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item mental-health">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop"
+                                        alt="Mental health">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>The Mental Health Benefits of Indoor Gardening</h3>
+                                    <time>May 3, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Click & Grow Partners with Little Kitchen Academy as their Exclusive Indoor
+                                        Garden Provider</h3>
+                                    <time>May 28, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1466692476868-aef1dfb1e735?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>5 Best Plants for Your Indoor Hydroponic Garden</h3>
+                                    <time>May 25, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item indoor-gardens">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1459411621453-7b03977f4bfc?w=400&h=250&fit=crop"
+                                        alt="Indoor garden">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Setting Up Your First Smart Garden: A Complete Guide</h3>
+                                    <time>May 22, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1490645935967-10de6ba17061?w=400&h=250&fit=crop"
+                                        alt="Recipe">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Fresh Herb Salad Recipes from Your Garden</h3>
+                                    <time>May 20, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item recipes">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1506368249639-73a05d6f6488?w=400&h=250&fit=crop"
+                                        alt="Recipe">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>10 Quick Smoothie Recipes Using Garden Greens</h3>
+                                    <time>May 18, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=400&h=250&fit=crop"
+                                        alt="Gardening">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Understanding Plant Growth Cycles</h3>
+                                    <time>May 15, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item gardening">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1585320806297-9794b3e4eeae?w=400&h=250&fit=crop"
+                                        alt="Gardening">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Common Plant Problems and Solutions</h3>
+                                    <time>May 12, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?w=400&h=250&fit=crop"
+                                        alt="Sustainability">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Reducing Food Waste with Home Gardens</h3>
+                                    <time>May 10, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item sustainability">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=400&h=250&fit=crop"
+                                        alt="Sustainability">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Eco-Friendly Gardening Practices</h3>
+                                    <time>May 8, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item nutrition">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=400&h=250&fit=crop"
+                                        alt="Nutrition">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>Nutritional Benefits of Homegrown Vegetables</h3>
+                                    <time>May 5, 2025</time>
+                                </div>
+                            </article>
+                        </div>
+
+                        <div class="col-12 col-sm-6 col-md-4 blogs_item mental-health">
+                            <article class="blogs_card">
+                                <div class="blogs_card-image">
+                                    <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=400&h=250&fit=crop"
+                                        alt="Mental health">
+                                </div>
+                                <div class="blogs_card-content">
+                                    <h3>The Mental Health Benefits of Indoor Gardening</h3>
+                                    <time>May 3, 2025</time>
+                                </div>
+                            </article>
                         </div>
                     </div>
+                    <nav class="pagination-container d-flex justify-content-between">
+                        <button class="pagination-button" id="prev-button" aria-label="Previous page"
+                            title="Previous page">
+                            <img src="./assets/images/icons/icon_arrow_right.svg" alt="arrow"
+                                style="transform: rotate(180deg);">
+                            <span>‹ Newer posts</span>
+                        </button>
+
+                        <div id="pagination-numbers"></div>
+
+                        <button class="pagination-button" id="next-button" aria-label="Next page" title="Next page">
+                            <img src="./assets/images/icons/icon_arrow_right.svg" alt="arrow">
+                            <span>Older posts ›</span>
+                        </button>
+                    </nav>
                 </div>
             </div>
         </section>
-
         <!-- BLOG GRID SECTION ENDS HERE -->
 
     </main>
     <!-- MAIN SECTION ENDS HERE -->
-
 
 
     <!-- FOOTER SECTION STARTS HERE -->
