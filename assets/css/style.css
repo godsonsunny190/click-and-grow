@@ -12742,15 +12742,10 @@ p {
 }
 .ourvalues .section-title h2, .ourvalues .section-title .h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1.1;
   font-family: "Futura PT";
-}
-@media (min-width: 720px) {
-  .ourvalues .section-title h2, .ourvalues .section-title .h2 {
-    font-size: 32px;
-  }
 }
 .ourvalues_grid {
   display: grid;
@@ -12799,15 +12794,10 @@ p {
 }
 .ecogrid .section-title h2, .ecogrid .section-title .h2 {
   text-align: center;
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 600;
   line-height: 1.1;
   font-family: "Futura PT";
-}
-@media (min-width: 720px) {
-  .ecogrid .section-title h2, .ecogrid .section-title .h2 {
-    font-size: 32px;
-  }
 }
 .ecogrid_grid {
   display: grid;
@@ -12820,6 +12810,11 @@ p {
     grid-template-columns: repeat(2, 1fr);
   }
 }
+@media (max-width: 575.98px) {
+  .ecogrid_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
 .ecogrid_item img {
   height: 100%;
 }
@@ -12830,11 +12825,6 @@ p {
 }
 .ecogrid_fourgrid img {
   height: 188px;
-}
-@media (max-width: 991.98px) {
-  .ecogrid_fourgrid:last-child {
-    order: 1;
-  }
 }
 .ecogrid_content {
   background-color: #f4f4f4;
@@ -12860,10 +12850,84 @@ p {
   font-weight: 400;
   font-family: "Futura PT";
 }
+@media (max-width: 575.98px) {
+  .ecogrid_content p {
+    margin-top: 15px;
+  }
+}
+.ecogrid_single {
+  position: relative;
+}
 @media (max-width: 991.98px) {
   .ecogrid_single {
     display: none;
   }
+}
+.ecogrid_single button {
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.ecogrid_single button img {
+  margin-bottom: 5px;
+  width: 18px;
+}
+.ecogrid_single button span {
+  font-size: 20px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+/* ===================================== */
+/*          OPEN POSITION STYLE          */
+/* ===================================== */
+.hiring {
+  margin-top: 160px;
+  margin-bottom: 40px;
+}
+@media (max-width: 767.98px) {
+  .hiring {
+    margin-top: 80px;
+  }
+}
+@media (min-width: 1200px) {
+  .hiring {
+    margin-bottom: 80px;
+  }
+}
+@media (min-width: 720px) {
+  .hiring {
+    margin-bottom: 70px;
+  }
+}
+.hiring .section-title h2, .hiring .section-title .h2 {
+  text-align: center;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+.hiring_wrapper {
+  border-bottom: solid #ccc 1px;
+  padding-bottom: 50px;
+  margin-top: 75px;
+}
+.hiring_wrapper span {
+  font-size: 16px;
+  font-weight: 600;
+  color: #adadad;
+  font-family: "Futura PT";
+}
+.hiring_wrapper p {
+  color: #adadad;
+  font-size: 15px;
+  font-family: "Futura PT";
 }
 
 /*# sourceMappingURL=style.css.map */

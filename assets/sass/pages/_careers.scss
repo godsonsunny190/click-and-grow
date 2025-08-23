@@ -175,14 +175,10 @@
     .section-title {
         h2 {
             text-align: center;
-            font-size: 24px;
+            font-size: 32px;
             font-weight: 600;
             line-height: 1.1;
             font-family: $font-futura;
-
-            @media (min-width: 720px) {
-                font-size: 32px;
-            }
         }
     }
 
@@ -236,14 +232,10 @@
     .section-title {
         h2 {
             text-align: center;
-            font-size: 24px;
+            font-size: 32px;
             font-weight: 600;
             line-height: 1.1;
             font-family: $font-futura;
-
-            @media (min-width: 720px) {
-                font-size: 32px;
-            }
         }
     }
 
@@ -255,6 +247,10 @@
 
         @include media-breakpoint-down(lg) {
             grid-template-columns: repeat(2, 1fr);
+        }
+
+        @include media-breakpoint-down(sm) {
+            grid-template-columns: repeat(1, 1fr);
         }
     }
 
@@ -271,12 +267,6 @@
 
         img {
             height: 188px;
-        }
-
-        &:last-child {
-            @include media-breakpoint-down(lg) {
-                order: 1;
-            }
         }
     }
 
@@ -302,14 +292,92 @@
             line-height: 1.3;
             font-weight: 400;
             font-family: $font-futura;
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 15px;
+            }
         }
 
     }
 
     &_single {
+        position: relative;
 
         @include media-breakpoint-down(lg) {
             display: none;
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            @include flexColumn;
+            align-items: center;
+
+            img {
+                margin-bottom: 5px;
+                width: 18px;
+            }
+
+            span {
+                font-size: 20px;
+                font-weight: 400;
+                color: $white-clr;
+            }
+        }
+    }
+
+}
+
+/* ===================================== */
+/*          OPEN POSITION STYLE          */
+/* ===================================== */
+
+.hiring {
+    margin-top: 160px;
+    margin-bottom: 40px;
+
+    @include media-breakpoint-down(md) {
+        margin-top: 80px;
+    }
+
+    @media (min-width: 1200px) {
+        margin-bottom: 80px;
+    }
+
+    @media (min-width: 720px) {
+        margin-bottom: 70px;
+    }
+
+    .section-title {
+        h2 {
+            text-align: center;
+            font-size: 32px;
+            font-weight: 600;
+            line-height: 1.1;
+            font-family: $font-futura;
+        }
+    }
+
+    &_wrapper {
+        border-bottom: solid #ccc 1px;
+        padding-bottom: 50px;
+        margin-top: 75px;
+
+        span {
+            font-size: 16px;
+            font-weight: 600;
+            color: $color-ad;
+            font-family: $font-futura;
+        }
+
+        p {
+            color: $color-ad;
+            font-size: 15px;
+            font-family: $font-futura;
         }
     }
 
