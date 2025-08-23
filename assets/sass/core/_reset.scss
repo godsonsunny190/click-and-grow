@@ -105,3 +105,9 @@ $grid-breakpoints: (xs: 0,
     padding: 0 10px;
   }
 }
+
+.container-default {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}

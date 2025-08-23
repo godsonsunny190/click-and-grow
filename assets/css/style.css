@@ -21,6 +21,10 @@
   color: #287080;
 }
 
+.bg-09 {
+  background-color: #D5E509;
+}
+
 .bg-80 {
   background-color: #287080;
 }
@@ -51,6 +55,10 @@
 
 .bg-fe {
   background-color: #cffafe;
+}
+
+.bg-fa {
+  background-color: #fafafa;
 }
 
 .mt-24 {
@@ -10883,6 +10891,12 @@ img {
   }
 }
 
+.container-default {
+  max-width: 1140px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 h1, .h1 {
   font-size: 60px;
   font-weight: 300;
@@ -12333,7 +12347,7 @@ p {
 /*           BLOGS PAGE INTRO            */
 /* ===================================== */
 .blogintro {
-  background-color: #fcfafa;
+  background-color: #fafafa;
 }
 @media (min-width: 1200px) {
   .blogintro_wrapper {
@@ -12401,7 +12415,7 @@ p {
 /*          BLOGS PAGE CONTENT           */
 /* ===================================== */
 .blogs {
-  background-color: #fcfafa;
+  background-color: #fafafa;
   margin-bottom: 100px;
 }
 @media (max-width: 991.98px) {
@@ -12411,7 +12425,7 @@ p {
 }
 .blogs_nav {
   padding: 20px 0;
-  background: #fcfafa;
+  background: #fafafa;
   border-top: 1px solid #eee;
   border-bottom: 1px solid #eee;
 }
@@ -12928,6 +12942,571 @@ p {
   color: #adadad;
   font-size: 15px;
   font-family: "Futura PT";
+}
+
+/* ===================================== */
+/*        SUBSCRIPTION HERO STYLE        */
+/* ===================================== */
+.subhero {
+  position: relative;
+}
+@media (min-width: 768px) {
+  .subhero::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    background: linear-gradient(90deg, #000000 0%, rgba(0, 0, 0, 0.44703) 30.98%, rgba(0, 0, 0, 0) 57.09%);
+  }
+}
+@media (min-width: 768px) {
+  .subhero_image img {
+    height: 480px;
+  }
+}
+@media (max-width: 767.98px) {
+  .subhero_content {
+    padding: 30px;
+  }
+}
+@media (min-width: 768px) {
+  .subhero_content {
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    padding: 0;
+    position: absolute;
+    z-index: 2;
+  }
+}
+.subhero_text {
+  min-height: 100%;
+  text-align: left;
+  color: #34312e;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin: auto;
+  max-width: 1320px;
+  width: 100%;
+}
+@media (min-width: 768px) {
+  .subhero_text {
+    padding-left: 90px;
+    padding-right: 50px;
+    color: #ffffff;
+  }
+}
+.subhero_text h2, .subhero_text .h2 {
+  max-width: 480px;
+  font-family: "New Spirit";
+  font-size: 32px;
+  margin: 0 0 16px;
+  font-weight: 600;
+}
+@media (min-width: 768px) {
+  .subhero_text h2, .subhero_text .h2 {
+    font-size: 42px;
+  }
+}
+.subhero_text p {
+  max-width: 440px;
+  margin: 0 0 20px;
+  font-family: "Hanken Grotesk";
+  font-size: 1.2rem;
+  line-height: normal;
+  letter-spacing: normal;
+  color: #ffffff;
+}
+@media (max-width: 767.98px) {
+  .subhero_text p {
+    color: #000000;
+  }
+}
+
+/* ===================================== */
+/*          COMPARE SECTION STYLE        */
+/* ===================================== */
+.compare {
+  margin-top: 30px;
+}
+@media (min-width: 768px) {
+  .compare {
+    margin-top: 60px;
+  }
+}
+.compare_wrapper {
+  display: flex;
+  gap: 10px;
+}
+@media (max-width: 767.98px) {
+  .compare_wrapper {
+    flex-direction: column;
+    padding: 0 20px;
+  }
+}
+.compare_left {
+  width: 40%;
+  border-radius: 10px;
+  border: 1px solid #f0ebe1;
+  margin-bottom: 10px;
+  text-align: center;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@media (max-width: 767.98px) {
+  .compare_left {
+    width: 100%;
+  }
+}
+.compare_left h4, .compare_left .h4 {
+  margin: 0 0 10px;
+  font-family: "New Spirit";
+  font-weight: 600;
+  font-size: 24px;
+}
+.compare_left p {
+  margin: 0 0 20px;
+  font-family: "Hanken Grotesk";
+  font-size: 1.2rem;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.compare_left img {
+  object-fit: contain;
+}
+@media (max-width: 767.98px) {
+  .compare_left img {
+    order: -2;
+  }
+}
+.compare_right {
+  flex: 1 1 60%;
+  border-radius: 10px;
+  border: 1px solid #f0ebe1;
+  background-color: #2c3d1d;
+  padding: 30px;
+  position: relative;
+  z-index: 1;
+}
+@media (min-width: 768px) {
+  .compare_right {
+    min-height: 407px;
+  }
+}
+@media (max-width: 767.98px) {
+  .compare_right {
+    width: 100%;
+  }
+}
+.compare_right img {
+  object-fit: contain;
+  pointer-events: none;
+  right: 40px;
+  bottom: 30px;
+  position: relative;
+}
+@media (min-width: 768px) {
+  .compare_right img {
+    width: 85%;
+    min-height: 307px;
+    min-width: 400px;
+    bottom: 0;
+    right: -10px;
+    position: absolute;
+    z-index: -1;
+  }
+}
+@media (min-width: 992px) {
+  .compare_right img {
+    right: 10px;
+    bottom: 1px;
+  }
+}
+.compare_right h3, .compare_right .h3 {
+  font-size: 28px;
+  color: #D5E509;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-family: "New Spirit";
+  max-width: 480px;
+  width: 100%;
+  line-height: normal;
+}
+.compare_right p {
+  font-family: "Hanken Grotesk";
+  font-size: 1.2rem;
+  line-height: normal;
+  letter-spacing: normal;
+  margin: 0 0 20px;
+  color: #ffffff;
+  max-width: 464px;
+  width: 100%;
+}
+.compare_right .primary-btn {
+  color: #34312e;
+  font-weight: 400;
+}
+
+/* ===================================== */
+/*         WORKFLOW SECTION STYLE        */
+/* ===================================== */
+.workflow {
+  margin-top: 135px;
+}
+@media (max-width: 767.98px) {
+  .workflow {
+    margin-top: 100px;
+  }
+}
+.workflow .section-title {
+  text-align: center;
+}
+.workflow .section-title h3, .workflow .section-title .h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+.workflow .section-title p {
+  line-height: 1.3;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "Futura PT";
+}
+.workflow_row-1 {
+  margin-top: 60px;
+  display: grid;
+  row-gap: 5px;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 767.98px) {
+  .workflow_row-1 {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+@media (max-width: 575.98px) {
+  .workflow_row-1 {
+    margin-top: 40px;
+  }
+}
+.workflow_row-1-item {
+  text-align: center;
+  padding: 10px 55px;
+  position: relative;
+}
+.workflow_row-1-item:not(:last-child)::after {
+  content: "";
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #eee;
+  position: absolute;
+  top: 155px;
+  right: -15px;
+}
+.workflow_row-1-item img {
+  max-width: 60px;
+  max-height: 60px;
+  margin: 0 auto 10px;
+}
+.workflow_row-1-item h5, .workflow_row-1-item .h5 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 1.4;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  font-family: "Futura PT";
+}
+.workflow_row-1-item p {
+  line-height: 1.3;
+  font-family: "Futura PT";
+}
+.workflow_row-2 {
+  background-color: #fafafa;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+@media (max-width: 767.98px) {
+  .workflow_row-2 {
+    grid-template-columns: repeat(1, 1fr);
+    padding-top: 40px;
+  }
+}
+.workflow_row-2-item {
+  display: flex;
+  column-gap: 30px;
+  padding-bottom: 40px;
+}
+@media (min-width: 720px) {
+  .workflow_row-2-item {
+    padding: 40px 15px;
+  }
+}
+@media (min-width: 1200px) {
+  .workflow_row-2-item:nth-of-type(2) {
+    padding-left: 58px;
+  }
+}
+.workflow_row-2-item img {
+  height: 48px;
+  width: auto;
+}
+.workflow_row-2-item h5, .workflow_row-2-item .h5 {
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0 0 3px;
+  line-height: 1.4;
+  font-family: "Futura PT";
+}
+.workflow_row-2-item p {
+  line-height: 1.3;
+  font-family: "Futura PT";
+}
+.workflow_bg {
+  margin-top: 84px;
+}
+@media (max-width: 767.98px) {
+  .workflow_bg {
+    margin-top: 40px;
+  }
+}
+
+/* ===================================== */
+/*         CATELOGUE SECTION STYLE       */
+/* ===================================== */
+.catalogue {
+  margin-top: 75px;
+}
+@media (max-width: 767.98px) {
+  .catalogue {
+    margin-top: 40px;
+  }
+}
+.catalogue .section-title {
+  text-align: center;
+}
+.catalogue .section-title h3, .catalogue .section-title .h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+.catalogue .section-title p {
+  line-height: 1.3;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "Futura PT";
+}
+.catalogue_grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  margin-top: 30px;
+  row-gap: 10px;
+}
+@media (max-width: 991.98px) {
+  .catalogue_grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media (max-width: 575.98px) {
+  .catalogue_grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+.catalogue_item {
+  text-align: center;
+}
+.catalogue_item img {
+  mix-blend-mode: multiply;
+}
+.catalogue_item h5, .catalogue_item .h5 {
+  font-weight: 600;
+  font-size: 16px;
+  padding: 0 5px;
+  margin-top: 0.5em;
+  line-height: 1.2;
+}
+@media (min-width: 768px) {
+  .catalogue_item h5, .catalogue_item .h5 {
+    font-size: 18px;
+  }
+}
+.catalogue_item-more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+  color: #222;
+  font-family: "Futura PT";
+  width: 156px;
+  height: 156px;
+  margin: auto;
+}
+
+/* ===================================== */
+/*         CATELOGUE SECTION STYLE       */
+/* ===================================== */
+.setup {
+  margin-top: 70px;
+  background-color: #fafafa;
+}
+@media (min-width: 1200px) {
+  .setup {
+    padding: 75px 0 80px;
+  }
+}
+.setup .section-title {
+  text-align: center;
+}
+.setup .section-title h3, .setup .section-title .h3 {
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 1.1;
+  font-family: "Futura PT";
+}
+.setup .section-title p {
+  line-height: 1.3;
+  font-weight: 400;
+  margin-top: 20px;
+  font-family: "Futura PT";
+}
+.setup_grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 30px;
+  gap: 20px;
+}
+@media (max-width: 991.98px) {
+  .setup_grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+.setup_item {
+  border: 1px solid #eee;
+  border-radius: 10px;
+  overflow: hidden;
+}
+@media (max-width: 991.98px) {
+  .setup_item {
+    display: flex;
+    align-items: center;
+  }
+}
+@media (max-width: 767.98px) {
+  .setup_item {
+    display: block;
+  }
+}
+.setup_item-image {
+  position: relative;
+  padding-bottom: 66.666667%;
+}
+@media (min-width: 720px) {
+  .setup_item-image {
+    padding-bottom: 30%;
+    flex: 0 0 41.666667%;
+    max-width: 41.666667%;
+  }
+}
+@media (min-width: 992px) {
+  .setup_item-image {
+    padding-bottom: 66.666667%;
+    max-width: 100%;
+    width: 100%;
+  }
+}
+.setup_item-image img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}
+.setup_item-content {
+  padding: 20px;
+}
+@media (min-width: 720px) {
+  .setup_item-content {
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+  }
+}
+@media (min-width: 992px) {
+  .setup_item-content {
+    padding: 30px;
+    max-width: 100%;
+    width: 100%;
+    flex: 100%;
+  }
+}
+@media (max-width: 767.98px) {
+  .setup_item-content {
+    text-align: center;
+  }
+}
+.setup_item-content h5, .setup_item-content .h5 {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+@media (max-width: 575.98px) {
+  .setup_item-content h5, .setup_item-content .h5 {
+    margin-bottom: 15px;
+  }
+}
+.setup_item-content p {
+  line-height: 1.3;
+  font-family: "Futura PT";
+}
+
+/* ===================================== */
+/*         SUBSCRIBE SECTION STYLE       */
+/* ===================================== */
+.subscribe {
+  border-top: 1px solid #eee;
+  padding-top: 50px;
+  padding-bottom: 10px;
+}
+@media (min-width: 992px) {
+  .subscribe {
+    padding-top: 30px;
+  }
+}
+.subscribe_flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+.subscribe_flex p {
+  font-weight: 600;
+  line-height: 1.3;
+  font-family: "Futura PT";
+  color: #333;
+}
+.subscribe_flex a {
+  display: inline-flex;
+  align-items: center;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #404040;
+  transition: color 0.25s, background-color 0.25s, border-color 0.25s;
+  padding: 0 1.25em;
+  border-radius: 50px;
+  background-color: #ffb800;
+  line-height: 1.15;
 }
 
 /*# sourceMappingURL=style.css.map */
