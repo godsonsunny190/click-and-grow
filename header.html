@@ -1,0 +1,79 @@
+ <!-- HEAEDER SECTION START HERE -->
+ <header class="header" id="header">
+     <nav class="navbar navbar-expand-xl p-0" aria-label="Offcanvas navbar large">
+         <div class="container-fluid">
+             <div class="header_toggler">
+                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar2"
+                     aria-controls="offcanvasNavbar2">
+                     <span class="navbar-toggler-icon"></span>
+                 </button>
+             </div>
+             <div class="header_logo">
+                 <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start" href=""><img
+                         src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
+             </div>
+
+
+             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasNavbar2"
+                 aria-labelledby="offcanvasNavbar2Label">
+                 <div class="offcanvas-header">
+                     <div class="header_logo p-0">
+                         <a class="navbar-brand m-0 p-0 d-flex justify-content-center justify-content-xl-start"
+                             href="#"><img src="./assets/images/logo/logo.svg" alt="logo" class="w-auto"></a>
+                     </div>
+                     <button type="button" class="btn-close opacity-100" data-bs-dismiss="offcanvas"
+                         aria-label="Close"></button>
+                 </div>
+                 <div class="offcanvas-body">
+                     <div class="header_menu">
+                         <ul>
+                             <li><a href="products.html">Products</a></li>
+                             <li><a href="subscription.html">Subscription</a></li>
+                             <li><a href="blog.html">Blog </a></li>
+                             <li><a href="">Support</a></li>
+                             <li><a href="">Education</a></li>
+                             <li><a href="about.html">About us</a></li>
+                         </ul>
+                     </div>
+
+                     <div class="header_login">
+                         <ul>
+                             <li><a href=""><img src="./assets/images/header/icon_flat_globe_black.svg" alt="">
+                                     USA</a></li>
+                             <li><a href=""><img class="w-auto" src="./assets/images/header/icon_flat_account.svg"
+                                         alt="">
+                                     Log in</a></li>
+                             <li class="d-xl-block d-none">
+                                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                                     aria-controls="staticBackdrop" class="border-0 bg-transparent p-0 d-flex"><img
+                                         src="./assets/images/header/icon_flat_cart.svg" alt="">
+                                 </button>
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+
+             <div class="header_cart">
+                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
+                     aria-controls="staticBackdrop">
+                     <img src="./assets/images/header/icon_flat_cart.svg" alt="cart icon">
+                 </button>
+             </div>
+         </div>
+     </nav>
+ </header>
+
+ <div class="offcanvas offcanvas-cart offcanvas-end" data-bs-backdrop="static" tabindex="-1" id="staticBackdrop"
+     aria-labelledby="staticBackdropLabel">
+     <div class="offcanvas-header">
+         <h5 class="offcanvas-title" id="staticBackdropLabel">Shopping Cart</h5>
+         <button type="button" class="btn-close cart-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+     </div>
+     <div class="offcanvas-body">
+         <p class="cart-empty">
+             Your cart is currently empty.
+         </p>
+     </div>
+ </div>
+ <!-- HEAEDER SECTION ENDS HERE -->
