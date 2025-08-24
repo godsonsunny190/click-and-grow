@@ -1,0 +1,92 @@
+/* ===================================== */
+/*           CONTACT SECTION STYLE       */
+/* ===================================== */
+
+.contact {
+    padding: 40px 0;
+    font-family: $font-futura;
+    background-color: $white-clr;
+
+    @media (min-width: 1200px) {
+        padding: 75px 0 80px;
+    }
+
+    @media (min-width: 720px) {
+        padding: 65px 0 70px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin: 0 auto 30px;
+        line-height: 1.1;
+        font-size: 32px;
+        font-family: $font-futura;
+    }
+
+    h3 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0 0 .5em;
+        line-height: 1.4;
+        text-transform: capitalize;
+        color: #333;
+    }
+
+    p {
+        line-height: 1.3;
+        font-weight: 400;
+        font-family: $font-futura;
+        margin-bottom: 15px;
+        color: #333;
+    }
+
+    a {
+        color: $color-74;
+    }
+}
+
+/* ===================================== */
+/*           FINS US SECTION STYLE       */
+/* ===================================== */
+.findus {
+    padding: 40px 0;
+    font-family: $font-futura;
+    background-color: $white-clr;
+
+    @media (min-width: 1200px) {
+        padding: 75px 0 80px;
+    }
+
+    @media (min-width: 720px) {
+        padding: 65px 0 70px;
+    }
+
+    h2 {
+        text-align: center;
+        font-weight: 600;
+        letter-spacing: 0;
+        margin-bottom: 50px;
+        line-height: 1.1;
+        font-size: 32px;
+        font-family: $font-futura;
+    }
+
+    h3 {
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0 0 .5em;
+        line-height: 1.4;
+        text-transform: capitalize;
+        color: #333;
+    }
+
+    p {
+        line-height: 1.3;
+        font-weight: 400;
+        font-family: $font-futura;
+        margin-bottom: 15px;
+        color: #333;
+    }
+}

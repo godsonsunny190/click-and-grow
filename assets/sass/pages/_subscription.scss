@@ -99,11 +99,8 @@
 /* ===================================== */
 
 .compare {
-    margin-top: 30px;
-
-    @include media-breakpoint-up(md) {
-        margin-top: 60px;
-    }
+    padding-top: 20px;
+    background-color: $white-clr;
 
     &_wrapper {
         display: flex;
@@ -207,7 +204,7 @@
         p {
             font-family: $font-hanken;
             font-size: 1.2rem;
-            line-height: normal;
+            line-height: 22px;
             letter-spacing: normal;
             margin: 0 0 20px;
             color: $white-clr;
@@ -227,10 +224,11 @@
 /* ===================================== */
 
 .workflow {
-    margin-top: 135px;
+    padding-top: 135px;
+    background-color: $white-clr;
 
     @include media-breakpoint-down(md) {
-        margin-top: 100px;
+        padding-top: 100px;
     }
 
     .section-title {
@@ -302,7 +300,6 @@
             p {
                 line-height: 1.3;
                 font-family: $font-futura;
-
             }
         }
     }

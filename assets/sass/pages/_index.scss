@@ -155,6 +155,7 @@
                 border-radius: 8px;
                 height: 43.3333333333vw;
                 object-fit: contain;
+                margin-bottom: 4px;
 
                 @media (min-width: 1280px) {
                     height: 284px;
@@ -323,7 +324,7 @@
 /*         PLANT CARDS STYLE             */
 /* ===================================== */
 .plantblock {
-    margin-top: 40px;
+    margin-top: 56px;
 
     &_btn {
         text-align: center;
