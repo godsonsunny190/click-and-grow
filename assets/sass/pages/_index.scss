@@ -52,6 +52,8 @@
         }
 
         .primary-btn {
+            background-color: $color-33;
+
             @media (max-width: 1280px) and (min-width: 768px) {
                 font-size: 1.25vw;
                 padding: 1.09375vw 2.5vw;
@@ -119,11 +121,6 @@
         @include media-breakpoint-down(md) {
             grid-template-columns: repeat(2, 1fr);
         }
-
-        @include media-breakpoint-down(sm) {
-            grid-template-columns: repeat(1, 1fr);
-        }
-
     }
 
     &_item {
@@ -286,12 +283,19 @@
         background-size: cover;
         width: 100%;
         min-height: 396px;
-        padding: 40px;
+        padding: 40px 16px;
         text-align: center;
     }
 
     &_content {
         color: $color-09;
+
+        h2 {
+            @include media-breakpoint-down(sm) {
+                max-width: 230px;
+                margin: 0 auto;
+            }
+        }
 
         p {
             margin: 16px auto 0 auto;
@@ -306,6 +310,10 @@
 
             @include media-breakpoint-down(md) {
                 margin-top: 56px;
+            }
+
+            @include media-breakpoint-down(sm) {
+                margin-top: 48px;
             }
         }
     }
@@ -334,6 +342,13 @@
 .features {
     margin-top: 80px;
 
+    .section-head {
+        h2 {
+            @include media-breakpoint-down(sm) {
+                max-width: 240px;
+            }
+        }
+    }
 
     &_slider {
         margin-top: 24px;
@@ -412,6 +427,10 @@
 
         h2 {
             max-width: 400px;
+
+            @include media-breakpoint-down(sm) {
+                max-width: 325px;
+            }
         }
     }
 

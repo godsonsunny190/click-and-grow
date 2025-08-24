@@ -11558,6 +11558,9 @@ p {
     font-size: 16px;
   }
 }
+.hero_content .primary-btn {
+  background-color: #414F33;
+}
 @media (max-width: 1280px) and (min-width: 768px) {
   .hero_content .primary-btn {
     font-size: 1.25vw;
@@ -11613,11 +11616,6 @@ p {
 @media (max-width: 767.98px) {
   .products_grid {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media (max-width: 575.98px) {
-  .products_grid {
-    grid-template-columns: repeat(1, 1fr);
   }
 }
 .products_item {
@@ -11772,11 +11770,17 @@ p {
   background-size: cover;
   width: 100%;
   min-height: 396px;
-  padding: 40px;
+  padding: 40px 16px;
   text-align: center;
 }
 .planthero_content {
   color: #D5E509;
+}
+@media (max-width: 575.98px) {
+  .planthero_content h2, .planthero_content .h2 {
+    max-width: 230px;
+    margin: 0 auto;
+  }
 }
 .planthero_content p {
   margin: 16px auto 0 auto;
@@ -11791,6 +11795,11 @@ p {
 @media (max-width: 767.98px) {
   .planthero_content a {
     margin-top: 56px;
+  }
+}
+@media (max-width: 575.98px) {
+  .planthero_content a {
+    margin-top: 48px;
   }
 }
 
@@ -11813,6 +11822,11 @@ p {
 /* ===================================== */
 .features {
   margin-top: 80px;
+}
+@media (max-width: 575.98px) {
+  .features .section-head h2, .features .section-head .h2 {
+    max-width: 240px;
+  }
 }
 .features_slider {
   margin-top: 24px;
@@ -11881,6 +11895,11 @@ p {
 }
 .values .section-head h2, .values .section-head .h2 {
   max-width: 400px;
+}
+@media (max-width: 575.98px) {
+  .values .section-head h2, .values .section-head .h2 {
+    max-width: 325px;
+  }
 }
 .values_grid {
   display: grid;

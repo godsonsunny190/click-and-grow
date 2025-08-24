@@ -45,7 +45,7 @@ var swiper = new Swiper(".plantblock_slider", {
 
     320: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      spaceBetween: 4,
     },
   },
 });
