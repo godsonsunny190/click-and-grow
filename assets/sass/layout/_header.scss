@@ -1,6 +1,10 @@
 .header {
     border-bottom: 1px solid #eee;
     background-color: $color-f6;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 99;
 
     @include media-breakpoint-down(xl) {
         padding: 18px 0;

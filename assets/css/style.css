@@ -11092,6 +11092,10 @@ p {
 .header {
   border-bottom: 1px solid #eee;
   background-color: #fcfaf6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99;
 }
 @media (max-width: 1199.98px) {
   .header {
