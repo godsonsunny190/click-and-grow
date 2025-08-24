@@ -6,10 +6,18 @@
     margin-top: 40px;
 }
 
+.mt-56 {
+    margin-top: 56px;
+}
+
 .mt-88 {
     margin-top: 88px;
 
     @media (max-width: 575.98px) {
         margin-top: 80px;
     }
+}
+
+.mt-98 {
+    margin-top: 98px;
 }
