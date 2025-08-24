@@ -30,6 +30,7 @@
         ul {
             display: flex;
             align-items: center;
+            column-gap: 2px;
 
             @include media-breakpoint-down(xl) {
                 flex-direction: column;
@@ -49,12 +50,97 @@
                     line-height: 20px;
                     display: inline-block;
                     font-family: $font-hanken;
+                    transition: all .3s ease-in-out;
 
                     @include media-breakpoint-down(xl) {
                         color: $color-2e;
                         font-size: 20px;
                         width: 100%;
                         padding: 12px 0px;
+                    }
+
+                    &:hover {
+                        color: $color-0d;
+                        transition: all .3s ease-in-out;
+                    }
+                }
+            }
+        }
+    }
+
+    &_menulist {
+
+        &-product {
+            display: flex;
+            align-items: center;
+
+            &::after {
+                content: "";
+                display: block;
+                transform: translateY(-60%) rotate(-135deg);
+                margin-left: -5px;
+                width: 5px;
+                height: 5px;
+                border-left: 1.9px solid $color-40;
+                border-top: 1.9px solid $color-40;
+                border-bottom: none;
+                transition: all .18s ease;
+                margin-bottom: -3px;
+            }
+
+            &:hover {
+                &::after {
+                    border-left: 1.9px solid $color-0d;
+                    border-top: 1.9px solid $color-0d;
+                    transition: all .18s ease;
+                    transform: rotate(45deg);
+                }
+
+                .header_menulist-dropdown {
+                    transform: scaleY(1);
+                    opacity: 1;
+                    visibility: visible;
+                }
+            }
+
+            &li a {
+                padding-right: 15px;
+            }
+        }
+
+        &-dropdown {
+            position: absolute;
+            left: 0;
+            top: 100%;
+            background-color: $color-f6;
+            width: 100%;
+            border-top: 1px solid #eee;
+            border-bottom: 1px solid #eee;
+            transform: scaleY(0);
+            visibility: hidden;
+            opacity: 1;
+            transform-origin: top center;
+            transition: all .18s ease;
+
+            ul {
+                @include flexCenter;
+
+                li {
+                    a {
+                        padding: 10px 20px 15px;
+                        white-space: nowrap;
+                        font-family: $font-hanken;
+                        font-size: 14px;
+                        font-weight: 500;
+                        line-height: 20px;
+                        @include flexCenter;
+                        flex-direction: column;
+                    }
+
+                    img {
+                        width: 56px;
+                        height: 56px;
+                        object-fit: contain;
                     }
                 }
             }
@@ -101,10 +187,16 @@
                     font-size: 16px;
                     font-weight: 500;
                     font-family: $font-hanken;
+                    transition: all .3s ease-in-out;
 
                     @include media-breakpoint-down(xl) {
                         color: $color-2e;
                         font-size: 20px;
+                    }
+
+                    &:hover {
+                        color: $color-0d;
+                        transition: all .3s ease-in-out;
                     }
                 }
             }
@@ -136,6 +228,7 @@
         }
     }
 }
+
 
 /* ===================================== */
 /*         OFFCANVAS CART STYLE          */
@@ -181,5 +274,4 @@
             color: $color-2e;
         }
     }
-
 }

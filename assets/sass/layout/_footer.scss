@@ -10,6 +10,10 @@
         gap: 40px;
         padding-bottom: 82px;
         border-bottom: 1px solid $color-d5;
+
+        @include media-breakpoint-down(sm) {
+            padding-bottom: 64px;
+        }
     }
 
     &_column {

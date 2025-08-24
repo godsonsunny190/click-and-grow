@@ -10987,6 +10987,11 @@ p {
   padding-bottom: 82px;
   border-bottom: 1px solid #fafad5;
 }
+@media (max-width: 575.98px) {
+  .footer_menu {
+    padding-bottom: 64px;
+  }
+}
 .footer_column {
   display: flex;
   flex-direction: column;
@@ -11115,6 +11120,7 @@ p {
 .header_menu ul {
   display: flex;
   align-items: center;
+  column-gap: 2px;
 }
 @media (max-width: 1199.98px) {
   .header_menu ul {
@@ -11135,6 +11141,7 @@ p {
   line-height: 20px;
   display: inline-block;
   font-family: "Hanken Grotesk";
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1199.98px) {
   .header_menu ul li a {
@@ -11143,6 +11150,77 @@ p {
     width: 100%;
     padding: 12px 0px;
   }
+}
+.header_menu ul li a:hover {
+  color: #b23f0d;
+  transition: all 0.3s ease-in-out;
+}
+.header_menulist-product {
+  display: flex;
+  align-items: center;
+}
+.header_menulist-product::after {
+  content: "";
+  display: block;
+  transform: translateY(-60%) rotate(-135deg);
+  margin-left: -5px;
+  width: 5px;
+  height: 5px;
+  border-left: 1.9px solid #404040;
+  border-top: 1.9px solid #404040;
+  border-bottom: none;
+  transition: all 0.18s ease;
+  margin-bottom: -3px;
+}
+.header_menulist-product:hover::after {
+  border-left: 1.9px solid #b23f0d;
+  border-top: 1.9px solid #b23f0d;
+  transition: all 0.18s ease;
+  transform: rotate(45deg);
+}
+.header_menulist-product:hover .header_menulist-dropdown {
+  transform: scaleY(1);
+  opacity: 1;
+  visibility: visible;
+}
+.header_menulist-productli a {
+  padding-right: 15px;
+}
+.header_menulist-dropdown {
+  position: absolute;
+  left: 0;
+  top: 100%;
+  background-color: #fcfaf6;
+  width: 100%;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  transform: scaleY(0);
+  visibility: hidden;
+  opacity: 1;
+  transform-origin: top center;
+  transition: all 0.18s ease;
+}
+.header_menulist-dropdown ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header_menulist-dropdown ul li a {
+  padding: 10px 20px 15px;
+  white-space: nowrap;
+  font-family: "Hanken Grotesk";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.header_menulist-dropdown ul li img {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
 }
 .header_logo {
   padding: 0 10px;
@@ -11185,12 +11263,17 @@ p {
   font-size: 16px;
   font-weight: 500;
   font-family: "Hanken Grotesk";
+  transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1199.98px) {
   .header_login ul li a {
     color: #34312e;
     font-size: 20px;
   }
+}
+.header_login ul li a:hover {
+  color: #b23f0d;
+  transition: all 0.3s ease-in-out;
 }
 @media (min-width: 1200px) {
   .header_cart {
