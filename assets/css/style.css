@@ -73,12 +73,25 @@
   margin-top: 56px;
 }
 
+.mt-80 {
+  margin-top: 80px;
+}
+
 .mt-88 {
   margin-top: 88px;
 }
 @media (max-width: 575.98px) {
   .mt-88 {
     margin-top: 80px;
+  }
+}
+
+.mt-96 {
+  margin-top: 96px;
+}
+@media (max-width: 767.98px) {
+  .mt-96 {
+    margin-top: 88px;
   }
 }
 
@@ -11856,14 +11869,6 @@ p {
 /* ===================================== */
 /*          PLANT HERO STYLE             */
 /* ===================================== */
-.planthero {
-  margin-top: 96px;
-}
-@media (max-width: 767.98px) {
-  .planthero {
-    margin-top: 88px;
-  }
-}
 .planthero_wrapper {
   border-radius: 24px;
   background-color: #2c3d1d;
@@ -11908,9 +11913,6 @@ p {
 /* ===================================== */
 /*         PLANT CARDS STYLE             */
 /* ===================================== */
-.plantblock {
-  margin-top: 56px;
-}
 .plantblock_btn {
   text-align: center;
   margin-top: 54px;
@@ -13983,6 +13985,81 @@ p {
   font-family: "Futura PT";
   margin-bottom: 15px;
   color: #333;
+}
+
+/* ===================================== */
+/*          PLANT FILTER STYLE           */
+/* ===================================== */
+.plantfilter {
+  margin-top: 24px;
+}
+.plantfilter_head {
+  text-align: center;
+  background-color: #f0ebe1;
+  padding: 40px 0;
+}
+.plantfilter_head h3, .plantfilter_head .h3 {
+  color: #34312e;
+  text-align: center;
+  font-family: "New Spirit";
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 110%;
+  letter-spacing: -0.32px;
+  display: block;
+  width: 100%;
+}
+.plantfilter_head p {
+  color: #34312e;
+  font-family: "Hanken Grotesk";
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 150%;
+  letter-spacing: -0.16px;
+  display: block;
+  width: 100%;
+  margin-top: 8px;
+}
+.plantfilter_head h4, .plantfilter_head .h4 {
+  margin-top: 24px;
+  color: #34312e;
+  font-family: "New Spirit";
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 110%;
+}
+.plantfilter_nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  margin-top: 24px;
+  flex-wrap: wrap;
+}
+.plantfilter_nav ul li {
+  flex-wrap: nowrap;
+  border-radius: 512px;
+  border: 1px solid #676767;
+  color: #34312e;
+  font-family: "Hanken Grotesk";
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 20px;
+  letter-spacing: 0.1px;
+  transition: background 0.2s ease;
+  padding: 6px 20px;
+}
+.plantfilter_wrapper {
+  margin-top: 48px;
+}
+.plantfilter_item {
+  margin-bottom: 64px;
+  padding: 0 8px;
+}
+@media (max-width: 767.98px) {
+  .plantfilter_item {
+    padding: 0 4px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

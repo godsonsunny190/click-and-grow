@@ -1,0 +1,85 @@
+/* ===================================== */
+/*          PLANT FILTER STYLE           */
+/* ===================================== */
+
+.plantfilter {
+    margin-top: 24px;
+
+    &_head {
+        text-align: center;
+        background-color: $color-e1;
+        padding: 40px 0;
+
+        h3 {
+            color: $color-2e;
+            text-align: center;
+            font-family: $font-spirit;
+            font-size: 32px;
+            font-weight: 500;
+            line-height: 110%;
+            letter-spacing: -.32px;
+            display: block;
+            width: 100%;
+        }
+
+        p {
+            color: $color-2e;
+            font-family: $font-hanken;
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: -.16px;
+            display: block;
+            width: 100%;
+            margin-top: 8px;
+        }
+
+        h4 {
+            margin-top: 24px;
+            color: $color-2e;
+            font-family: $font-spirit;
+            font-size: 20px;
+            font-weight: 500;
+            line-height: 110%;
+        }
+
+    }
+
+    &_nav {
+
+        ul {
+            @include flexCenter;
+            gap: 8px;
+            margin-top: 24px;
+            flex-wrap: wrap;
+
+            li {
+                flex-wrap: nowrap;
+                border-radius: 512px;
+                border: 1px solid $color-67;
+                color: $color-2e;
+                font-family: $font-hanken;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 20px;
+                letter-spacing: .1px;
+                transition: background .2s ease;
+                padding: 6px 20px;
+            }
+        }
+    }
+
+    &_wrapper {
+        margin-top: 48px;
+    }
+
+    &_item {
+        margin-bottom: 64px;
+        padding: 0 8px;
+
+        @include media-breakpoint-down(md) {
+            padding: 0 4px;
+        }
+    }
+
+}
