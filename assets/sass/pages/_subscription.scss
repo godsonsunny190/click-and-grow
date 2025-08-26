@@ -116,14 +116,18 @@
         width: 40%;
         border-radius: 10px;
         border: 1px solid $color-e1;
-        margin-bottom: 10px;
         text-align: center;
         padding: 30px;
         @include flexColumn;
         align-items: center;
+        position: relative;
 
         @include media-breakpoint-down(md) {
             width: 100%;
+        }
+
+        @include media-breakpoint-up(md) {
+            min-height: 468px;
         }
 
         h4 {
@@ -131,6 +135,7 @@
             font-family: $font-spirit;
             font-weight: 600;
             font-size: 24px;
+            line-height: 30px;
         }
 
         p {
@@ -139,6 +144,7 @@
             font-size: 1.2rem;
             line-height: normal;
             letter-spacing: normal;
+            line-height: 20px;
         }
 
         img {
@@ -146,6 +152,12 @@
 
             @include media-breakpoint-down(md) {
                 order: -2;
+            }
+
+            @include media-breakpoint-up(md) {
+                bottom: 30px;
+                right: 0;
+                position: absolute;
             }
         }
     }
@@ -160,7 +172,7 @@
         z-index: 1;
 
         @include media-breakpoint-up(md) {
-            min-height: 407px;
+            min-height: 468px;
         }
 
         @include media-breakpoint-down(md) {
@@ -204,7 +216,7 @@
         p {
             font-family: $font-hanken;
             font-size: 1.2rem;
-            line-height: 22px;
+            line-height: 19px;
             letter-spacing: normal;
             margin: 0 0 20px;
             color: $white-clr;
@@ -520,6 +532,7 @@
 
         &-content {
             padding: 20px;
+            background-color: $white-clr;
 
             @media (min-width: 720px) {
                 flex: 0 0 58.333333%;

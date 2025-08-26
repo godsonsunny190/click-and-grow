@@ -13451,16 +13451,21 @@ p {
   width: 40%;
   border-radius: 10px;
   border: 1px solid #f0ebe1;
-  margin-bottom: 10px;
   text-align: center;
   padding: 30px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  position: relative;
 }
 @media (max-width: 767.98px) {
   .compare_left {
     width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  .compare_left {
+    min-height: 468px;
   }
 }
 .compare_left h4, .compare_left .h4 {
@@ -13468,6 +13473,7 @@ p {
   font-family: "New Spirit";
   font-weight: 600;
   font-size: 24px;
+  line-height: 30px;
 }
 .compare_left p {
   margin: 0 0 20px;
@@ -13475,6 +13481,7 @@ p {
   font-size: 1.2rem;
   line-height: normal;
   letter-spacing: normal;
+  line-height: 20px;
 }
 .compare_left img {
   object-fit: contain;
@@ -13482,6 +13489,13 @@ p {
 @media (max-width: 767.98px) {
   .compare_left img {
     order: -2;
+  }
+}
+@media (min-width: 768px) {
+  .compare_left img {
+    bottom: 30px;
+    right: 0;
+    position: absolute;
   }
 }
 .compare_right {
@@ -13495,7 +13509,7 @@ p {
 }
 @media (min-width: 768px) {
   .compare_right {
-    min-height: 407px;
+    min-height: 468px;
   }
 }
 @media (max-width: 767.98px) {
@@ -13540,7 +13554,7 @@ p {
 .compare_right p {
   font-family: "Hanken Grotesk";
   font-size: 1.2rem;
-  line-height: 22px;
+  line-height: 19px;
   letter-spacing: normal;
   margin: 0 0 20px;
   color: #ffffff;
@@ -13832,6 +13846,7 @@ p {
 }
 .setup_item-content {
   padding: 20px;
+  background-color: #ffffff;
 }
 @media (min-width: 720px) {
   .setup_item-content {
