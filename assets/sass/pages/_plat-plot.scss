@@ -43,6 +43,42 @@
             line-height: 110%;
         }
 
+        input {
+            border-radius: 0;
+            border: none;
+            border-bottom: 1px solid $color-66;
+            padding: 8px 10px;
+            max-width: 480px;
+            width: 100%;
+            margin: 8px 0;
+            font-family: $font-futura;
+            line-height: 1.15;
+            font-size: 16px;
+            background-color: transparent;
+            color: #333;
+            font-weight: 400;
+
+            &:focus-within {
+                border-color: $color-66;
+                outline: none
+            }
+
+
+            &::placeholder {
+                position: relative;
+                left: 15px;
+            }
+
+
+        }
+
+        button {
+            border: none;
+            background-color: transparent;
+            padding: 0;
+            margin-left: -22px;
+        }
+
     }
 
     &_nav {
@@ -54,17 +90,27 @@
             flex-wrap: wrap;
 
             li {
-                flex-wrap: nowrap;
-                border-radius: 512px;
-                border: 1px solid $color-67;
-                color: $color-2e;
-                font-family: $font-hanken;
-                font-size: 14px;
-                font-weight: 500;
-                line-height: 20px;
-                letter-spacing: .1px;
-                transition: background .2s ease;
-                padding: 6px 20px;
+                a {
+                    border-radius: 512px;
+                    border: 1px solid $color-67;
+                    color: $color-2e;
+                    font-family: $font-hanken;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 20px;
+                    letter-spacing: .1px;
+                    transition: background .2s ease;
+                    padding: 6px 20px;
+                    display: inline-block;
+
+                    &.active-btn {
+                        background-color: $color-66;
+                        color: $white-clr;
+                        border-color: $color-66;
+                    }
+                }
+
+
             }
         }
     }

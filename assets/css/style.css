@@ -14028,6 +14028,35 @@ p {
   font-weight: 500;
   line-height: 110%;
 }
+.plantfilter_head input {
+  border-radius: 0;
+  border: none;
+  border-bottom: 1px solid #a39766;
+  padding: 8px 10px;
+  max-width: 480px;
+  width: 100%;
+  margin: 8px 0;
+  font-family: "Futura PT";
+  line-height: 1.15;
+  font-size: 16px;
+  background-color: transparent;
+  color: #333;
+  font-weight: 400;
+}
+.plantfilter_head input:focus-within {
+  border-color: #a39766;
+  outline: none;
+}
+.plantfilter_head input::placeholder {
+  position: relative;
+  left: 15px;
+}
+.plantfilter_head button {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  margin-left: -22px;
+}
 .plantfilter_nav ul {
   display: flex;
   justify-content: center;
@@ -14036,8 +14065,7 @@ p {
   margin-top: 24px;
   flex-wrap: wrap;
 }
-.plantfilter_nav ul li {
-  flex-wrap: nowrap;
+.plantfilter_nav ul li a {
   border-radius: 512px;
   border: 1px solid #676767;
   color: #34312e;
@@ -14048,6 +14076,12 @@ p {
   letter-spacing: 0.1px;
   transition: background 0.2s ease;
   padding: 6px 20px;
+  display: inline-block;
+}
+.plantfilter_nav ul li a.active-btn {
+  background-color: #a39766;
+  color: #ffffff;
+  border-color: #a39766;
 }
 .plantfilter_wrapper {
   margin-top: 48px;
