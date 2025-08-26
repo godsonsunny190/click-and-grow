@@ -11854,6 +11854,15 @@ p {
 .products_color-option.beige {
   background-color: #d3d3d3;
 }
+.products_color-option.beige {
+  background-color: #c7c2ae;
+}
+.products_color-option.sage {
+  background-color: #8eb999;
+}
+.products_color-option.navyblue {
+  background-color: #265587;
+}
 .products_btn {
   display: flex;
   justify-content: center;
