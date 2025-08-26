@@ -495,6 +495,7 @@
         border: 1px solid #eee;
         border-radius: 10px;
         overflow: hidden;
+        background-color: $white-clr;
 
         @include media-breakpoint-down(lg) {
             display: flex;
@@ -532,7 +533,7 @@
 
         &-content {
             padding: 20px;
-            background-color: $white-clr;
+
 
             @media (min-width: 720px) {
                 flex: 0 0 58.333333%;

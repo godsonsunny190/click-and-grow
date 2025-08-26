@@ -13807,6 +13807,7 @@ p {
   border: 1px solid #eee;
   border-radius: 10px;
   overflow: hidden;
+  background-color: #ffffff;
 }
 @media (max-width: 991.98px) {
   .setup_item {
@@ -13846,7 +13847,6 @@ p {
 }
 .setup_item-content {
   padding: 20px;
-  background-color: #ffffff;
 }
 @media (min-width: 720px) {
   .setup_item-content {
