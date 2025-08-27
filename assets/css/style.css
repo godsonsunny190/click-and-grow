@@ -10921,9 +10921,9 @@ img {
 
 h1, .h1 {
   font-size: 60px;
-  font-weight: 300;
+  font-weight: 700;
   line-height: 96%;
-  color: #414F33;
+  color: #3AAD76;
 }
 @media (max-width: 720px) {
   h1, .h1 {
@@ -10940,10 +10940,9 @@ h1, .h1 {
   text-align: center;
 }
 .section-head h2, .section-head .h2 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 40px;
   font-style: normal;
-  font-weight: 500;
   line-height: 110%;
   letter-spacing: -0.4px;
 }
@@ -10953,12 +10952,12 @@ h1, .h1 {
   }
 }
 .section-head p {
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 18px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 150%;
   letter-spacing: -0.18px;
-  max-width: 362px;
+  max-width: 370px;
   width: 100%;
 }
 @media (max-width: 767.98px) {
@@ -10968,7 +10967,7 @@ h1, .h1 {
 }
 
 h2, .h2 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 40px;
   font-style: normal;
   font-weight: 500;
@@ -10983,7 +10982,7 @@ h2, .h2 {
 }
 
 p {
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
@@ -10997,8 +10996,8 @@ p {
 }
 
 .footer {
-  background-color: #43431e;
-  color: #fafad5;
+  background-color: #3AAD76;
+  color: #DAF0C9;
   padding: 40px 0 0;
   margin-top: 40px;
 }
@@ -11019,7 +11018,7 @@ p {
   flex-direction: column;
 }
 .footer_column h3, .footer_column .h3 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 16px;
   font-weight: 500;
   line-height: 96%;
@@ -11031,7 +11030,7 @@ p {
   line-height: 1.4;
 }
 .footer_column ul li a {
-  font-family: "Hanken Grotesk";
+  font-family: "Verona Serial";
   font-size: 14px;
   font-weight: 400;
   line-height: 20px;
@@ -11078,12 +11077,15 @@ p {
   line-height: 20px;
   padding: 6px 0;
   color: #fafad5;
-  font-family: "Hanken Grotesk";
+  font-family: "Verona Serial";
 }
 @media (max-width: 575.98px) {
   .footer_copyright {
     order: 2;
   }
+}
+.footer_copyright p {
+  letter-spacing: normal;
 }
 .footer_legal ul {
   display: flex;
@@ -11096,7 +11098,7 @@ p {
   line-height: 20px;
   padding: 6px 0;
   color: #fafad5;
-  font-family: "Hanken Grotesk";
+  font-family: "Verona Serial";
 }
 .footer_legal ul a {
   color: #fafad5;
@@ -11170,7 +11172,7 @@ p {
   font-weight: 500;
   line-height: 20px;
   display: inline-block;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1199.98px) {
@@ -11238,7 +11240,7 @@ p {
 .header_menulist-dropdown ul li a {
   padding: 10px 20px 15px;
   white-space: nowrap;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 14px;
   font-weight: 500;
   line-height: 20px;
@@ -11260,6 +11262,9 @@ p {
     max-width: 300px;
     width: 100%;
   }
+}
+.header_logo img {
+  max-width: 125px;
 }
 .header_login {
   padding: 28px 26px 0 26px;
@@ -11292,7 +11297,7 @@ p {
   column-gap: 5px;
   font-size: 16px;
   font-weight: 500;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   transition: all 0.3s ease-in-out;
 }
 @media (max-width: 1199.98px) {
@@ -11336,7 +11341,7 @@ p {
 .offcanvas-cart .offcanvas-title {
   color: #34312e;
   text-align: center;
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 20px;
   font-weight: 500;
   line-height: 110%;
@@ -11360,7 +11365,7 @@ p {
 .offcanvas-cart .offcanvas-body .cart-empty {
   font-size: 14px;
   font-weight: 400;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   color: #34312e;
 }
 
@@ -11368,7 +11373,8 @@ p {
   width: fit-content;
   padding: 14px 32px;
   border-radius: 512px;
-  font-family: "Hanken Grotesk";
+  background-color: #E5663D;
+  font-family: "Nunito";
   color: #ffffff;
   font-size: 16px;
   font-weight: 500;
@@ -11393,10 +11399,10 @@ p {
 .secondery-btn {
   padding: 14px 32px;
   border-radius: 512px;
-  background-color: #b23f0d;
+  background-color: #5CB5BF;
+  font-family: "Nunito";
   color: #fcfaf6;
   text-align: center;
-  font-family: "Hanken Grotesk";
   font-size: 16px;
   font-weight: 500;
   line-height: 24px;
@@ -11455,7 +11461,7 @@ p {
 .plantcard-title {
   color: #34312e;
   text-align: center;
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-weight: 500;
   font-size: 14px;
   line-height: 20px;
@@ -11476,7 +11482,7 @@ p {
   padding: 2px 6px;
   width: fit-content;
   color: #fcfaf6;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -11491,7 +11497,7 @@ p {
 .plantcard-discount {
   text-align: center;
   color: #b23f0d;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-weight: 400;
   font-size: 14px;
   line-height: 20px;
@@ -11505,8 +11511,8 @@ p {
 .plantcard-price {
   text-align: center;
   color: #676767;
-  font-family: "Hanken Grotesk";
-  font-weight: 400;
+  font-family: "Nunito";
+  font-weight: 500;
   font-size: 14px;
   line-height: 20px;
   margin-left: 4px;
@@ -11523,7 +11529,7 @@ p {
   font-size: 12px;
   font-weight: 500;
   line-height: 16px;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
 }
 .plantcard-btn {
   display: flex;
@@ -11532,7 +11538,7 @@ p {
   width: 40px;
   height: 40px;
   border-radius: 512px;
-  background: #b23f0d;
+  background: #E5663D;
   transition: all 0.2s ease-in-out;
   border: none;
   margin: 4px auto auto;
@@ -11649,16 +11655,18 @@ p {
   }
 }
 .hero_content h1, .hero_content .h1 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
+  font-weight: 300;
+  color: #3AAD76;
   max-width: 242px;
   width: 100%;
   letter-spacing: -0.52px;
 }
 .hero_content p {
   color: #34312e;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 18px;
-  font-weight: 400;
+  font-weight: normal;
   line-height: 150%;
   letter-spacing: -0.18px;
 }
@@ -11671,9 +11679,6 @@ p {
   .hero_content p {
     font-size: 16px;
   }
-}
-.hero_content .primary-btn {
-  background-color: #414F33;
 }
 @media (max-width: 1280px) and (min-width: 768px) {
   .hero_content .primary-btn {
@@ -11701,7 +11706,7 @@ p {
   overflow: hidden;
   padding: 10px 0;
   position: relative;
-  background-color: #43431e;
+  background-color: #3AAD76;
 }
 .marquee .slick-slide {
   margin: 0 14px;
@@ -11745,7 +11750,7 @@ p {
   padding: 2px 6px;
   width: fit-content;
   color: #fcfaf6;
-  font-family: "Hanken Grotesk";
+  font-family: "Verona Serial";
   display: block;
   font-weight: 400;
   font-size: 12px;
@@ -11777,9 +11782,9 @@ p {
   }
 }
 .products_item h4, .products_item .h4 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 14px;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 20px;
   padding: 4px;
 }
@@ -11794,7 +11799,7 @@ p {
   padding: 4px;
   font-size: 14px;
   line-height: 20px;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
 }
 @media (min-width: 1280px) {
   .products_item span {
@@ -11811,7 +11816,7 @@ p {
   font-weight: 500;
   line-height: 20px;
   letter-spacing: 0.1px;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   color: #34312e;
 }
 @media (min-width: 1280px) {
@@ -11890,7 +11895,7 @@ p {
   text-align: center;
 }
 .planthero_content {
-  color: #D5E509;
+  color: #DAF0C9;
 }
 @media (max-width: 575.98px) {
   .planthero_content h2, .planthero_content .h2 {
@@ -11902,11 +11907,12 @@ p {
   margin: 16px auto 0 auto;
   max-width: 350px;
   width: 100%;
+  color: #DAF0C9;
 }
 .planthero_content a {
   margin-top: 64px;
-  background-color: #D5E509;
-  color: #2c3d1d;
+  background-color: #E5663D;
+  color: #ffffff;
 }
 @media (max-width: 767.98px) {
   .planthero_content a {
@@ -11969,7 +11975,7 @@ p {
   border-radius: 0px 0px 24px 24px;
 }
 .features_content h3, .features_content .h3 {
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   font-size: 22px;
   font-style: normal;
   font-weight: 500;
@@ -11986,7 +11992,7 @@ p {
   font-weight: 400;
   line-height: 150%;
   letter-spacing: -0.18px;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   color: #ffffff;
 }
 @media (max-width: 767.98px) {
@@ -12033,7 +12039,7 @@ p {
   align-items: flex-start;
   gap: 16px;
   border-radius: 8px;
-  background-color: #f0ebe1;
+  background-color: #DAF0C9;
 }
 .values_item img {
   width: 40px;
@@ -12044,12 +12050,12 @@ p {
   font-size: 20px;
   font-weight: 500;
   line-height: 110%;
-  font-family: "New Spirit";
+  font-family: "Verona Serial";
   max-width: 130px;
   width: 100%;
 }
 .values_item p {
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 16px;
   font-weight: 400;
   line-height: 150%;
@@ -12074,7 +12080,7 @@ p {
 }
 .social_item p {
   color: #34312e;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
@@ -12083,7 +12089,7 @@ p {
 }
 .social_item a {
   color: #34312e;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 18px;
   font-weight: 600;
   line-height: 150%;
@@ -12127,7 +12133,7 @@ p {
 }
 .newsletter_content {
   z-index: 2;
-  background-color: #f0ebe1;
+  background-color: #DAF0C9;
   padding: 32px 16px;
   max-width: 384px;
   width: 100%;
@@ -12148,7 +12154,7 @@ p {
 }
 .newsletter_content p {
   color: #414F33;
-  font-family: "Hanken Grotesk";
+  font-family: "Nunito";
   font-size: 14px;
   font-weight: 400;
   line-height: 140%;
@@ -12158,7 +12164,7 @@ p {
   padding: 0px 0px 0px 16px;
   height: 50px;
   color: rgb(89, 89, 89);
-  font-family: "Futura PT";
+  font-family: "Nunito";
   font-size: 18px;
   font-weight: 400;
   background-color: rgba(255, 255, 255, 0);
@@ -12181,7 +12187,7 @@ p {
   border-bottom: 1px solid #949494;
 }
 .newsletter_content button {
-  font-family: "Futura PT";
+  font-family: "Nunito";
   font-size: 18px;
   font-weight: 400;
   height: 50px;
@@ -12219,10 +12225,10 @@ p {
   text-align: center;
 }
 .cta_content h2, .cta_content .h2 {
-  color: #FFC8B7;
+  color: #DAF0C9;
 }
 .cta_content p {
-  color: #FFC8B7;
+  color: #DAF0C9;
   margin-top: 16px;
 }
 @media (max-width: 767.98px) {
@@ -12231,8 +12237,8 @@ p {
   }
 }
 .cta_content .primary-btn {
-  color: #323470;
-  background-color: #FFC8B7;
+  color: #ffffff;
+  background-color: #E5663D;
   margin-top: 64px;
 }
 @media (max-width: 767.98px) {

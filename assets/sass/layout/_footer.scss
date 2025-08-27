@@ -1,6 +1,6 @@
 .footer {
-    background-color: $color-1e;
-    color: #fafad5;
+    background-color: $primary-clr;
+    color: $primary-clr-2;
     padding: 40px 0 0;
     margin-top: 40px;
 
@@ -21,7 +21,7 @@
         flex-direction: column;
 
         h3 {
-            font-family: $font-spirit;
+            font-family: $primary-font;
             font-size: 16px;
             font-weight: 500;
             line-height: 96%;
@@ -35,7 +35,7 @@
                 line-height: 1.4;
 
                 a {
-                    font-family: $font-hanken;
+                    font-family: $primary-font;
                     font-size: 14px;
                     font-weight: 400;
                     line-height: 20px;
@@ -92,10 +92,14 @@
         line-height: 20px;
         padding: 6px 0;
         color: $color-d5;
-        font-family: $font-hanken;
+        font-family: $primary-font;
 
         @include media-breakpoint-down(sm) {
             order: 2;
+        }
+
+        p {
+            letter-spacing: normal;
         }
     }
 
@@ -112,7 +116,7 @@
                 line-height: 20px;
                 padding: 6px 0;
                 color: $color-d5;
-                font-family: $font-hanken;
+                font-family: $primary-font;
             }
 
             a {

@@ -58,7 +58,7 @@
                     font-weight: 500;
                     line-height: 20px;
                     display: inline-block;
-                    font-family: $font-hanken;
+                    font-family: $secondery-font;
                     transition: all .3s ease-in-out;
 
                     @include media-breakpoint-down(xl) {
@@ -138,7 +138,7 @@
                     a {
                         padding: 10px 20px 15px;
                         white-space: nowrap;
-                        font-family: $font-hanken;
+                        font-family: $secondery-font;
                         font-size: 14px;
                         font-weight: 500;
                         line-height: 20px;
@@ -162,6 +162,10 @@
         @include media-breakpoint-up(xl) {
             max-width: 300px;
             width: 100%;
+        }
+
+        img {
+            max-width: 125px;
         }
     }
 
@@ -195,7 +199,7 @@
                     column-gap: 5px;
                     font-size: 16px;
                     font-weight: 500;
-                    font-family: $font-hanken;
+                    font-family: $secondery-font;
                     transition: all .3s ease-in-out;
 
                     @include media-breakpoint-down(xl) {
@@ -251,7 +255,7 @@
     .offcanvas-title {
         color: $color-2e;
         text-align: center;
-        font-family: $font-spirit;
+        font-family: $primary-font;
         font-size: 20px;
         font-weight: 500;
         line-height: 110%;
@@ -279,7 +283,7 @@
         .cart-empty {
             font-size: 14px;
             font-weight: 400;
-            font-family: $font-hanken;
+            font-family: $secondery-font;
             color: $color-2e;
         }
     }

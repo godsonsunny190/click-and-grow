@@ -39,7 +39,7 @@
     &-title {
         color: $color-2e;
         text-align: center;
-        font-family: $font-spirit;
+        font-family: $primary-font;
         font-weight: 500;
         font-size: 14px;
         line-height: 20px;
@@ -60,7 +60,7 @@
         padding: 2px 6px;
         width: fit-content;
         color: $color-f6;
-        font-family: $font-hanken;
+        font-family: $secondery-font;
         display: block;
         font-weight: 400;
         font-size: 12px;
@@ -76,7 +76,7 @@
     &-discount {
         text-align: center;
         color: $color-0d;
-        font-family: $font-hanken;
+        font-family: $secondery-font;
         font-weight: 400;
         font-size: 14px;
         line-height: 20px;
@@ -90,8 +90,8 @@
     &-price {
         text-align: center;
         color: $color-67;
-        font-family: $font-hanken;
-        font-weight: 400;
+        font-family: $secondery-font;
+        font-weight: 500;
         font-size: 14px;
         line-height: 20px;
         margin-left: 4px;
@@ -108,7 +108,7 @@
         font-size: 12px;
         font-weight: 500;
         line-height: 16px;
-        font-family: $font-hanken;
+        font-family: $secondery-font;
     }
 
     &-btn {
@@ -116,7 +116,7 @@
         width: 40px;
         height: 40px;
         border-radius: 512px;
-        background: $color-0d;
+        background: $earthy-orange;
         transition: all .2s ease-in-out;
         border: none;
         margin: 4px auto auto;
