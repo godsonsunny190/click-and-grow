@@ -28,7 +28,7 @@
         }
 
         h1 {
-            font-family: $primary-font;
+            font-family: $font-spirit;
             font-weight: 300;
             color: $primary-clr;
             max-width: 242px;
@@ -136,7 +136,7 @@
             padding: 2px 6px;
             width: fit-content;
             color: $color-f6;
-            font-family: $primary-font;
+            font-family: $font-spirit;
             display: block;
             font-weight: 400;
             font-size: 12px;
@@ -170,9 +170,9 @@
         }
 
         h4 {
-            font-family: $primary-font;
+            font-family: $font-spirit;
             font-size: 14px;
-            font-weight: 400;
+            font-weight: 500;
             line-height: 20px;
             padding: 4px;
 
@@ -316,7 +316,7 @@
 
         a {
             margin-top: 64px;
-            background-color: $earthy-orange;
+            background-color: $magenta;
             color: $white-clr;
 
             @include media-breakpoint-down(md) {
@@ -396,7 +396,7 @@
         border-radius: 0px 0px 24px 24px;
 
         h3 {
-            font-family: $primary-font;
+            font-family: $font-spirit;
             font-size: 22px;
             font-style: normal;
             font-weight: 500;
@@ -475,7 +475,7 @@
             font-size: 20px;
             font-weight: 500;
             line-height: 110%;
-            font-family: $primary-font;
+            font-family: $font-spirit;
             max-width: 130px;
             width: 100%;
         }
@@ -689,7 +689,7 @@
 
         .primary-btn {
             color: $white-clr;
-            background-color: $earthy-orange;
+            background-color: $magenta;
             margin-top: 64px;
 
             @include media-breakpoint-down(md) {
