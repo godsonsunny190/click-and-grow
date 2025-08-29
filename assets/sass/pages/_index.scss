@@ -136,7 +136,7 @@
             padding: 2px 6px;
             width: fit-content;
             color: $color-f6;
-            font-family: $font-spirit;
+            font-family: $secondery-font;
             display: block;
             font-weight: 400;
             font-size: 12px;
@@ -287,7 +287,6 @@
 
     &_wrapper {
         border-radius: 24px;
-        background-color: $color-1d;
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
