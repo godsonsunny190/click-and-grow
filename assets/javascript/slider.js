@@ -153,3 +153,48 @@ jQuery(document).ready(function ($) {
     pauseOnFocus: false,
   });
 });
+
+/* ===================================== */
+/*            THUMB SLIDER JS            */
+/* ===================================== */
+
+$(".slider-content").slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  arrows: true,
+  fade: false,
+  infinite: true,
+  speed: 1000,
+  asNavFor: ".slider-thumb",
+  arrows: true,
+});
+
+$(".slider-thumb").slick({
+  slidesToShow: 6,
+  slidesToScroll: 4,
+  asNavFor: ".slider-content",
+  dots: false,
+  centerMode: true,
+  focusOnSelect: true,
+
+  responsive: [
+    {
+      breakpoint: 991,
+      settings: {
+        slidesToShow: 5,
+      },
+    },
+    {
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4,
+      },
+    },
+    {
+      breakpoint: 576,
+      settings: {
+        slidesToShow: 3,
+      },
+    },
+  ],
+});

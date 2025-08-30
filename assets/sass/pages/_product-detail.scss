@@ -1,0 +1,257 @@
+/* ===================================== */
+/*           THUMB SLIDER STYLE          */
+/* ===================================== */
+
+.pdetail {
+    margin-top: 16px;
+
+    &_wrapper {
+        display: flex;
+        gap: 16px;
+
+        @include media-breakpoint-down(lg) {
+            flex-direction: column;
+        }
+    }
+
+    &_slider {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+
+        @include media-breakpoint-down(lg) {
+            width: 100%;
+        }
+
+        .slider-thumb {
+            @include media-breakpoint-down(lg) {
+                display: none;
+            }
+
+            .slick-slide {
+                margin-right: 16px;
+                cursor: pointer;
+                opacity: 0.6;
+
+                img {
+                    width: 96px;
+                    height: 96px;
+                    border-radius: 12px;
+                }
+
+                &.slick-current.slick-active {
+                    opacity: 1;
+
+                    img {
+                        border: 1px solid $color-66;
+                    }
+                }
+            }
+        }
+
+        .slider-content {
+            .slick-slide {
+                margin: 0 8px;
+
+                img {
+                    border-radius: 16px;
+                }
+            }
+        }
+    }
+
+    &_content {
+        width: 40%;
+
+        @include media-breakpoint-down(lg) {
+            width: 100%;
+        }
+
+        h2 {
+            margin-top: 24px;
+        }
+
+        p {
+            margin-top: 18px;
+            color: $color-2e;
+            max-width: 440px;
+            width: 100%;
+        }
+
+        ul {
+            display: flex;
+            align-items: center;
+            margin-top: 8px;
+
+            li {
+                @include flexCenter;
+
+                img {
+                    filter: brightness(0) saturate(100%) invert(66%) sepia(100%) saturate(1149%) hue-rotate(4deg) brightness(102%) contrast(101%);
+                }
+
+                span {
+                    font-size: 14px;
+                    margin-left: 8px;
+                    display: block;
+                    color: #202223;
+                }
+            }
+        }
+
+        a {
+            font-family: $secondery-font;
+            font-size: 18px;
+            font-weight: 400;
+            line-height: 150%;
+            letter-spacing: -.18px;
+            margin-top: 8px;
+            display: block;
+            color: $primary-clr;
+        }
+
+        h4 {
+            margin-top: 32px;
+            font-family: $primary-font;
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 110%;
+            color: $color-2e;
+
+            @include media-breakpoint-down(lg) {
+                font-size: 20px;
+            }
+        }
+
+        ul.color-list {
+            margin-top: 16px;
+
+            li {
+                position: relative;
+
+                input[type=radio] {
+                    position: absolute;
+                    opacity: 0;
+                }
+
+                input[type=radio]:checked+label {
+                    .tick {
+                        display: block;
+                    }
+
+                    .color-box {
+                        box-shadow: 0 0 0 2px #3bad75, inset 0 0 3px 2px #2e4a751a;
+                    }
+
+                    span {
+                        color: $primary-clr;
+                    }
+                }
+
+                label {
+                    @include flexColumn;
+                    text-align: center;
+                    gap: 4px;
+                    width: 80px;
+                    cursor: pointer;
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 20px;
+                    color: $color-2e;
+                    font-family: $secondery-font;
+                    position: relative;
+
+                    .color-box {
+                        position: relative;
+                        width: 34px;
+                        height: 34px;
+                        border: 2px solid $color-f6;
+                        box-shadow: 0 0 0 2px #a39766, inset 0 0 3px 2px #2e4a751a;
+                        background-color: #fff;
+                        border-radius: 100%;
+                        margin: 0 auto;
+                    }
+
+                    .tick {
+                        display: none;
+                        position: absolute;
+                        top: -5px;
+                        left: 19px;
+                        width: auto;
+                        z-index: 2;
+                    }
+
+                    span {
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 20px;
+                        font-family: $secondery-font;
+                        color: $color-2e;
+                        margin: 0;
+                    }
+
+                    .grey {
+                        background-color: #858080;
+                    }
+
+                    .beige {
+                        background-color: #c7c2ae;
+                    }
+                }
+
+            }
+        }
+
+        &-cart {
+            background-color: $primary-clr-3;
+            padding: 16px;
+            border-radius: 24px;
+            margin-top: 32px;
+
+            h6 {
+                font-size: 20px;
+                font-weight: 500;
+                line-height: 130%;
+                letter-spacing: -.4px;
+                color: $color-2e;
+                font-family: $secondery-font;
+            }
+
+            p {
+                font-size: 15px;
+                color: #111;
+                font-weight: 400;
+                font-family: $secondery-font;
+                display: flex;
+                align-items: center;
+                flex-wrap: wrap;
+
+                span {
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #494af4;
+
+                    &:nth-child(2) {
+                        color: #060809;
+                        font-size: 18px;
+                    }
+                }
+
+                a {
+                    text-decoration: underline;
+                    font-size: 13px;
+                    color: #6c757d;
+                    margin-top: 0;
+                }
+            }
+
+            .primary-btn {
+                margin: 15px 0 16px 0;
+                width: 100%;
+                text-align: center;
+                color: $white-clr;
+            }
+        }
+    }
+}
