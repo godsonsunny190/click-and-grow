@@ -1,0 +1,32 @@
+{
+    "title": "Смарт Сад Вебсайт",
+    "nav": {
+        "brand": "Смарт Сад",
+        "products": {
+            "title": "Продукция",
+            "submenu": {
+                "indoorGardens": "Домашние сады",
+                "plantPods": "Капсулы с растениями",
+                "indoorGardenKits": "Наборы для сада",
+                "accessories": "Аксессуары"
+            }
+        },
+        "subscription": "Подписка",
+        "blog": "Блог",
+        "support": "Поддержка",
+        "education": "Обучение",
+        "about": "О нас"
+    },
+    "login": {
+        "country": "США",
+        "account": "Войти",
+        "cart": "Корзина"
+    },
+    "cart": {
+        "title": "Корзина покупок",
+        "emptyMessage": "Ваша корзина пуста."
+    },
+    "footer": {
+        "copyright": "Авторские права © Смарт Сад. Все права защищены"
+    }
+}

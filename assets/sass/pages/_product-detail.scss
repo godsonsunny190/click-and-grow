@@ -255,3 +255,37 @@
         }
     }
 }
+
+/* ===================================== */
+/*           SETUP DETAIL STYLE          */
+/* ===================================== */
+
+.setupdetail {
+    background-color: $primary-clr-3;
+    margin-top: 26px;
+    padding: 24px 0 40px 0;
+
+    .setup_grid {
+        gap: 16px;
+    }
+
+    .setup_item-image img {
+        border-radius: 10px;
+    }
+
+    .setup_item-content {
+        padding: 24px 0;
+
+        h5 {
+            font-size: 22px;
+            font-weight: 500;
+            line-height: 110%;
+            font-family: $font-spirit;
+        }
+
+        p {
+            margin-top: 8px;
+            line-height: 1.5;
+        }
+    }
+}

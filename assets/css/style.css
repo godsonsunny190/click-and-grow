@@ -11369,6 +11369,31 @@ p {
   color: #34312e;
 }
 
+.language-switcher {
+  position: fixed;
+  top: 80px;
+  right: 20px;
+  z-index: 1000;
+  background: rgba(255, 255, 255, 0.9);
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.language-switcher button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+.language-switcher button.active {
+  background: #667eea;
+  color: white;
+}
+
 .primary-btn {
   width: fit-content;
   padding: 14px 32px;
@@ -11956,9 +11981,6 @@ p {
 /* ===================================== */
 /*         FEATUES CARDS STYLE           */
 /* ===================================== */
-.features {
-  margin-top: 80px;
-}
 @media (max-width: 575.98px) {
   .features .section-head h2, .features .section-head .h2 {
     max-width: 240px;
@@ -12056,7 +12078,7 @@ p {
   align-items: flex-start;
   gap: 16px;
   border-radius: 8px;
-  background-color: #faf0c9;
+  background-color: #DAF0C9;
 }
 .values_item img {
   width: 40px;
@@ -12150,7 +12172,7 @@ p {
 }
 .newsletter_content {
   z-index: 2;
-  background-color: #faf0c9;
+  background-color: #DAF0C9;
   padding: 32px 16px;
   max-width: 384px;
   width: 100%;
@@ -14353,6 +14375,34 @@ p {
   width: 100%;
   text-align: center;
   color: #ffffff;
+}
+
+/* ===================================== */
+/*           SETUP DETAIL STYLE          */
+/* ===================================== */
+.setupdetail {
+  background-color: #DAF0C9;
+  margin-top: 26px;
+  padding: 24px 0 40px 0;
+}
+.setupdetail .setup_grid {
+  gap: 16px;
+}
+.setupdetail .setup_item-image img {
+  border-radius: 10px;
+}
+.setupdetail .setup_item-content {
+  padding: 24px 0;
+}
+.setupdetail .setup_item-content h5, .setupdetail .setup_item-content .h5 {
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 110%;
+  font-family: "New Spirit";
+}
+.setupdetail .setup_item-content p {
+  margin-top: 8px;
+  line-height: 1.5;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,32 @@
+{
+    "title": "Smart Garden Website",
+    "nav": {
+        "brand": "Smart Garden",
+        "products": {
+            "title": "Products",
+            "submenu": {
+                "indoorGardens": "Indoor Gardens",
+                "plantPods": "Plant Pods",
+                "indoorGardenKits": "Indoor Garden Kits",
+                "accessories": "Accessories"
+            }
+        },
+        "subscription": "Subscription",
+        "blog": "Blog",
+        "support": "Support",
+        "education": "Education",
+        "about": "About us"
+    },
+    "login": {
+        "country": "USA",
+        "account": "Log in",
+        "cart": "Cart"
+    },
+    "cart": {
+        "title": "Shopping Cart",
+        "emptyMessage": "Your cart is currently empty."
+    },
+    "footer": {
+        "copyright": "Copyright © Smart Garden All Rights Reserved"
+    }
+}
