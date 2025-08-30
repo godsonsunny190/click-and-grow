@@ -11547,6 +11547,13 @@ p {
   width: 12px;
   height: 12px;
 }
+.plantcard_url {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
 
 .swiper-pagination {
   position: relative;
@@ -11836,6 +11843,17 @@ p {
 .products_item a:hover img {
   transform: translateX(5px);
   transition: all 0.3s ease-in-out;
+}
+.products_item-url {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.products_item-url a {
+  height: 100%;
+  width: 100%;
 }
 .products_color {
   display: flex;
