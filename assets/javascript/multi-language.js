@@ -9,7 +9,11 @@ async function loadTranslation(lng) {
   }
 }
 
-// Initialize with default language
+const updateContent = () =>
+  document
+    .querySelectorAll("[data-i18n]")
+    .forEach((el) => (el.innerHTML = i18next.t(el.getAttribute("data-i18n"))));
+
 (async () => {
   const en = await loadTranslation("en");
   i18next.init(
@@ -26,23 +30,33 @@ async function loadTranslation(lng) {
   );
 })();
 
-// Update DOM
-const updateContent = () =>
-  document
-    .querySelectorAll("[data-i18n]")
-    .forEach((el) => (el.innerHTML = i18next.t(el.getAttribute("data-i18n"))));
 
-// Switch language
-async function changeLanguage(lng) {
-  const data = await loadTranslation(lng);
+async function changeLanguage(lang) {
+  const currentLangText = document.getElementById("current-lang-text");
+
+  if (lang === "en") currentLangText.textContent = "EN";
+  if (lang === "ru") currentLangText.textContent = "RU";
+  if (lang === "ro") currentLangText.textContent = "RO";
+
+  const data = await loadTranslation(lang);
   if (data) {
-    i18next.addResourceBundle(lng, "translation", data, true, true);
-    i18next.changeLanguage(lng, () => {
+    i18next.addResourceBundle(lang, "translation", data, true, true);
+    i18next.changeLanguage(lang, () => {
       updateContent();
-      document
-        .querySelectorAll(".language-switcher button")
-        .forEach((btn) => btn.classList.remove("active"));
-      document.getElementById("btn-" + lng).classList.add("active");
     });
   }
+  document.querySelector(".language-dropdown").classList.remove("show");
 }
+
+function toggleDropdown() {
+  const dropdown = document.querySelector(".language-dropdown");
+  dropdown.classList.toggle("show");
+}
+
+// Close dropdown if clicked outside
+window.addEventListener("click", function (e) {
+  const dropdown = document.querySelector(".language-dropdown");
+  if (!dropdown.contains(e.target)) {
+    dropdown.classList.remove("show");
+  }
+});

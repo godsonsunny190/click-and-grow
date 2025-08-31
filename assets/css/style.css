@@ -11369,29 +11369,55 @@ p {
   color: #34312e;
 }
 
-.language-switcher {
-  position: fixed;
-  top: 80px;
-  right: 20px;
-  z-index: 1000;
-  background: rgba(255, 255, 255, 0.9);
-  padding: 10px;
-  border-radius: 5px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+.language-dropdown {
+  position: relative;
 }
 
-.language-switcher button {
-  margin: 0 5px;
-  padding: 5px 10px;
-  border: 1px solid #ddd;
-  background: white;
+.language-dropdown .dropdown-toggle {
+  border: none;
+  background: none;
   cursor: pointer;
-  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+  color: #747474;
 }
 
-.language-switcher button.active {
-  background: #667eea;
-  color: white;
+.language-dropdown .dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background: white;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  min-width: 75px;
+  z-index: 10;
+  padding: 0;
+  margin-top: 5px;
+  border-radius: 4px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #747474;
+}
+
+.language-dropdown .dropdown-menu li button {
+  width: 100%;
+  padding: 4px 12px;
+  border: none;
+  background: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  color: #747474;
+}
+.language-dropdown .dropdown-menu li button img {
+  width: 20px;
+}
+
+.language-dropdown.show .dropdown-menu {
+  display: block;
 }
 
 .primary-btn {
@@ -11839,7 +11865,23 @@ p {
     line-height: 24px;
   }
 }
-.products_item a {
+.products_item-url {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.products_item-url a {
+  height: 100%;
+  width: 100%;
+}
+.products_item-link {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+.products_item-link a {
   display: flex;
   align-items: center;
   gap: 4px;
@@ -11852,33 +11894,22 @@ p {
   color: #34312e;
 }
 @media (min-width: 1280px) {
-  .products_item a {
+  .products_item-link a {
     font-size: 16px;
     line-height: 24px;
   }
 }
-.products_item a img {
+.products_item-link img {
   width: 18px;
   height: 20px;
   transition: all 0.3s ease-in-out;
 }
-.products_item a:hover {
+.products_item-link:hover {
   transition: all 0.3s ease-in-out;
 }
-.products_item a:hover img {
+.products_item-link:hover img {
   transform: translateX(5px);
   transition: all 0.3s ease-in-out;
-}
-.products_item-url {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-.products_item-url a {
-  height: 100%;
-  width: 100%;
 }
 .products_color {
   display: flex;
@@ -13076,8 +13107,8 @@ p {
   font-size: 28px;
   margin-bottom: 20px;
   line-height: 1.1;
-  font-family: "Futura PT";
-  font-weight: 600;
+  font-family: "Nunito";
+  font-weight: 700;
   color: #404040;
   max-width: 440px;
   width: 100%;
@@ -13089,7 +13120,7 @@ p {
 }
 @media (min-width: 1200px) {
   .chero_content h2, .chero_content .h2 {
-    font-size: 48px;
+    font-size: 46px;
   }
 }
 @media (max-width: 991.98px) {
@@ -13098,8 +13129,7 @@ p {
   }
 }
 .chero_content p {
-  font-family: "Futura PT";
-  line-height: 1.3;
+  font-family: "Nunito";
   font-weight: 400;
   color: #404040;
   letter-spacing: normal;
@@ -13117,7 +13147,7 @@ p {
   align-items: center;
   height: 50px;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: 700;
   color: #404040;
   transition: color 0.25s, background-color 0.25s, border-color 0.25s;
   padding: 0 1.25em;
@@ -13205,9 +13235,9 @@ p {
 .ourvalues .section-title h2, .ourvalues .section-title .h2 {
   text-align: center;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 .ourvalues_grid {
   display: grid;
@@ -13233,14 +13263,13 @@ p {
 .ourvalues_item h4, .ourvalues_item .h4 {
   font-size: 20px;
   text-transform: capitalize;
-  font-weight: 600;
-  font-family: "Futura PT";
+  font-weight: 700;
+  font-family: "Nunito";
   line-height: 1.4;
 }
 .ourvalues_item p {
   margin-top: 10px;
-  font-family: "Futura PT";
-  line-height: 1.3;
+  font-family: "Nunito";
 }
 
 /* ===================================== */
@@ -13257,9 +13286,9 @@ p {
 .ecogrid .section-title h2, .ecogrid .section-title .h2 {
   text-align: center;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 .ecogrid_grid {
   display: grid;
@@ -13308,9 +13337,8 @@ p {
 }
 .ecogrid_content p {
   margin-top: 22px;
-  line-height: 1.3;
   font-weight: 400;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 @media (max-width: 575.98px) {
   .ecogrid_content p {
@@ -13371,9 +13399,9 @@ p {
 .hiring .section-title h2, .hiring .section-title .h2 {
   text-align: center;
   font-size: 32px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 1.1;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 .hiring_wrapper {
   border-bottom: solid #ccc 1px;
@@ -13382,14 +13410,14 @@ p {
 }
 .hiring_wrapper span {
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 700;
   color: #adadad;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 .hiring_wrapper p {
   color: #adadad;
   font-size: 15px;
-  font-family: "Futura PT";
+  font-family: "Nunito";
 }
 
 /* ===================================== */

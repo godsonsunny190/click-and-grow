@@ -26,7 +26,965 @@
         "title": "Shopping Cart",
         "emptyMessage": "Your cart is currently empty."
     },
+
+    "hero": {
+        "title": "HERE’S TO ME",
+        "subtitle": "Upgrade your lifestyle with <br> Smart Gardens — get healthier food, <br> delish drinks, or dope dopamine decor.",
+        "cta": "Shop now"
+    },
+
+    "products": {
+        "title": "Sleek & Simple",
+        "subtitle": "Our indoor gardens help you grow like a pro, minus all the knowing-what-you’re-doing part",
+        "view": "View product",
+        "discover": "Discover all Gardens",
+        "items": {
+            "garden9": {
+                "title": "The Smart Garden 9",
+                "price": "$249.95"
+            },
+            "garden9pro": {
+                "title": "The Smart Garden 9 PRO",
+                "price": "$299.95"
+            },
+            "garden3": {
+                "title": "The Smart Garden 3",
+                "price": "$99.95"
+            },
+            "hydro": {
+                "title": "HydroVase by Ermonix",
+                "price": "$69.95"
+            }
+        }
+    },
+
+    "plantHero": {
+        "title": "Every plant is a new story",
+        "subtitle": "We'll help you be the main character. Explore the 65+ ways the story can go.",
+        "cta": "Shop Plant Pods"
+    },
+
+    "plantCards": {
+        "sectionTitle": "Plant Collection",
+        "pricePerPod": "price per pod",
+        "savePercent": "SAVE 25%",
+        "exploreButton": "Explore all Plants",
+        "getInfoAlt": "get info image",
+        "plusIconAlt": "plus icon",
+        "plants": [{
+                "id": "basil",
+                "name": "Basil",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Basil plant"
+            },
+            {
+                "id": "lavender",
+                "name": "Lavender",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Lavender plant"
+            },
+            {
+                "id": "green-lettuce",
+                "name": "Green Lettuce",
+                "pack": "9-Pack",
+                "price": "$2.77",
+                "alt": "Green Lettuce"
+            },
+            {
+                "id": "fruit-veggie-mix",
+                "name": "Fruit And Veggie Mix",
+                "pack": "9-Pack",
+                "price": "$3.32",
+                "alt": "Fruit and Veggie Mix"
+            },
+            {
+                "id": "cilantro",
+                "name": "Cilantro (Coriander)",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Cilantro (Coriander)"
+            },
+            {
+                "id": "grow-anything",
+                "name": "Grow Anything",
+                "pack": "30-Pack",
+                "price": "$1.99",
+                "alt": "Grow Anything"
+            },
+            {
+                "id": "mini-tomato",
+                "name": "Mini Tomato",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Mini Tomato"
+            },
+            {
+                "id": "wild-strawberry",
+                "name": "Wild Strawberry",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Wild Strawberry"
+            },
+            {
+                "id": "peppermint",
+                "name": "Peppermint",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "image": "./assets/images/index/Peppermint_plant_1200x960_94879717-b93f-4eb2-bb7c-571eddd6f2a5_600x460_crop_top.jpg",
+                "alt": "Peppermint"
+            },
+            {
+                "id": "chives",
+                "name": "Chives",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "alt": "Chives"
+            },
+            {
+                "id": "green-lettuce-discount",
+                "name": "Green Lettuce",
+                "pack": "3-Pack",
+                "originalPrice": "$4.31",
+                "discountPrice": "$3.23",
+                "discount": "SAVE 25%",
+                "alt": "Green Lettuce"
+            }
+        ]
+    },
+
+    "features": {
+        "sectionTitle": "Grow smarter, not harder",
+        "sectionSubtitle": "Pick up indoor gardening with us",
+        "cards": [{
+                "id": "zero-learning",
+                "title": "Zero learning curve",
+                "description": "5 minutes to set up. A few days to sprout. A couple of weeks to harvest. Zero skills required.",
+                "alt": "Zero learning curve image"
+            },
+            {
+                "id": "no-dirt",
+                "title": "No dirt, no doubt, no drama",
+                "description": "Seeds, nutrients, pH, moisture control? Yeah, our plant pods crush all that. No mess, no stress.",
+                "alt": "No dirt, no doubt, no drama image"
+            },
+            {
+                "id": "fresh-beats",
+                "title": "Fresh beats the store",
+                "description": "Garden to plate in seconds. With nutrients intact and no additives, this is how vegetables were meant to taste.",
+                "alt": "Fresh beats the store image"
+            }
+        ]
+    },
+
+    "values": {
+        "sectionTitle": "Why people can't get enough of us",
+        "items": [{
+                "id": "sprouting-guarantee",
+                "title": "Sprouting guarantee",
+                "description": "We replace pods that don't grow",
+                "alt": "Sprouting guarantee icon"
+            },
+            {
+                "id": "year-round",
+                "title": "Grow plants year-round",
+                "description": "Seasonal veggie? Don't know her",
+                "alt": "Year-round growing icon"
+            },
+            {
+                "id": "expert-support",
+                "title": "Expert support",
+                "description": "We have PhDs in all of your issues",
+                "alt": "Expert support icon"
+            },
+            {
+                "id": "clean-sustainable",
+                "title": "Clean and sustainable",
+                "description": "Even better than organic produce",
+                "alt": "Clean and sustainable icon"
+            }
+        ]
+    },
+
+    "social": {
+        "title": "Over 10,000,000 Plants grown",
+        "subtitle": "Join our thriving community!",
+        "reviews": [{
+                "text": "I very much enjoy a good cup of mint tea, so having it this fresh every morning is truly something else! 😍 You don’t understand the joy until you grow your own 🌱💕",
+                "author": "greciadelapaz"
+            },
+            {
+                "text": "Perfect for a green thumb like me, who normally isn't able to keep plants alive.",
+                "author": "dinajessica"
+            },
+            {
+                "text": "In our opinion, nothing tastes as good as self-grown tomatoes or lettuce, without unnecessary additives and fertilizers 💗",
+                "author": "qualitytestpl"
+            },
+            {
+                "text": "I’ve never been so excited to watch plants before. Can’t wait!",
+                "author": "gailofthegarden"
+            },
+            {
+                "text": "Mojitos with fresh peppermint all year around!😍🙈",
+                "author": "homeinestonia"
+            },
+            {
+                "text": "The way his eyes lit up when those first sprouts appeared? Priceless.",
+                "author": "somedayilllearn"
+            },
+            {
+                "text": "Whiskey’s at his little garden to keep track of his strawberry plants 🍓",
+                "author": "whiskey_the_yorkie"
+            },
+            {
+                "text": "Pretty much the greatest invention ever! We've had so much fun watching these lil sprouts grow from their seed pods.",
+                "author": "thismamaloveslife"
+            },
+            {
+                "text": "I get so much joy out of cooking my own food...but I didn’t know the pleasures that lay in GROWING my own food!!!",
+                "author": "blogilates"
+            },
+            {
+                "text": "I love it! The plants grew so fast, it blew my mind.",
+                "author": "reeseology_"
+            },
+            {
+                "text": "Planting our seed pods in our Click and Grow Smart Garden.",
+                "author": "childrensgardenschool"
+            }
+        ]
+    },
+
+    "newsletter": {
+        "imageAlt": "Newsletter background image",
+        "title": "Read our Garden Gazette",
+        "description": "Subscribe to our newsletter for exclusive Click & Grow deals and exciting news.",
+        "namePlaceholder": "Name",
+        "emailPlaceholder": "Email address",
+        "button": "Subscribe to Newsletter",
+        "terms": "By providing your email, you agree to receive marketing messages, including promo codes, ongoing campaign details, and cart reminders from us."
+    },
+
+    "cta": {
+        "backgroundImage": "url(./assets/images/index/cg-r-birthday-2024-banner-readytogrow.webp)",
+        "title": "Ready to Grow?",
+        "subtitle": "Plants made easy, life made better",
+        "button": "Shop now"
+    },
+
+    "subhero": {
+        "imageAlt": "subscription hero image",
+        "title": "Save money and always be growing",
+        "subtitle": "Setup once or change whenever. Your Plant pod subscription is the most direct path to becoming a green thumb.",
+        "button": "Start Plant subscription"
+    },
+
+
+    "compare": {
+        "left": {
+            "title": "The Smart Garden 9 & Plant pods",
+            "subtitle": "if you don't have a Smart Garden yet",
+            "button": "Garden & Plants subscription",
+            "imageAlt": "Smart Garden 9 and Plant pods image"
+        },
+        "right": {
+            "title": "The Click & Grow 25 and Fresh Greens",
+            "subtitle": "12-month membership that ensures a continuous harvest of fresh greens when using the 5-week growing cycle of the Click & Grow 25.",
+            "button": "Click & Grow 25 membership",
+            "imageAlt": "Click & Grow 25 image"
+        }
+    },
+
+    "workflow": {
+        "title": "How it works?",
+        "subtitle": "Quite simply – subscription makes life easier.",
+        "steps1": [{
+                "title": "Select the quantity",
+                "description": "Choose how many Plant Pod 3-packs or 9-packs you want to receive in a single shipment and your default shipping interval",
+                "imageAlt": "select quantity icon"
+            },
+            {
+                "title": "Choose your plants",
+                "description": "Choose which Plant Pod 3-packs or 9-packs you want to receive in your subscription shipment",
+                "imageAlt": "choose plants icon"
+            },
+            {
+                "title": "Customize as you go",
+                "description": "Change your plant selection or cancel any time you want.",
+                "imageAlt": "customize icon"
+            }
+        ],
+        "steps2": [{
+                "title": "Free Shipping",
+                "description": "Start gardening wherever you are. No hidden fees.",
+                "imageAlt": "free shipping icon"
+            },
+            {
+                "title": "Sprouting guarantee",
+                "description": "Sometimes nature has a mind of its own. If your plant doesn't sprout, we'll replace it.",
+                "imageAlt": "sprouting guarantee icon"
+            },
+            {
+                "title": "Free Shipping",
+                "description": "Start gardening wherever you are. No hidden fees.",
+                "imageAlt": "free shipping icon"
+            }
+        ]
+    },
+
+    "catalogue": {
+        "title": "What can I grow?",
+        "subtitle": "Choose from over 75 varieties of herbs, flowers, leafy greens and more.",
+        "items": [{
+                "name": "Mini Tomato",
+                "imageAlt": "Mini Tomato plant image"
+            },
+            {
+                "name": "Basil",
+                "imageAlt": "Basil plant image"
+            },
+            {
+                "name": "Green Lettuce",
+                "imageAlt": "Green Lettuce plant image"
+            },
+            {
+                "name": "Wild Strawberry",
+                "imageAlt": "Wild Strawberry plant image"
+            },
+            {
+                "name": "Lavender",
+                "imageAlt": "Lavender plant image"
+            },
+            {
+                "more": "+ many more"
+            }
+        ]
+    },
+
+    "setup": {
+        "title": "How to get started",
+        "subtitle": "Just 3 easy steps!",
+        "steps": [{
+                "title": "1. Insert the plant pods",
+                "description": "Our plant pods are biodegradable and contain no harmful chemicals.",
+                "imageAlt": "insert plant pods image"
+            },
+            {
+                "title": "2. Add water",
+                "description": "The Smart Garden 9 has a 4 l/135 oz water tank, which holds enough water for up to one month.",
+                "imageAlt": "add water image"
+            },
+            {
+                "title": "3. Plug it in and enjoy",
+                "description": "Thanks to its energy efficient LED lighting system, the Smart Garden 9 only consumes 13W of power.",
+                "imageAlt": "plug in and enjoy image"
+            }
+        ]
+    },
+
+    "subscribe": {
+        "text": "Save big and never run out of plants to grow again!",
+        "button": "Get your subscription now"
+    },
+
+    "blogIntro": {
+        "title": "News",
+        "subtitle": "Your guide to plants, recipes and much more",
+        "searchPlaceholder": "Search blog",
+        "searchButton": "Search"
+    },
+
+    "blogGrid": {
+        "categoriesLabel": "Categories:",
+        "allPosts": "All Posts",
+        "categories": {
+            "indoorGardens": "Indoor Gardens",
+            "recipes": "Recipes",
+            "gardening": "Gardening and plants",
+            "sustainability": "Sustainability",
+            "nutrition": "Nutrition",
+            "mentalHealth": "Mental health"
+        },
+        "posts": [{
+                "category": "Indoor gardens",
+                "title": "Click & Grow Partners with Little Kitchen Academy as their Exclusive Indoor Garden Provider",
+                "date": "May 28, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Recipes",
+                "title": "5 Best Plants for Your Indoor Hydroponic Garden",
+                "date": "May 25, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Indoor gardens",
+                "title": "Setting Up Your First Smart Garden: A Complete Guide",
+                "date": "May 22, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Recipes",
+                "title": "Fresh Herb Salad Recipes from Your Garden",
+                "date": "May 20, 2025",
+                "imageAlt": "Recipe"
+            },
+            {
+                "category": "Recipes",
+                "title": "10 Quick Smoothie Recipes Using Garden Greens",
+                "date": "May 18, 2025",
+                "imageAlt": "Recipe"
+            },
+            {
+                "category": "Gardening",
+                "title": "Understanding Plant Growth Cycles",
+                "date": "May 15, 2025",
+                "imageAlt": "Gardening"
+            },
+            {
+                "category": "Gardening",
+                "title": "Common Plant Problems and Solutions",
+                "date": "May 12, 2025",
+                "imageAlt": "Gardening"
+            },
+            {
+                "category": "Sustainability",
+                "title": "Reducing Food Waste with Home Gardens",
+                "date": "May 10, 2025",
+                "imageAlt": "Sustainability"
+            },
+            {
+                "category": "Sustainability",
+                "title": "Eco-Friendly Gardening Practices",
+                "date": "May 8, 2025",
+                "imageAlt": "Sustainability"
+            },
+            {
+                "category": "Nutrition",
+                "title": "Nutritional Benefits of Homegrown Vegetables",
+                "date": "May 5, 2025",
+                "imageAlt": "Nutrition"
+            },
+            {
+                "category": "Mental health",
+                "title": "The Mental Health Benefits of Indoor Gardening",
+                "date": "May 3, 2025",
+                "imageAlt": "Mental health"
+            },
+            {
+                "category": "Indoor gardens",
+                "title": "Click & Grow Partners with Little Kitchen Academy as their Exclusive Indoor Garden Provider",
+                "date": "May 28, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Recipes",
+                "title": "5 Best Plants for Your Indoor Hydroponic Garden",
+                "date": "May 25, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Indoor gardens",
+                "title": "Setting Up Your First Smart Garden: A Complete Guide",
+                "date": "May 22, 2025",
+                "imageAlt": "Indoor garden"
+            },
+            {
+                "category": "Recipes",
+                "title": "Fresh Herb Salad Recipes from Your Garden",
+                "date": "May 20, 2025",
+                "imageAlt": "Recipe"
+            },
+            {
+                "category": "Recipes",
+                "title": "10 Quick Smoothie Recipes Using Garden Greens",
+                "date": "May 18, 2025",
+                "imageAlt": "Recipe"
+            },
+            {
+                "category": "Gardening",
+                "title": "Understanding Plant Growth Cycles",
+                "date": "May 15, 2025",
+                "imageAlt": "Gardening"
+            },
+            {
+                "category": "Gardening",
+                "title": "Common Plant Problems and Solutions",
+                "date": "May 12, 2025",
+                "imageAlt": "Gardening"
+            },
+            {
+                "category": "Sustainability",
+                "title": "Reducing Food Waste with Home Gardens",
+                "date": "May 10, 2025",
+                "imageAlt": "Sustainability"
+            },
+            {
+                "category": "Sustainability",
+                "title": "Eco-Friendly Gardening Practices",
+                "date": "May 8, 2025",
+                "imageAlt": "Sustainability"
+            },
+            {
+                "category": "Nutrition",
+                "title": "Nutritional Benefits of Homegrown Vegetables",
+                "date": "May 5, 2025",
+                "imageAlt": "Nutrition"
+            },
+            {
+                "category": "Mental health",
+                "title": "The Mental Health Benefits of Indoor Gardening",
+                "date": "May 3, 2025",
+                "imageAlt": "Mental health"
+            }
+        ],
+        "pagination": {
+            "newer": "‹ Newer posts",
+            "older": "Older posts ›"
+        }
+    },
+
+    "aboutHero": {
+        "title": "The Joy of Nature for All",
+        "subtitle": "We Believe Everyone Deserves the Benefits of a Garden",
+        "imageAlt": "about hero image"
+    },
+
+    "triColSection": {
+        "title": "The Big Why?",
+        "subtitle": "Here’s What We Know Is True",
+        "items": [{
+                "title": "Indoor Plants",
+                "description": "Boost Health, Reduce Stress, Purify Air, and Enhance Happiness.",
+                "imageAlt": "Indoor plants image"
+            },
+            {
+                "title": "A Fresh Take on Nature",
+                "description": "Smart Gardens Bridge Modern Life with Nature, Letting You Grow Fresh Plants Year-Round—Hassle-Free.",
+                "imageAlt": "Fresh take on nature image"
+            },
+            {
+                "title": "It Needs a Connection: You",
+                "description": "Click & Grow: Your Perfect Hobby or Deep Dive into Horticulture. Our System Adapts to Your Needs Anytime, Anywhere.",
+                "imageAlt": "Connection image"
+            }
+        ]
+    },
+
+    "bannerSection": {
+        "title": "Pioneers of Smart Gardening for 15 Years",
+        "subtitle": "Beyond Gimmicks and Gadgets",
+        "backgroundImageAlt": "Birthday 2024 Banner"
+    },
+
+    "showcase": {
+        "items": [{
+                "title": "Fresh plants all year round",
+                "imageAlt": "Fresh plants all year round"
+            },
+            {
+                "title": "500,000+ happy users",
+                "imageAlt": "icon"
+            },
+            {
+                "title": "Fits limited spaces",
+                "imageAlt": "Fits limited spaces"
+            },
+            {
+                "subtext": "Featured in",
+                "logos": ["Digital Trend logo", "Fast Company logo", "New York Times logo", "Vogue logo", "Wired logo"]
+            },
+            {
+                "rating": "4.9",
+                "subtext": "Average customer rating",
+                "imageAlt": "Average customer rating 4.9"
+            },
+            {
+                "title": "Over 75 plants to choose from"
+            },
+            {
+                "title": "Silent operation",
+                "imageAlt": "Silent operation"
+            },
+            {
+                "steps": {
+                    "0": "1. Add pods",
+                    "1": "2. Add water",
+                    "2": "3. Plug in",
+                    "3": "Enjoy"
+                }
+            },
+            {
+                "steps": {
+                    "0": "Smart soil",
+                    "1": "includes",
+                    "2": "seeds &",
+                    "3": "nutrients"
+                },
+                "imageAlt": "Smart soil includes seeds and nutrients"
+            },
+            {
+                "title": "No GMOs, herbicides or pesticides",
+                "imageAlt": "No GMOs, herbicides or pesticides"
+            }
+        ]
+    },
+
+    "socialProof": {
+        "title": "Over 10, 000, 000 Plants grown",
+        "subtitle": "Join our thriving community!",
+        "items": [{
+                "text": "I very much enjoy of a good cup of mint tea so having it this fresh every morning it’s truly something else! 😍 you don’t understand the joy until you grow your own 🌱💕",
+                "username": "greciadelapaz"
+            },
+            {
+                "text": "Perfect for a green thumb like me, who normally isn't able to keep plants alive.",
+                "username": "dinajessica"
+            },
+            {
+                "text": "In our opinion, nothing tastes as good as self-grown tomatoes or lettuce, without unnecessary additives and fertilizers 💗",
+                "username": "qualitytestpl"
+            },
+            {
+                "text": "I’ve never been so excited to watch plants before. Can’t wait!",
+                "username": "gailofthegarden"
+            },
+            {
+                "text": "Mojitos with fresh peppermint all year around!😍🙈",
+                "username": "homeinestonia"
+            },
+            {
+                "text": "The way his eyes lit up when those first sprouts appeared? Priceless.",
+                "username": "somedayilllearn"
+            },
+            {
+                "text": "Whiskey’s at his little garden to keep track of his strawberry plants 🍓",
+                "username": "whiskey_the_yorkie"
+            },
+            {
+                "text": "Pretty much the greatest invention ever! We've had so much fun watching these lil sprouts grow from their seed pods.",
+                "username": "thismamaloveslife"
+            },
+            {
+                "text": "I get so much joy out of cooking my own food...but I didn’t know that the pleasures that lay in GROWING my own food!!!",
+                "username": "blogilates"
+            },
+            {
+                "text": "I love it! The plants grew so fast, it blew my mind.",
+                "username": "reeseology_"
+            },
+            {
+                "text": "Planting our seed pods in our Click and Grow Smart Garden.",
+                "username": "childrensgardenschool"
+            }
+        ]
+
+    },
+
+    "productSection": {
+        "title": "Jump In—It’s Worth It!",
+        "subtitle": "Explore Our Smart Garden Family",
+        "items": [{
+                "name": "Smart Garden 3",
+                "price": "$99.95",
+                "viewProduct": "View product"
+            },
+            {
+                "name": "Smart Garden 3",
+                "price": "$249.95",
+                "viewProduct": "View product"
+            },
+            {
+                "name": "The Smart Garden 27",
+                "price": "$899.95",
+                "viewProduct": "View product"
+            },
+            {
+                "name": "The Click & Grow 25",
+                "price": "$999.95",
+                "viewProduct": "View product"
+            }
+        ],
+        "discoverAll": "Discover all Gardens"
+    },
+
+    "careerHero": {
+        "title": "Ready to help our planet and improve millions of lives?",
+        "description": "We are the leading innovators of indoor gardening and food sustainability and we would like you to join our bright minds to bring the magic of nature to our everyday lives.",
+        "buttons": {
+            "openPositions": "All open positions",
+            "meetTeam": "Meet our team"
+        },
+        "images": {
+            "alt1": "career hero image",
+            "alt2": "career hero image",
+            "alt3": "career hero image"
+        }
+    },
+
+    "ourValues": {
+        "title": "Our values",
+        "items": [{
+                "title": "Stay curious",
+                "description": "We are innovators at heart. Fuelled by shared excitement and passion, we aim high and are constantly building the next “big thing(s)”."
+            },
+            {
+                "title": "Keep it simple, keep it clear",
+                "description": "Clarity affords focus and with focus comes conviction and true originality. Whether for our customers, partners or colleagues, we deliver solutions that are clear, easy to use and intuitive."
+            },
+            {
+                "title": "We take care of each other",
+                "description": "We’re a tight-knit bunch and we take care of each other, putting kindness and empathy above our own egos. Before acting, we always ask ourselves, am I doing either \"more good\" or \"less harm\"."
+            },
+            {
+                "title": "Joy creates joy",
+                "description": "With Nature, things don’t always work out quite the way you planned. This path of exploration and discovery brings us joy that we want to share with the whole world. We like to shake up the routine and bring fun to serious topics."
+            }
+        ]
+    },
+
+    "ecoGrid": {
+        "title": "The perks of being a Click & Grower",
+        "items": [{
+                "title": "Make a green dent in the universe",
+                "description": "Every day, you’ll help people across the globe help the planet and live a healthier, mindful, and happy life."
+            },
+            {
+                "button": "Click to play"
+            },
+            {
+                "title": "Rewarding challenges",
+                "description": "Making the future happen is a fast and rewarding ride. We’re a big family in small and agile teams. You’ll play an integral part in everything we achieve and always have the chance to grow in Click & Grow."
+            },
+            {
+                "title": "The green package of joy",
+                "description": "You’ll get the perks of our start-up grade offices that are as green and full of life as they get. You can enjoy sporting benefits, health boosting food, tree planting and other team events. And you’ll definitely have the chance to become a gardener and the greenest person your friends & family know."
+            }
+        ]
+    },
+
+    "hiring": {
+        "title": "Open positions",
+        "noPositions": "We currently have no open positions.",
+        "message": "Please check back as we will most certainly be looking for great people to join our team in the future."
+    },
+
+    "contact": {
+        "title": "Contact",
+        "support": {
+            "title": "Support",
+            "text1": "For any questions regarding your Smart Garden, plant care, shipping, restrictions etc, please visit our support page at ",
+            "link": "https://support.clickandgrow.com",
+            "text2": "."
+        },
+        "media": {
+            "title": "Media Inquiries",
+            "email": "Email: press@clickandgrow.com",
+            "text1": "Learn more about us via our ",
+            "link": "Digital Press Kit",
+            "text2": "."
+        },
+        "influencer": {
+            "title": "Are you an influencer or blogger?",
+            "text1": "To become an affiliate, submit your collaboration request ",
+            "link": "here",
+            "text2": "."
+        },
+        "b2b": {
+            "title": "B2B Sales",
+            "text1": "Our B2B team can assist with inquiries related to Distribution, Retail Partnerships, Bulk Orders, Corporate Gifting, and general sales questions.",
+            "link": "Please fill in this form",
+            "text2": " and they'll get back to you."
+        },
+        "officeUS": {
+            "title": "Click & Grow US office",
+            "address": "2443 Fillmore St 380-8505<br>San Francisco<br>CA, 94115<br>Email: info@clickandgrow.com"
+        },
+        "officeEE": {
+            "title": "Click & Grow Estonian office",
+            "address": "Narva mnt 9,<br>51009, Tartu<br>Estonia<br>Email: info@clickandgrow.com"
+        }
+    },
+
+    "findus": {
+        "title": "Find Click & Grow in stores near you",
+        "subtitle1": "Want to find us in stores?",
+        "text1": "Find our gardens at Nordstrom, Bloomingdales and Dillards",
+        "text2": "+ many more local and small businesses!",
+        "mapText": "Find your nearest location on the map.",
+        "subtitle2": "Want to become a reseller?",
+        "reseller": "Contact <a href='mailto:sales@clickandgrow.com'>sales@clickandgrow.com</a>"
+    },
+
+    "plantSection": {
+        "title": "Most popular picks",
+        "subtitle": "Foolproof favorites that just work.",
+        "items": [{
+                "getInfoAlt": "get info image",
+                "imageAlt": "Basil plant",
+                "name": "Basil",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Lavender plant",
+                "name": "Lavender",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Lettuce",
+                "name": "Green Lettuce",
+                "pack": "9-Pack",
+                "price": "$2.77",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Fruit and Veggie Mix",
+                "name": "Fruit And Veggie Mix",
+                "pack": "9-Pack",
+                "price": "$3.32",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Cilantro (Coriander)",
+                "name": "Cilantro (Coriander)",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Grow Anything",
+                "name": "Grow Anything",
+                "pack": "30-Pack",
+                "price": "$1.99",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Mini Tomato",
+                "name": "Mini Tomato",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Wild Strawberry",
+                "name": "Wild Strawberry",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Peppermint",
+                "name": "Peppermint",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Chives",
+                "name": "Chives",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Lettuce",
+                "name": "Green Lettuce",
+                "pack": "3-Pack",
+                "price": "$3.23",
+                "priceTag": "price per pod"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
     "footer": {
-        "copyright": "Copyright © Smart Garden All Rights Reserved"
+        "quickLinks": {
+            "title": "Quick links",
+            "contact": "Contact us",
+            "findUs": "Find us in store",
+            "referFriend": "Refer a friend",
+            "affiliate": "Affiliate program",
+            "partnership": "Partnership program",
+            "reseller": "Reseller application",
+            "refund": "Refund policy",
+            "privacyApp": "Privacy policy for app",
+            "terms": "Terms of Service",
+            "affirm": "Affirm"
+        },
+        "media": {
+            "title": "Media & Press",
+            "communityGroup": "Community group",
+            "askForum": "Ask a gardener forum",
+            "blog": "Blog",
+            "digitalPressKit": "Digital Press Kit"
+        },
+        "app": {
+            "title": "App",
+            "appStore": "Available on the App Store",
+            "googlePlay": "Available on Google Play"
+        },
+        "explore": {
+            "title": "Explore",
+            "faq": "FAQ",
+            "aboutUs": "About us",
+            "technology": "Technology",
+            "careers": "Careers",
+            "products": "Products",
+            "research": "Research and development"
+        },
+        "follow": {
+            "title": "Follow us",
+            "facebook": "facebook",
+            "instagram": "instagram",
+            "linkedin": "linkedin",
+            "pinterest": "pinterest",
+            "tiktok": "tiktok"
+        },
+        "bottom": {
+            "copyright": "© CLICK & GROW LLC 2025. All Rights Reserved.",
+            "privacy": "Privacy Policy",
+            "terms": "Terms of Service",
+            "selectRegion": "Select region",
+            "regionName": "USA",
+            "amex": "amex",
+            "mastercard": "mastercard",
+            "visa": "visa",
+            "paypal": "paypal"
+        }
     }
+
+
+
+
+
+
+
+
+
 }

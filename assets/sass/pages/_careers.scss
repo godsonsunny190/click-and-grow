@@ -35,8 +35,8 @@
             font-size: 28px;
             margin-bottom: 20px;
             line-height: 1.1;
-            font-family: $font-futura;
-            font-weight: 600;
+            font-family: $secondery-font;
+            font-weight: 700;
             color: $color-40;
             max-width: 440px;
             width: 100%;
@@ -46,7 +46,7 @@
             }
 
             @media (min-width: 1200px) {
-                font-size: 48px;
+                font-size: 46px;
             }
 
             @include media-breakpoint-down(lg) {
@@ -55,8 +55,7 @@
         }
 
         p {
-            font-family: $font-futura;
-            line-height: 1.3;
+            font-family:$secondery-font;
             font-weight: 400;
             color: $color-40;
             letter-spacing: normal;
@@ -74,7 +73,7 @@
             align-items: center;
             height: 50px;
             font-size: 20px;
-            font-weight: 600;
+            font-weight: 700;
             color: $color-40;
             transition: color .25s, background-color .25s, border-color .25s;
             padding: 0 1.25em;
@@ -176,9 +175,9 @@
         h2 {
             text-align: center;
             font-size: 32px;
-            font-weight: 600;
+            font-weight: 700;
             line-height: 1.1;
-            font-family: $font-futura;
+            font-family:$secondery-font;
         }
     }
 
@@ -205,15 +204,14 @@
         h4 {
             font-size: 20px;
             text-transform: capitalize;
-            font-weight: 600;
-            font-family: $font-futura;
+            font-weight: 700;
+            font-family:$secondery-font;
             line-height: 1.4;
         }
 
         p {
             margin-top: 10px;
-            font-family: $font-futura;
-            line-height: 1.3;
+            font-family:$secondery-font;
         }
     }
 }
@@ -233,9 +231,9 @@
         h2 {
             text-align: center;
             font-size: 32px;
-            font-weight: 600;
+            font-weight: 700;
             line-height: 1.1;
-            font-family: $font-futura;
+            font-family:$secondery-font;
         }
     }
 
@@ -289,9 +287,8 @@
 
         p {
             margin-top: 22px;
-            line-height: 1.3;
             font-weight: 400;
-            font-family: $font-futura;
+            font-family:$secondery-font;
 
             @include media-breakpoint-down(sm) {
                 margin-top: 15px;
@@ -356,9 +353,9 @@
         h2 {
             text-align: center;
             font-size: 32px;
-            font-weight: 600;
+            font-weight: 700;
             line-height: 1.1;
-            font-family: $font-futura;
+            font-family:$secondery-font;
         }
     }
 
@@ -369,15 +366,15 @@
 
         span {
             font-size: 16px;
-            font-weight: 600;
+            font-weight: 700;
             color: $color-ad;
-            font-family: $font-futura;
+            font-family:$secondery-font;
         }
 
         p {
             color: $color-ad;
             font-size: 15px;
-            font-family: $font-futura;
+            font-family:$secondery-font;
         }
     }
 

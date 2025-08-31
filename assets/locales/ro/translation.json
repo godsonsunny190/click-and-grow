@@ -1,0 +1,920 @@
+{
+    "title": "Website Grădină Inteligentă",
+    "nav": {
+        "brand": "Grădină Inteligentă",
+        "products": {
+            "title": "Produse",
+            "submenu": {
+                "indoorGardens": "Grădini de interior",
+                "plantPods": "Capsule cu plante",
+                "indoorGardenKits": "Kituri pentru grădină",
+                "accessories": "Accesorii"
+            }
+        },
+        "subscription": "Abonament",
+        "blog": "Blog",
+        "support": "Asistență",
+        "education": "Educație",
+        "about": "Despre noi"
+    },
+    "login": {
+        "country": "SUA",
+        "account": "Autentificare",
+        "cart": "Coș"
+    },
+    "cart": {
+        "title": "Coș de cumpărături",
+        "emptyMessage": "Coșul dvs. este gol."
+    },
+
+    "hero": {
+        "title": "PENTRU MINE",
+        "subtitle": "Îmbunătățește-ți stilul de viață cu <br> Grădinile Inteligente — obține mâncare mai sănătoasă, <br> băuturi delicioase sau decor care aduce bucurie.",
+        "cta": "Cumpără acum"
+    },
+
+    "products": {
+        "title": "Elegant și simplu",
+        "subtitle": "Grădinile noastre de interior te ajută să cultivi ca un profesionist, fără să știi totul dinainte",
+        "view": "Vezi produsul",
+        "discover": "Descoperă toate grădinile",
+        "items": {
+            "garden9": {
+                "title": "Smart Garden 9",
+                "price": "$249.95"
+            },
+            "garden9pro": {
+                "title": "Smart Garden 9 PRO",
+                "price": "$299.95"
+            },
+            "garden3": {
+                "title": "Smart Garden 3",
+                "price": "$99.95"
+            },
+            "hydro": {
+                "title": "HydroVase de la Ermonix",
+                "price": "$69.95"
+            }
+        }
+    },
+
+    "plantHero": {
+        "title": "Fiecare plantă este o poveste nouă",
+        "subtitle": "Te vom ajuta să fii personajul principal. Explorează cele 65+ moduri în care povestea poate evolua.",
+        "cta": "Cumpără Capsule cu Plante"
+    },
+
+    "plantCards": {
+        "sectionTitle": "Colecția de Plante",
+        "pricePerPod": "preț per capsulă",
+        "savePercent": "ECONOMISIȚI 25%",
+        "exploreButton": "Explorați toate Plantele",
+        "getInfoAlt": "imagine pentru informații",
+        "plants": [{
+                "id": "basil",
+                "name": "Busuioc",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Plantă de busuioc"
+            },
+            {
+                "id": "lavender",
+                "name": "Lavandă",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Plantă de lavandă"
+            },
+            {
+                "id": "green-lettuce",
+                "name": "Salată Verde",
+                "pack": "Pachet de 9",
+                "price": "$2.77",
+                "alt": "Salată Verde"
+            },
+            {
+                "id": "fruit-veggie-mix",
+                "name": "Mix de Fructe și Legume",
+                "pack": "Pachet de 9",
+                "price": "$3.32",
+                "alt": "Mix de Fructe și Legume"
+            },
+            {
+                "id": "cilantro",
+                "name": "Coriandru",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Coriandru"
+            },
+            {
+                "id": "grow-anything",
+                "name": "Crește Orice",
+                "pack": "Pachet de 30",
+                "price": "$1.99",
+                "alt": "Crește Orice"
+            },
+            {
+                "id": "mini-tomato",
+                "name": "Roșii Mici",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Roșii Mici"
+            },
+            {
+                "id": "wild-strawberry",
+                "name": "Căpșuni Sălbatice",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Căpșuni Sălbatice"
+            },
+            {
+                "id": "peppermint",
+                "name": "Mentă Pipărată",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Mentă Pipărată"
+            },
+            {
+                "id": "chives",
+                "name": "Arpagic",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "alt": "Arpagic"
+            },
+            {
+                "id": "green-lettuce-discount",
+                "name": "Salată Verde",
+                "pack": "Pachet de 3",
+                "originalPrice": "$4.31",
+                "discountPrice": "$3.23",
+                "discount": "ECONOMISIȚI 25%",
+                "alt": "Salată Verde"
+            }
+        ]
+    },
+
+
+    "features": {
+        "sectionTitle": "Crește mai inteligent, nu mai greu",
+        "sectionSubtitle": "Începe grădinăritul interior cu noi",
+        "cards": [{
+                "id": "zero-learning",
+                "title": "Fără curba de învățare",
+                "description": "5 minute pentru instalare. Câteva zile pentru a încolți. Câteva săptămâni pentru a recolta. Nu sunt necesare abilități.",
+                "alt": "Imagine fără curba de învățare"
+            },
+            {
+                "id": "no-dirt",
+                "title": "Fără mizerie, fără îndoieli, fără dramă",
+                "description": "Semințe, nutrienți, pH, controlul umidității? Da, capsulele noastre cu plante se ocupă de toate acestea. Fără mizerie, fără stres.",
+                "alt": "Imagine fără mizerie, fără îndoieli, fără dramă"
+            },
+            {
+                "id": "fresh-beats",
+                "title": "Proaspătul învinge magazinul",
+                "description": "De la grădină la farfurie în câteva secunde. Cu nutrienții intacți și fără aditivi, așa ar trebui să aibă gust legumele.",
+                "alt": "Imagine proaspătul învinge magazinul"
+            }
+        ]
+    },
+
+
+    "values": {
+        "sectionTitle": "De ce oamenii nu se mai satură de noi",
+        "items": [{
+                "id": "sprouting-guarantee",
+                "title": "Garanția germinării",
+                "description": "Înlocuim capsulele care nu cresc",
+                "alt": "Pictogramă garanție germinare"
+            },
+            {
+                "id": "year-round",
+                "title": "Crește plante tot anul",
+                "description": "Legume de sezon? Nu o cunoaștem",
+                "alt": "Pictogramă creștere tot anul"
+            },
+            {
+                "id": "expert-support",
+                "title": "Suport expert",
+                "description": "Avem doctori pentru toate problemele tale",
+                "alt": "Pictogramă suport expert"
+            },
+            {
+                "id": "clean-sustainable",
+                "title": "Curat și sustenabil",
+                "description": "Chiar mai bun decât produsele organice",
+                "alt": "Pictogramă curat și sustenabil"
+            }
+        ]
+    },
+
+    "social": {
+        "title": "Peste 10.000.000 de plante cultivate",
+        "subtitle": "Alăturați-vă comunității noastre înfloritoare!",
+        "reviews": [{
+                "text": "Îmi place foarte mult un ceai de mentă bun, așa că să-l am atât de proaspăt în fiecare dimineață este cu adevărat ceva special! 😍 Nu înțelegi bucuria până nu îți cultivi propria ta mentă 🌱💕",
+                "author": "greciadelapaz"
+            },
+            {
+                "text": "Perfect pentru cineva ca mine, care de obicei nu reușește să mențină plantele în viață.",
+                "author": "dinajessica"
+            },
+            {
+                "text": "În opinia noastră, nimic nu are un gust la fel de bun ca roșiile sau salata crescute acasă, fără aditivi și îngrășăminte inutile 💗",
+                "author": "qualitytestpl"
+            },
+            {
+                "text": "Nu am fost niciodată atât de entuziasmat să urmăresc plantele crescând. Abia aștept!",
+                "author": "gailofthegarden"
+            },
+            {
+                "text": "Mojito cu mentă proaspătă tot anul!😍🙈",
+                "author": "homeinestonia"
+            },
+            {
+                "text": "Felul în care i s-au luminat ochii când au apărut primele muguri? De neprețuit.",
+                "author": "somedayilllearn"
+            },
+            {
+                "text": "Whiskey își urmărește plantele de căpșuni în grădina lui mică 🍓",
+                "author": "whiskey_the_yorkie"
+            },
+            {
+                "text": "Probabil cea mai grozavă invenție! Ne-am distrat urmărind acești muguri crescând din capsulele lor.",
+                "author": "thismamaloveslife"
+            },
+            {
+                "text": "Îmi face mare plăcere să gătesc propria mea mâncare... dar nu știam bucuria de a CREȘTE propria mea mâncare!!!",
+                "author": "blogilates"
+            },
+            {
+                "text": "Îmi place! Plantele au crescut atât de repede, m-au uimit.",
+                "author": "reeseology_"
+            },
+            {
+                "text": "Plantăm capsulele noastre de semințe în grădina inteligentă Click and Grow.",
+                "author": "childrensgardenschool"
+            }
+        ]
+    },
+
+    "newsletter": {
+        "imageAlt": "Imagine de fundal newsletter",
+        "title": "Citește Gazeta Grădinii Noastre",
+        "description": "Abonează-te la newsletter-ul nostru pentru oferte exclusive Click & Grow și noutăți interesante.",
+        "namePlaceholder": "Nume",
+        "emailPlaceholder": "Adresă de email",
+        "button": "Abonează-te la Newsletter",
+        "terms": "Prin furnizarea adresei tale de email, ești de acord să primești mesaje de marketing, inclusiv coduri promoționale, detalii despre campanii curente și mementouri pentru coșul de cumpărături."
+    },
+
+    "cta": {
+        "backgroundImage": "url(./assets/images/index/cg-r-birthday-2024-banner-readytogrow.webp)",
+        "title": "Gata de Creștere?",
+        "subtitle": "Plante ușor de crescut, viață mai bună",
+        "button": "Cumpără acum"
+    },
+
+    "subhero": {
+        "imageAlt": "imagine ero abonați",
+        "title": "Economisiți bani și creșteți mereu",
+        "subtitle": "Configurați o singură dată sau modificați oricând. Abonamentul dvs. la podul de plante este cea mai directă cale de a deveni un iubitor de plante.",
+        "button": "Începe abonamentul de plante"
+    },
+
+    "compare": {
+        "left": {
+            "title": "Smart Garden 9 și poduri de plante",
+            "subtitle": "dacă nu aveți încă un Smart Garden",
+            "button": "Abonament Garden & Plants",
+            "imageAlt": "Imagine Smart Garden 9 și poduri de plante"
+        },
+        "right": {
+            "title": "Click & Grow 25 și Fresh Greens",
+            "subtitle": "Abonament de 12 luni care asigură o recoltă continuă de verdețuri proaspete folosind ciclul de creștere de 5 săptămâni al Click & Grow 25.",
+            "button": "Abonament Click & Grow 25",
+            "imageAlt": "Imagine Click & Grow 25"
+        }
+    },
+
+    "workflow": {
+        "title": "Cum funcționează?",
+        "subtitle": "Simplu – abonamentul face viața mai ușoară.",
+        "steps1": [{
+                "title": "Selectează cantitatea",
+                "description": "Alege câte pachete de 3 sau 9 Plant Pod vrei să primești într-o singură livrare și intervalul tău de expediere implicit",
+                "imageAlt": "icon selectare cantitate"
+            },
+            {
+                "title": "Alege plantele tale",
+                "description": "Alege care pachete de 3 sau 9 Plant Pod vrei să primești în livrarea abonamentului tău",
+                "imageAlt": "icon alegere plante"
+            },
+            {
+                "title": "Personalizează după preferințe",
+                "description": "Schimbă selecția de plante sau anulează oricând dorești.",
+                "imageAlt": "icon personalizare"
+            }
+        ],
+        "steps2": [{
+                "title": "Transport gratuit",
+                "description": "Începe să grădinărești oriunde te afli. Fără taxe ascunse.",
+                "imageAlt": "icon transport gratuit"
+            },
+            {
+                "title": "Garanție de încolțire",
+                "description": "Uneori natura are propria voință. Dacă planta nu încolțește, o vom înlocui.",
+                "imageAlt": "icon garanție încolțire"
+            },
+            {
+                "title": "Transport gratuit",
+                "description": "Începe să grădinărești oriunde te afli. Fără taxe ascunse.",
+                "imageAlt": "icon transport gratuit"
+            }
+        ]
+    },
+
+    "catalogue": {
+        "title": "Ce pot să cresc?",
+        "subtitle": "Alege din peste 75 de varietăți de ierburi, flori, verdețuri și altele.",
+        "items": [{
+                "name": "Mini Roșii",
+                "imageAlt": "Imagine Mini Roșii"
+            },
+            {
+                "name": "Busuioc",
+                "imageAlt": "Imagine Busuioc"
+            },
+            {
+                "name": "Salată verde",
+                "imageAlt": "Imagine Salată verde"
+            },
+            {
+                "name": "Căpșuni sălbatice",
+                "imageAlt": "Imagine Căpșuni sălbatice"
+            },
+            {
+                "name": "Lavandă",
+                "imageAlt": "Imagine Lavandă"
+            },
+            {
+                "more": "+ multe altele"
+            }
+        ]
+    },
+
+    "setup": {
+        "title": "Cum să începi",
+        "subtitle": "Doar 3 pași simpli!",
+        "steps": [{
+                "title": "1. Introduceți podurile de plante",
+                "description": "Podurile noastre de plante sunt biodegradabile și nu conțin substanțe chimice dăunătoare.",
+                "imageAlt": "introduceți podurile imagine"
+            },
+            {
+                "title": "2. Adaugă apă",
+                "description": "Smart Garden 9 are un rezervor de 4 l/135 oz, suficient pentru până la o lună.",
+                "imageAlt": "adaugă apă imagine"
+            },
+            {
+                "title": "3. Conectează și bucură-te",
+                "description": "Datorită sistemului LED eficient energetic, Smart Garden 9 consumă doar 13W.",
+                "imageAlt": "conectează și bucură-te imagine"
+            }
+        ]
+    },
+
+    "subscribe": {
+        "text": "Economisește și nu rămâne fără plante de crescut niciodată!",
+        "button": "Obține abonamentul acum"
+    },
+
+    "blogIntro": {
+        "title": "Știri",
+        "subtitle": "Ghidul tău pentru plante, rețete și multe altele",
+        "searchPlaceholder": "Caută în blog",
+        "searchButton": "Caută"
+    },
+
+    "blogGrid": {
+        "categoriesLabel": "Categorii:",
+        "allPosts": "Toate articolele",
+        "categories": {
+            "indoorGardens": "Grădini de interior",
+            "recipes": "Rețete",
+            "gardening": "Grădinărit și plante",
+            "sustainability": "Sustenabilitate",
+            "nutrition": "Nutriție",
+            "mentalHealth": "Sănătate mentală"
+        },
+        "posts": [{
+                "category": "Grădini de interior",
+                "imageAlt": "Grădină de interior",
+                "title": "Click & Grow colaborează cu Little Kitchen Academy ca furnizor exclusiv de grădini interioare",
+                "date": "28 Mai 2025"
+            },
+            {
+                "category": "Rețete",
+                "imageAlt": "Rețetă",
+                "title": "Cele mai bune 5 plante pentru grădina ta hidroponică de interior",
+                "date": "25 Mai 2025"
+            },
+            {
+                "category": "Grădini de interior",
+                "imageAlt": "Grădină de interior",
+                "title": "Ghid complet pentru configurarea primului tău Smart Garden",
+                "date": "22 Mai 2025"
+            },
+            {
+                "category": "Rețete",
+                "imageAlt": "Rețetă",
+                "title": "Rețete de salată cu ierburi proaspete din grădina ta",
+                "date": "20 Mai 2025"
+            },
+            {
+                "category": "Rețete",
+                "imageAlt": "Rețetă",
+                "title": "10 rețete rapide de smoothie cu verdețuri din grădină",
+                "date": "18 Mai 2025"
+            },
+            {
+                "category": "Grădinărit și plante",
+                "imageAlt": "Grădinărit",
+                "title": "Înțelegerea ciclurilor de creștere ale plantelor",
+                "date": "15 Mai 2025"
+            },
+            {
+                "category": "Grădinărit și plante",
+                "imageAlt": "Grădinărit",
+                "title": "Probleme comune ale plantelor și soluții",
+                "date": "12 Mai 2025"
+            },
+            {
+                "category": "Sustenabilitate",
+                "imageAlt": "Sustenabilitate",
+                "title": "Reducerea risipei alimentare cu grădini acasă",
+                "date": "10 Mai 2025"
+            },
+            {
+                "category": "Sustenabilitate",
+                "imageAlt": "Sustenabilitate",
+                "title": "Practici ecologice de grădinărit",
+                "date": "8 Mai 2025"
+            },
+            {
+                "category": "Nutriție",
+                "imageAlt": "Nutriție",
+                "title": "Beneficiile nutriționale ale legumelor crescute acasă",
+                "date": "5 Mai 2025"
+            },
+            {
+                "category": "Sănătate mentală",
+                "imageAlt": "Sănătate mentală",
+                "title": "Beneficiile sănătății mentale ale grădinăritului de interior",
+                "date": "3 Mai 2025"
+            }
+        ],
+        "pagination": {
+            "newer": "‹ Articole mai noi",
+            "older": "Articole mai vechi ›"
+        }
+    },
+
+    "aboutHero": {
+        "title": "Bucuria Naturii pentru Toți",
+        "subtitle": "Credem că toată lumea merită beneficiile unei grădini",
+        "imageAlt": "imagine hero despre"
+    },
+
+    "triColSection": {
+        "title": "De ce este important?",
+        "subtitle": "Iată ce știm că este adevărat",
+        "items": [{
+                "title": "Plante de interior",
+                "description": "Îmbunătățesc sănătatea, reduc stresul, purifică aerul și cresc fericirea.",
+                "imageAlt": "imagine plante de interior"
+            },
+            {
+                "title": "O abordare proaspătă a naturii",
+                "description": "Grădinile inteligente conectează viața modernă cu natura, permițându-vă să cultivați plante proaspete tot timpul anului – fără bătăi de cap.",
+                "imageAlt": "imagine abordare proaspătă"
+            },
+            {
+                "title": "Este nevoie de o conexiune: Tu",
+                "description": "Click & Grow: hobby-ul perfect sau o explorare aprofundată a horticulturii. Sistemul nostru se adaptează nevoilor tale oricând, oriunde.",
+                "imageAlt": "imagine conexiune"
+            }
+        ]
+    },
+
+    "bannerSection": {
+        "title": "Pionieri ai grădinăritului inteligent de 15 ani",
+        "subtitle": "Dincolo de gadgeturi și trucuri",
+        "backgroundImageAlt": "Banner de ziua de naștere 2024"
+    },
+
+    "showcase": {
+        "items": [{
+                "title": "Plante proaspete pe tot parcursul anului",
+                "imageAlt": "Plante proaspete pe tot parcursul anului"
+            },
+            {
+                "title": "500.000+ utilizatori fericiți",
+                "imageAlt": "icon"
+            },
+            {
+                "title": "Se potrivește în spații limitate",
+                "imageAlt": "Se potrivește în spații limitate"
+            },
+            {
+                "subtext": "Prezentat în",
+                "logos": ["Digital Trend logo", "Fast Company logo", "New York Times logo", "Vogue logo", "Wired logo"]
+            },
+            {
+                "rating": "4.9",
+                "subtext": "Evaluarea medie a clienților",
+                "imageAlt": "Evaluarea medie a clienților 4.9"
+            },
+            {
+                "title": "Peste 75 de plante disponibile"
+            },
+            {
+                "title": "Funcționare silențioasă",
+                "imageAlt": "Funcționare silențioasă"
+            },
+            {
+                "steps": {
+                    "0": "1. Adaugă capsulele",
+                    "1": "2. Adaugă apă",
+                    "2": "3. Conectează aparatul",
+                    "3": "4. Bucură-te"
+                }
+            },
+            {
+                "steps": {
+                    "0": "Sol inteligent",
+                    "1": "include",
+                    "2": "semințe &",
+                    "3": "nutrienți"
+                },
+                "imageAlt": "Sol inteligent include semințe și nutrienți"
+            },
+            {
+                "title": "Fără OMG-uri, erbicide sau pesticide",
+                "imageAlt": "Fără OMG-uri, erbicide sau pesticide"
+            }
+        ]
+    },
+
+    "socialProof": {
+        "title": "Peste 10.000.000 de plante cultivate",
+        "subtitle": "Alăturați-vă comunității noastre înfloritoare!",
+        "items": [{
+                "text": "Mă bucur foarte mult de o ceașcă bună de ceai de mentă, așa că având-o atât de proaspătă în fiecare dimineață este cu adevărat ceva deosebit! 😍 nu înțelegi bucuria până nu îți crești propria plantă 🌱💕",
+                "username": "greciadelapaz"
+            },
+            {
+                "text": "Perfect pentru o persoană cu deget verde ca mine, care de obicei nu poate menține plantele în viață.",
+                "username": "dinajessica"
+            },
+            {
+                "text": "După părerea noastră, nimic nu are gust la fel de bun ca roșiile sau salata cultivate acasă, fără adaosuri sau îngrășăminte inutile 💗",
+                "username": "qualitytestpl"
+            },
+            {
+                "text": "Nu am fost niciodată atât de încântat să urmăresc plantele. Abia aștept!",
+                "username": "gailofthegarden"
+            },
+            {
+                "text": "Mojito cu mentă proaspătă tot anul!😍🙈",
+                "username": "homeinestonia"
+            },
+            {
+                "text": "Cum îi străluceau ochii când au apărut primii lăstari? Neprețuit.",
+                "username": "somedayilllearn"
+            },
+            {
+                "text": "Whiskey este în micuța lui grădină să urmărească căpșunile 🍓",
+                "username": "whiskey_the_yorkie"
+            },
+            {
+                "text": "Cea mai grozavă invenție vreodată! Ne-am distrat atât de mult urmărind acești lăstari crescând din capsulele lor.",
+                "username": "thismamaloveslife"
+            },
+            {
+                "text": "Îmi aduce atât de multă bucurie să gătesc mâncarea mea...dar nu știam că plăcerea stă în a-ți crește propria hrană!!!",
+                "username": "blogilates"
+            },
+            {
+                "text": "Îmi place! Plantele au crescut atât de repede, m-a uimit.",
+                "username": "reeseology_"
+            },
+            {
+                "text": "Plantarea capsulelor noastre de semințe în Click and Grow Smart Garden.",
+                "username": "childrensgardenschool"
+            }
+        ]
+    },
+
+    "productSection": {
+        "title": "Încearcă—Merită!",
+        "subtitle": "Explorează familia noastră de grădini inteligente",
+        "items": [{
+                "name": "Smart Garden 3",
+                "price": "$99.95",
+                "viewProduct": "Vezi produsul"
+            },
+            {
+                "name": "Smart Garden 3",
+                "price": "$249.95",
+                "viewProduct": "Vezi produsul"
+            },
+            {
+                "name": "The Smart Garden 27",
+                "price": "$899.95",
+                "viewProduct": "Vezi produsul"
+            },
+            {
+                "name": "Click & Grow 25",
+                "price": "$999.95",
+                "viewProduct": "Vezi produsul"
+            }
+        ],
+        "discoverAll": "Descoperă toate grădinile"
+    },
+
+    "careerHero": {
+        "title": "Gata să ajutăm planeta și să îmbunătățim viețile a milioane de oameni?",
+        "description": "Suntem lideri în inovația grădinăritului de interior și a sustenabilității alimentare și dorim să te alături echipei noastre pentru a aduce magia naturii în viața de zi cu zi.",
+        "buttons": {
+            "openPositions": "Toate pozițiile deschise",
+            "meetTeam": "Cunoaște echipa noastră"
+        },
+        "images": {
+            "alt1": "imagine eroina carieră",
+            "alt2": "imagine eroina carieră",
+            "alt3": "imagine eroina carieră"
+        }
+    },
+
+    "ourValues": {
+        "title": "Valorile noastre",
+        "items": [{
+                "title": "Rămâi curios",
+                "description": "Suntem inovatori prin natură. Alimentați de entuziasm și pasiune comună, țintim sus și construim constant următorul „mare lucru”."
+            },
+            {
+                "title": "Păstrează lucrurile simple și clare",
+                "description": "Claritatea oferă concentrare, iar concentrarea aduce convingere și adevărată originalitate. Pentru clienți, parteneri sau colegi, oferim soluții clare, ușor de folosit și intuitive."
+            },
+            {
+                "title": "Avem grijă unii de alții",
+                "description": "Suntem o echipă unită și avem grijă unii de alții, punând bunătatea și empatia mai presus de propriul ego. Înainte de a acționa, ne întrebăm mereu dacă facem „mai mult bine” sau „mai puțin rău”."
+            },
+            {
+                "title": "Bucuria creează bucurie",
+                "description": "În Natură, lucrurile nu merg întotdeauna așa cum ai planificat. Acest drum al explorării și descoperirii ne aduce bucurie pe care vrem să o împărtășim lumii întregi. Ne place să scuturăm rutina și să aducem distracție în subiecte serioase."
+            }
+        ]
+    },
+
+    "ecoGrid": {
+        "title": "Avantajele de a fi Click & Grower",
+        "items": [{
+                "title": "Fă o amprentă verde în univers",
+                "description": "În fiecare zi, vei ajuta oamenii din întreaga lume să protejeze planeta și să ducă o viață mai sănătoasă, conștientă și fericită."
+            },
+            {
+                "button": "Click pentru a reda"
+            },
+            {
+                "title": "Provocări recompensatoare",
+                "description": "A face viitorul să se întâmple este o călătorie rapidă și recompensatoare. Suntem o familie mare în echipe mici și agile. Vei juca un rol esențial în tot ceea ce realizăm și vei avea întotdeauna șansa să crești în Click & Grow."
+            },
+            {
+                "title": "Pachetul verde al bucuriei",
+                "description": "Vei beneficia de avantajele birourilor noastre de tip start-up, care sunt la fel de verzi și pline de viață cum se poate. Te poți bucura de beneficii sportive, alimente care îmbunătățesc sănătatea, plantarea copacilor și alte evenimente de echipă. Și cu siguranță vei avea șansa să devii grădinarul cel mai verde cunoscut de prietenii și familia ta."
+            }
+        ]
+    },
+
+    "hiring": {
+        "title": "Posturi disponibile",
+        "noPositions": "În prezent nu există posturi disponibile.",
+        "message": "Vă rugăm să reveniți, deoarece cu siguranță vom căuta oameni talentați pentru a se alătura echipei noastre în viitor."
+    },
+
+    "contact": {
+        "title": "Contact",
+        "support": {
+            "title": "Asistență",
+            "text1": "Pentru orice întrebări legate de Smart Garden, îngrijirea plantelor, livrare, restricții etc, vă rugăm să vizitați pagina noastră de suport la ",
+            "link": "https://support.clickandgrow.com",
+            "text2": "."
+        },
+        "media": {
+            "title": "Întrebări media",
+            "email": "Email: press@clickandgrow.com",
+            "text1": "Aflați mai multe despre noi prin ",
+            "link": "Digital Press Kit",
+            "text2": "."
+        },
+        "influencer": {
+            "title": "Sunteți influencer sau blogger?",
+            "text1": "Pentru a deveni afiliat, trimiteți cererea dvs. de colaborare ",
+            "link": "aici",
+            "text2": "."
+        },
+        "b2b": {
+            "title": "Vânzări B2B",
+            "text1": "Echipa noastră B2B vă poate ajuta cu întrebări legate de distribuție, parteneriate cu retaileri, comenzi în vrac, cadouri corporative și întrebări generale de vânzări.",
+            "link": "Vă rugăm să completați acest formular",
+            "text2": " și vă vor răspunde."
+        },
+        "officeUS": {
+            "title": "Biroul Click & Grow US",
+            "address": "2443 Fillmore St 380-8505<br>San Francisco<br>CA, 94115<br>Email: info@clickandgrow.com"
+        },
+        "officeEE": {
+            "title": "Biroul Click & Grow Estonia",
+            "address": "Narva mnt 9,<br>51009, Tartu<br>Estonia<br>Email: info@clickandgrow.com"
+        }
+    },
+
+    "findus": {
+        "title": "Găsește Click & Grow în magazinele din apropiere",
+        "subtitle1": "Vrei să ne găsești în magazine?",
+        "text1": "Găsește grădinile noastre la Nordstrom, Bloomingdales și Dillards",
+        "text2": "+ multe alte afaceri locale și mici!",
+        "mapText": "Găsește cea mai apropiată locație pe hartă.",
+        "subtitle2": "Vrei să devii reseller?",
+        "reseller": "Contactați <a href='mailto:sales@clickandgrow.com'>sales@clickandgrow.com</a>"
+    },
+
+    "plantSection": {
+        "title": "Cele mai populare alegeri",
+        "subtitle": "Favoriți de încredere care funcționează întotdeauna.",
+        "items": [{
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Planta de busuioc",
+                "name": "Busuioc",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Planta de lavandă",
+                "name": "Lavandă",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Salată verde",
+                "name": "Salată verde",
+                "pack": "9 buc",
+                "price": "$2.77",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mix fructe și legume",
+                "name": "Mix fructe și legume",
+                "pack": "9 buc",
+                "price": "$3.32",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Coriandru",
+                "name": "Coriandru",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Grow Anything",
+                "name": "Grow Anything",
+                "pack": "30 buc",
+                "price": "$1.99",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mini roșie",
+                "name": "Mini Roșie",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Căpșună sălbatică",
+                "name": "Căpșună sălbatică",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mentă",
+                "name": "Mentă",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Ceapă verde",
+                "name": "Ceapă verde",
+                "pack": "3 buc",
+                "price": "$4.31",
+                "priceTag": "preț pe păstaie"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Salată verde",
+                "name": "Salată verde",
+                "pack": "3 buc",
+                "price": "$3.23",
+                "priceTag": "preț pe păstaie"
+            }
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    "footer": {
+        "quickLinks": {
+            "title": "Linkuri rapide",
+            "contact": "Contactează-ne",
+            "findUs": "Găsește-ne în magazin",
+            "referFriend": "Recomandă unui prieten",
+            "affiliate": "Program afiliat",
+            "partnership": "Program de parteneriat",
+            "reseller": "Aplicație reseller",
+            "refund": "Politica de returnare",
+            "privacyApp": "Politica de confidențialitate pentru aplicație",
+            "terms": "Termeni și condiții",
+            "affirm": "Affirm"
+        },
+        "media": {
+            "title": "Media & Presă",
+            "communityGroup": "Grup comunitar",
+            "askForum": "Forum întreabă un grădinar",
+            "blog": "Blog",
+            "digitalPressKit": "Kit de presă digital"
+        },
+        "app": {
+            "title": "Aplicație",
+            "appStore": "Disponibil pe App Store",
+            "googlePlay": "Disponibil pe Google Play"
+        },
+        "explore": {
+            "title": "Explorează",
+            "faq": "Întrebări frecvente",
+            "aboutUs": "Despre noi",
+            "technology": "Tehnologie",
+            "careers": "Cariere",
+            "products": "Produse",
+            "research": "Cercetare și dezvoltare"
+        },
+        "follow": {
+            "title": "Urmărește-ne",
+            "facebook": "facebook",
+            "instagram": "instagram",
+            "linkedin": "linkedin",
+            "pinterest": "pinterest",
+            "tiktok": "tiktok"
+        },
+        "bottom": {
+            "copyright": "© CLICK & GROW LLC 2025. Toate drepturile rezervate.",
+            "privacy": "Politica de confidențialitate",
+            "terms": "Termeni și condiții",
+            "selectRegion": "Selectează regiunea",
+            "regionName": "SUA",
+            "amex": "amex",
+            "mastercard": "mastercard",
+            "visa": "visa",
+            "paypal": "paypal"
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+}
