@@ -30,7 +30,6 @@ const updateContent = () =>
   );
 })();
 
-
 async function changeLanguage(lang) {
   const currentLangText = document.getElementById("current-lang-text");
 

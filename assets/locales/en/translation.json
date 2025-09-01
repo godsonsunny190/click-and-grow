@@ -912,15 +912,386 @@
         ]
     },
 
+    "productsSection": {
+        "title": "Indoor Gardens",
+        "subtitle": "We’ve got a size for every taste and they’re all equally exceptional",
+        "items": [{
+                "imageAlt": "product image",
+                "name": "The Smart Garden 3",
+                "price": "$99.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            },
+            {
+                "imageAlt": "product image",
+                "name": "The Smart Garden 9 Limited Edition",
+                "price": "$249.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            },
+            {
+                "imageAlt": "product image",
+                "name": "Link to The Smart Garden 3",
+                "price": "$249.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            },
+            {
+                "imageAlt": "product image",
+                "name": "The Smart Garden 9 PRO",
+                "price": "$299.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            }
+        ]
+    },
 
+    "banner": {
+        "title": "Bloom in Grayscale",
+        "subtitle": "Explore a more modest Smart Garden 9.",
+        "cta": "Shop Now"
+    },
 
+    "largeProductsSection": {
+        "title": "Large Gardens",
+        "subtitle": "Grow big or grow home",
+        "colors": {
+            "white": "White",
+            "grey": "Grey",
+            "beige": "Beige"
+        },
+        "items": [{
+                "imageAlt": "product image",
+                "name": "The Click & Grow 25",
+                "price": "$999.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            },
+            {
+                "imageAlt": "product image",
+                "name": "The Smart Garden 27",
+                "price": "$899.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            },
+            {
+                "imageAlt": "product image",
+                "name": "The Wall Farm Indoor Vertical Garden",
+                "price": "$2,799.95",
+                "view": "View product",
+                "arrowAlt": "arrow image"
+            }
+        ]
+    },
 
+    "commonBanner": {
+        "title": "Twenty-fine",
+        "subtitle": "Grow leafy greens in a cycle",
+        "button": "See Click & Grow 25"
+    },
 
+    "partnerProducts": {
+        "title": "Partner Products",
+        "subtitle": "Compatible and certified fresh.",
+        "new": "New",
+        "viewProduct": "View product",
+        "items": {
+            "hydrovase": "HydroVase By Ermonix",
+            "wateringIndicatorM": "Plant Watering Indicator, Size M",
+            "refillM": "Refills For Plant Watering Indicator, Size M",
+            "wateringIndicatorL": "Plant Watering Indicator, Size L",
+            "refillL": "Refills For Plant Watering Indicator, Size L",
+            "growLight": "Tabletop Grow Light",
+            "wateringPot": "Self Watering Pot",
+            "urbanCultivator": "Urban Cultivator Commercial"
+        }
+    },
 
+    "gardenKitsSection": {
+        "title": "Indoor Garden Kits",
+        "subtitle": "Grow More, Pay Less With Kits For Every Preference.",
+        "viewProduct": "View product",
+        "items": {
+            "smallItalianHerbKit": "Small \"Italian Herb\" Kit",
+            "bigItalianHerbKit": "Big \"Italian Herb\" Kit",
+            "smallSteakSeasoningKit": "Small \"Steak Seasoning\" Kit",
+            "bigSteakSeasoningKit": "Big \"Steak Seasoning\" Kit",
+            "smartGardenUpgrade": "The Smart Garden 9 To 27 Upgrade",
+            "bigSteakSeasoningLimited": "Big \"Steak Seasoning\" Kit Limited Edition"
+        }
+    },
 
+    "accessoriesSection": {
+        "title": "Accessories",
+        "newLabel": "New",
+        "viewProduct": "View product",
+        "items": {
+            "supernova": "Supernova - Smart Garden 9 Upgrade Kit",
+            "pollinationBrush": "Pollination Brush",
+            "wateringIndicatorL": "Plant Watering Indicator Size L",
+            "refillsL": "Refills For Plant Watering Indicator Size L",
+            "wateringIndicatorM": "Plant Watering Indicator Size M",
+            "refillsM": "Refills For Plant Watering Indicator Size M",
+            "storageDrawer": "Storage Drawer For The Click & Grow 25",
+            "selfWateringPot": "Self Watering Pot",
+            "growLight": "Tabletop Grow Light",
+            "accessoriesKit": "Gardening Accessories Kit",
+            "herbShears": "Click & Grow Herb Shears",
+            "reedStraws": "Natural Reed Straws 10 pcs",
+            "plantStand": "The Smart Garden Plant Stand",
+            "giftCard": "Click & Grow Gift Card"
+        }
+    },
 
+    "spareParts": {
+        "title": "Spare Parts",
+        "subtitle": "If Something Went Missing Or You Just Can’t Get Enough.",
+        "viewProduct": "View product",
+        "items": {
+            "plasticCups": "Smart Garden Plastic Cups (3 Pcs)",
+            "proPlantCups": "Pro Plant Cups - Perforated Cups For Increased Yield (9 Pcs)",
+            "domes": "Smart Garden Domes (3 Pcs)",
+            "wicks": "Water Transmitting Wicks (9 Pcs)",
+            "extensionArm3": "Smart Garden 3 Extension Arm",
+            "extensionArm9": "Smart Garden 9 Extension Arm",
+            "lamp3": "Smart Garden 3 Lamp",
+            "lamp9": "Smart Garden 9 Lamp",
+            "lampArm3": "Smart Garden 3 Lamp Arm",
+            "lampArm9": "Smart Garden 9 Lamp Arm",
+            "storageDrawer25": "Storage Drawer For The Click & Grow 25"
+        }
+    },
 
+    "productDetail": {
+        "title": "The Smart Garden 3",
+        "reviews": "32 reviews",
+        "description": "The perfect garden for growing herbs and flowers all year round.",
+        "readMore": "Read full description▾",
+        "selectColor": "Select Color",
+        "colors": {
+            "white": "White",
+            "grey": "Grey",
+            "beige": "Beige"
+        },
+        "price": "$249.95",
+        "payment": "Starting at $21/mo or 0% APR with affirm.",
+        "seeIfQualify": "See if you qualify",
+        "addToCart": "Add to Cart",
+        "images": {
+            "alt1": "Roger SG9",
+            "alt2": "SG9 white side",
+            "alt3": "SG9 kids",
+            "alt4": "SG9 violet",
+            "alt5": "SG9 with lettuce basil tomato",
+            "alt6": "Soil",
+            "alt7": "SG9 beige",
+            "alt8": "SG9 grey"
+        }
+    },
 
+    "dirtCheapPods": {
+        "title": "Dirt Cheap Pods",
+        "subtitle": "Limited stock, unlimited value",
+        "items": [{
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Lettuce",
+                "offer": "SAVE 25%",
+                "name": "Green Lettuce",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Yellow Mini Tomato",
+                "offer": "SAVE 25%",
+                "name": "Yellow Mini Tomato",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Pak Choi",
+                "offer": "SAVE 25%",
+                "name": "Pak Choi",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Arugula",
+                "offer": "SAVE 25%",
+                "name": "Arugula",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Chard",
+                "offer": "SAVE 25%",
+                "name": "Green Chard",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Red Kale",
+                "offer": "SAVE 25%",
+                "name": "Red Kale",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Dill",
+                "offer": "SAVE 25%",
+                "name": "Dill",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Cilantro",
+                "offer": "SAVE 25%",
+                "name": "Cilantro",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Kale",
+                "offer": "SAVE 25%",
+                "name": "Green Kale",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Bloody Sorrel",
+                "offer": "SAVE 25%",
+                "name": "Bloody Sorrel",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Red Lettuce",
+                "offer": "SAVE 25%",
+                "name": "Red Lettuce",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Wasabina Mustard",
+                "offer": "SAVE 25%",
+                "name": "Wasabina Mustard",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Green Sorrel",
+                "offer": "SAVE 25%",
+                "name": "Green Sorrel",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Italian Basil",
+                "offer": "SAVE 25%",
+                "name": "Italian Basil",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Mizuna",
+                "offer": "SAVE 25%",
+                "name": "Mizuna",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Red Chard",
+                "offer": "SAVE 25%",
+                "name": "Red Chard",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Endive",
+                "offer": "SAVE 25%",
+                "name": "Endive",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "get info image",
+                "imageAlt": "Red Pak Choi",
+                "offer": "SAVE 25%",
+                "name": "Red Pak Choi",
+                "pack": "3-Pack",
+                "discount": "$3.23",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            }
+        ]
+    },
+
+    "howToGetStarted": {
+        "title": "Just 3 Easy Steps!",
+        "subtitle": "Just 3 easy steps!",
+        "steps": [{
+                "title": "Insert the plant pods",
+                "description": "Our plant pods are biodegradeable and contain no harmful chemicals."
+            },
+            {
+                "title": "Add water",
+                "description": "The Smart Garden has a 1.5 l/50.7 oz water tank, which holds enough water for up to 3 weeks."
+            },
+            {
+                "title": "Plug it in and enjoy",
+                "description": "Thanks to its energy efficient LED lighting system, the Smart Garden 9 only consumes 13W of power."
+            }
+        ]
+    },
 
 
     "footer": {
@@ -978,13 +1349,4 @@
             "paypal": "paypal"
         }
     }
-
-
-
-
-
-
-
-
-
 }

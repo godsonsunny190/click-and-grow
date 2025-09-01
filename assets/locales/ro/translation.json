@@ -844,12 +844,388 @@
         ]
     },
 
+    "productsSection": {
+        "title": "Grădini de interior",
+        "subtitle": "Avem o dimensiune pentru fiecare gust și toate sunt la fel de excepționale",
+        "items": [{
+                "imageAlt": "imagine produs",
+                "name": "Grădina Inteligentă 3",
+                "price": "$99.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            },
+            {
+                "imageAlt": "imagine produs",
+                "name": "Grădina Inteligentă 9 Ediție Limitată",
+                "price": "$249.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            },
+            {
+                "imageAlt": "imagine produs",
+                "name": "Link către Grădina Inteligentă 3",
+                "price": "$249.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            },
+            {
+                "imageAlt": "imagine produs",
+                "name": "Grădina Inteligentă 9 PRO",
+                "price": "$299.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            }
+        ]
+    },
 
 
+    "banner": {
+        "title": "Înflorește în tonuri de gri",
+        "subtitle": "Descoperă un Smart Garden 9 mai modest.",
+        "cta": "Cumpără acum"
+    },
+
+    "largeProductsSection": {
+        "title": "Grădini Mari",
+        "subtitle": "Crește mare sau crește acasă",
+        "colors": {
+            "white": "Alb",
+            "grey": "Gri",
+            "beige": "Bej"
+        },
+        "items": [{
+                "imageAlt": "imagine produs",
+                "name": "Click & Grow 25",
+                "price": "$999.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            },
+            {
+                "imageAlt": "imagine produs",
+                "name": "Grădina Inteligentă 27",
+                "price": "$899.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            },
+            {
+                "imageAlt": "imagine produs",
+                "name": "Ferma Verticală de Interior Wall Farm",
+                "price": "$2,799.95",
+                "view": "Vezi produsul",
+                "arrowAlt": "imagine săgeată"
+            }
+        ]
+    },
+
+    "commonBanner": {
+        "title": "Douăzeci și cinci",
+        "subtitle": "Cultivă verdețuri într-un ciclu",
+        "button": "Vezi Click & Grow 25"
+    },
 
 
+    "partnerProducts": {
+        "title": "Produse Partenere",
+        "subtitle": "Compatibile și certificate proaspete.",
+        "new": "Nou",
+        "viewProduct": "Vezi produsul",
+        "items": {
+            "hydrovase": "HydroVase de Ermonix",
+            "wateringIndicatorM": "Indicator de udare pentru plante, Mărimea M",
+            "refillM": "Rezerve pentru indicator de udare, Mărimea M",
+            "wateringIndicatorL": "Indicator de udare pentru plante, Mărimea L",
+            "refillL": "Rezerve pentru indicator de udare, Mărimea L",
+            "growLight": "Lampă de creștere pentru masă",
+            "wateringPot": "Ghiveci cu auto-udare",
+            "urbanCultivator": "Urban Cultivator Comercial"
+        }
+    },
 
+    "gardenKitsSection": {
+        "title": "Kituri de Grădină de Interior",
+        "subtitle": "Creește mai mult, plătește mai puțin cu kituri pentru fiecare preferință.",
+        "viewProduct": "Vezi produsul",
+        "items": {
+            "smallItalianHerbKit": "Kit mic „Ierburi Italiene”",
+            "bigItalianHerbKit": "Kit mare „Ierburi Italiene”",
+            "smallSteakSeasoningKit": "Kit mic „Condimente pentru Friptură”",
+            "bigSteakSeasoningKit": "Kit mare „Condimente pentru Friptură”",
+            "smartGardenUpgrade": "Upgrade Smart Garden 9 la 27",
+            "bigSteakSeasoningLimited": "Kit mare „Condimente pentru Friptură” Ediție Limitată"
+        }
+    },
 
+    "accessoriesSection": {
+        "title": "Accesorii",
+        "newLabel": "Nou",
+        "viewProduct": "Vezi produsul",
+        "items": {
+            "supernova": "Supernova - Kit de upgrade Smart Garden 9",
+            "pollinationBrush": "Perie de polenizare",
+            "wateringIndicatorL": "Indicator de udare pentru plante, mărimea L",
+            "refillsL": "Rezerve pentru indicator de udare mărimea L",
+            "wateringIndicatorM": "Indicator de udare pentru plante, mărimea M",
+            "refillsM": "Rezerve pentru indicator de udare mărimea M",
+            "storageDrawer": "Sertar de depozitare pentru Click & Grow 25",
+            "selfWateringPot": "Ghiveci cu auto-udare",
+            "growLight": "Lampă de masă pentru creștere",
+            "accessoriesKit": "Kit de accesorii pentru grădinărit",
+            "herbShears": "Foarfeci pentru ierburi Click & Grow",
+            "reedStraws": "Paie naturale din trestie 10 buc.",
+            "plantStand": "Suport pentru plante Smart Garden",
+            "giftCard": "Card cadou Click & Grow"
+        }
+    },
+
+    "spareParts": {
+        "title": "Piese de schimb",
+        "subtitle": "Dacă ceva s-a pierdut sau pur și simplu nu îți ajunge.",
+        "viewProduct": "Vezi produsul",
+        "items": {
+            "plasticCups": "Pahare din plastic Smart Garden (3 bucăți)",
+            "proPlantCups": "Pahare Pro Plant - Pahare perforate pentru randament crescut (9 bucăți)",
+            "domes": "Capace Smart Garden (3 bucăți)",
+            "wicks": "Fitile pentru transmiterea apei (9 bucăți)",
+            "extensionArm3": "Braț de extensie Smart Garden 3",
+            "extensionArm9": "Braț de extensie Smart Garden 9",
+            "lamp3": "Lampă Smart Garden 3",
+            "lamp9": "Lampă Smart Garden 9",
+            "lampArm3": "Braț pentru lampă Smart Garden 3",
+            "lampArm9": "Braț pentru lampă Smart Garden 9",
+            "storageDrawer25": "Sertar de depozitare pentru Click & Grow 25"
+        }
+    },
+
+    "productDetail": {
+        "title": "Grădina Inteligentă 3",
+        "reviews": "32 recenzii",
+        "description": "Grădina perfectă pentru cultivarea ierburilor și florilor pe tot parcursul anului.",
+        "readMore": "Citește descrierea completă▾",
+        "selectColor": "Selectează culoarea",
+        "colors": {
+            "white": "Alb",
+            "grey": "Gri",
+            "beige": "Bej"
+        },
+        "price": "$249.95",
+        "payment": "Începând de la $21/lună sau 0% dobândă cu affirm.",
+        "seeIfQualify": "Vezi dacă te califici",
+        "addToCart": "Adaugă în coș",
+        "images": {
+            "alt1": "Roger SG9",
+            "alt2": "SG9 parte albă",
+            "alt3": "SG9 copii",
+            "alt4": "SG9 violet",
+            "alt5": "SG9 cu salată, busuioc și roșii",
+            "alt6": "Sol",
+            "alt7": "SG9 bej",
+            "alt8": "SG9 gri"
+        }
+    },
+
+    "dirtCheapPods": {
+        "title": "Capsule ieftine",
+        "subtitle": "Stoc limitat, valoare nelimitată",
+        "items": [{
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Salată verde",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Salată verde",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Roșii galbene mini",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Roșii galbene mini",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Pak Choi",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Pak Choi",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Rucola",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Rucola",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mangold verde",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Mangold verde",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Varză kale roșie",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Varză kale roșie",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mărar",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Mărar",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Coriandru",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Coriandru",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Varză kale verde",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Varză kale verde",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Ștevie roșie",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Ștevie roșie",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Salată roșie",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Salată roșie",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Muștar Wasabina",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Muștar Wasabina",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Ștevie verde",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Ștevie verde",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Busuioc italian",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Busuioc italian",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mizuna",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Mizuna",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Mangold roșu",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Mangold roșu",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Andivă",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Andivă",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            },
+            {
+                "getInfoAlt": "imagine informații",
+                "imageAlt": "Pak Choi roșu",
+                "offer": "ECONISEȘTE 25%",
+                "name": "Pak Choi roșu",
+                "pack": "Pachet de 3",
+                "discount": "3,23 USD",
+                "price": "4,31 USD",
+                "priceTag": "preț pe capsulă"
+            }
+        ]
+    },
+
+    "howToGetStarted": {
+        "title": "Doar 3 pași simpli!",
+        "subtitle": "Doar 3 pași simpli!",
+        "steps": [{
+                "title": "Introduceți capsulele de plante",
+                "description": "Capsulele noastre sunt biodegradabile și nu conțin substanțe chimice nocive."
+            },
+            {
+                "title": "Adăugați apă",
+                "description": "Grădina Inteligentă are un rezervor de apă de 1,5 l/50,7 oz, suficient pentru până la 3 săptămâni."
+            },
+            {
+                "title": "Conectați și bucurați-vă",
+                "description": "Datorită sistemului de iluminare LED eficient energetic, Smart Garden 9 consumă doar 13W."
+            }
+        ]
+    },
 
 
     "footer": {

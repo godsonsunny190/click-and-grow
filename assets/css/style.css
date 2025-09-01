@@ -11605,6 +11605,9 @@ p {
   width: 100%;
   height: 100%;
 }
+.plantcard_url a {
+  display: block;
+}
 
 .swiper-pagination {
   position: relative;
@@ -11875,6 +11878,7 @@ p {
 .products_item-url a {
   height: 100%;
   width: 100%;
+  display: block;
 }
 .products_item-link {
   display: flex;
