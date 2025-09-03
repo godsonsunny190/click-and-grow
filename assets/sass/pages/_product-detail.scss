@@ -1,7 +1,6 @@
 /* ===================================== */
 /*           THUMB SLIDER STYLE          */
 /* ===================================== */
-
 .pdetail {
     margin-top: 16px;
 
@@ -259,7 +258,6 @@
 /* ===================================== */
 /*           SETUP DETAIL STYLE          */
 /* ===================================== */
-
 .setupdetail {
     background-color: $primary-clr-3;
     margin-top: 26px;
@@ -286,6 +284,122 @@
         p {
             margin-top: 8px;
             line-height: 1.5;
+        }
+    }
+}
+
+/* ===================================== */
+/*         ACCORDION SECTION STYLE       */
+/* ===================================== */
+.accordion {
+    margin-top: 44px;
+
+    &-item {
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid #34312e !important;
+        border-radius: 0 !important;
+
+        &:first-of-type {
+            border-top: 1px solid #34312e !important;
+        }
+
+        &:not(:last-child) {
+            margin-bottom: 10px;
+        }
+    }
+
+    &-button {
+        background-color: transparent !important;
+        box-shadow: none !important;
+        padding: 15px 0;
+        border: none !important;
+        border-radius: 0 !important;
+        color: $color-2e !important;
+        text-overflow: ellipsis;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 110%;
+        font-family: $font-spirit;
+    }
+
+    &-body {
+        max-width: 500px;
+        width: 100%;
+        padding: 15px 0;
+
+        p {
+            margin-bottom: 20px;
+        }
+
+        ul {
+            padding-left: 1em;
+            margin-bottom: 20px;
+
+            li {
+                margin-bottom: 4.5px;
+                list-style: disc;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: -.18px;
+                color: $color-2e;
+                font-family: $secondery-font;
+
+                &::marker {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        ol {
+            padding-left: 40px;
+            margin-bottom: 20px;
+            margin-top: 33px;
+
+            li {
+                margin-bottom: 4.5px;
+                list-style: auto;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: -.18px;
+                color: $color-2e;
+                font-family: $secondery-font;
+
+                &::marker {
+                    font-size: 15px;
+                }
+            }
+        }
+
+        table {
+            width: 100%;
+            margin-bottom: 20px;
+            font-size: 16px;
+            table-layout: fixed;
+
+            td,
+            th {
+                border: none;
+                padding: 5px 0 5px 20px;
+                border-bottom: 1px solid #eee;
+                font-size: 18px;
+                font-weight: 400;
+                line-height: 150%;
+                letter-spacing: -.18px;
+                color: $color-2e;
+                font-family: $secondery-font;
+
+                &:first-of-type {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        a {
+            color: $primary-clr;
         }
     }
 }

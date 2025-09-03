@@ -1294,6 +1294,42 @@
     },
 
 
+    "accordion": {
+        "description": {
+            "title": "Description",
+            "p1": "The Smart Garden 9 is an innovative self-growing garden for every home and every plant growing need.",
+            "p2": "Experience the benefits of having your own garden, no matter where you live. Grow 100% organic herbs, fruits, salads and flowers, free from GMOs and pesticides, fresher than any plants you'll find in stores.",
+            "listIntro": "With Click & Grow you'll get:",
+            "list": [
+                "Automatic watering",
+                "Perfect amount of light thanks to pro-grow lights",
+                "Perfect amount of nutrients and oxygen at root level",
+                "Companion app to become a plant expert",
+                "Choose from 75+ pre-seeded plant pods from our selection or use your own seeds",
+                "A Complimentary set of plant capsules: 3x tomato, 3x basil, 3x lettuce"
+            ],
+            "note": "NB! The starter kit might contain a yellow tomato instead of a red mini tomato."
+        },
+        "box": {
+            "title": "What's in the box",
+            "items": [
+                "Smart Garden 9",
+                "Quick Start Guide with pro gardener tips",
+                "9 complimentary plant pods: 3 x mini tomato, 3 x green lettuce, 3 x basil"
+            ]
+        },
+        "specs": {
+            "title": "Specifications"
+        },
+        "faq": {
+            "title": "FAQ"
+        },
+        "shipping": {
+            "title": "Shipping & Warranty"
+        }
+    },
+
+
     "footer": {
         "quickLinks": {
             "title": "Quick links",

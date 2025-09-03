@@ -1227,6 +1227,41 @@
         ]
     },
 
+    "accordion": {
+        "description": {
+            "title": "Descriere",
+            "p1": "Smart Garden 9 este o grădină inovatoare care se auto-îngrijește, potrivită pentru orice casă și orice nevoie de cultivare.",
+            "p2": "Bucură-te de avantajele propriei grădini, indiferent unde locuiești. Cultivă ierburi, fructe, salate și flori 100% organice, fără organisme modificate genetic sau pesticide, mai proaspete decât orice vei găsi în magazine.",
+            "listIntro": "Cu Click & Grow vei obține:",
+            "list": [
+                "Udare automată",
+                "Cantitatea perfectă de lumină datorită luminilor pro-grow",
+                "Cantitatea perfectă de nutrienți și oxigen la nivelul rădăcinilor",
+                "Aplicație însoțitoare pentru a deveni expert în plante",
+                "Alege dintre peste 75 de capsule pre-plantate din selecția noastră sau folosește-ți propriile semințe",
+                "Un set Gratuit de capsule cu plante: 3x roșii, 3x busuioc, 3x salată verde"
+            ],
+            "note": "Notă: Kitul de start poate conține roșii galbene în loc de roșii roșii mini."
+        },
+        "box": {
+            "title": "Ce se află în cutie",
+            "items": [
+                "Smart Garden 9",
+                "Ghid de pornire rapidă cu sfaturi de la grădinari profesioniști",
+                "9 capsule de plante gratuite: 3 x roșii mini, 3 x salată verde, 3 x busuioc"
+            ]
+        },
+        "specs": {
+            "title": "Specificații"
+        },
+        "faq": {
+            "title": "Întrebări frecvente"
+        },
+        "shipping": {
+            "title": "Livrare și garanție"
+        }
+    },
+
 
     "footer": {
         "quickLinks": {

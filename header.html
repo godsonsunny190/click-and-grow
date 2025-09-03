@@ -90,10 +90,17 @@
                                         alt="">
                                     <span data-i18n="login.account">Log in</span></a>
                             </li>
-                            <li class="d-xl-block d-none">
+                            <li class="d-xl-block d-none header_cart">
                                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
-                                    aria-controls="staticBackdrop" class="border-0 bg-transparent p-0 d-flex"><img
-                                        src="./assets/images/header/icon_flat_cart.svg" alt="">
+                                    aria-controls="staticBackdrop" class="border-0 bg-transparent p-0 d-flex">
+                                    <img src="./assets/images/header/icon_flat_cart.svg" class="before-cart"
+                                        alt="add to cart image">
+                                    <img src="./assets/images/icons/icon_flat_cart_with_item_red.svg" class="after-cart"
+                                        alt="add to cart image">
+                                    <div class="cart-count-wrap">
+                                        <span class="cart-item-text">Items</span>
+                                        <span class="cart-count">0</span>
+                                    </div>
                                 </button>
                             </li>
                         </ul>
@@ -104,7 +111,13 @@
             <div class="header_cart">
                 <button type="button" data-bs-toggle="offcanvas" data-bs-target="#staticBackdrop"
                     aria-controls="staticBackdrop">
-                    <img src="./assets/images/header/icon_flat_cart.svg" alt="cart icon">
+                    <img src="./assets/images/header/icon_flat_cart.svg" class="before-cart" alt="add to cart image">
+                    <img src="./assets/images/icons/icon_flat_cart_with_item_red.svg" class="after-cart"
+                        alt="add to cart image">
+                    <div class="cart-count-wrap">
+                        <span class="cart-item-text">Items</span>
+                        <span class="cart-count">0</span>
+                    </div>
                 </button>
             </div>
         </div>
@@ -118,13 +131,23 @@
         <button type="button" class="btn-close cart-btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
     </div>
     <div class="offcanvas-body">
-        <p class="cart-empty" data-i18n="cart.emptyMessage">Your cart is currently empty.</p>
+        <div class="cart">
+            <div class="cart-container">
+                <div class="cart">
+                    <div class="cart-items">
+                        <div class="empty-cart"></div>
+                    </div>
+                    <div class="d-flex gap-2 mt-2">
+                        <div class="cart-total flex-grow-1">
+                            <span>Total&nbsp;&nbsp;·&nbsp;&nbsp;</span>
+                            <span class="total-amount">$0.00</span>
+                        </div>
+                        <button class="checkout-btn flex-grow-1">Checkout</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
 <!-- HEAEDER SECTION ENDS HERE -->
-<!-- <div class="language-switcher">
-    <button onclick="changeLanguage('en')" id="btn-en" class="active">English</button>
-    <button onclick="changeLanguage('ru')" id="btn-ru">Russian</button>
-    <button onclick="changeLanguage('ro')" id="btn-ro">Romanian</button>
-</div> -->
