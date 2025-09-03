@@ -125,10 +125,16 @@
         background-position: center;
         background-repeat: no-repeat;
         background-size: 32%;
+        border: 1px solid $magenta;
 
         img {
             width: 12px;
             height: 12px;
+        }
+
+        &:hover {
+            transition: all .2s ease-in-out;
+            box-shadow: 0 1px 2px #34312e4d, 0 1px 3px 1px #34312e26;
         }
     }
 
