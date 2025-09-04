@@ -82,7 +82,8 @@
                 "name": "Lavender",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -90,7 +91,8 @@
                 "name": "Cilantro",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -98,7 +100,8 @@
                 "name": "Thyme",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -106,7 +109,8 @@
                 "name": "Rosemary",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -114,7 +118,8 @@
                 "name": "Parsley",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -122,7 +127,8 @@
                 "name": "Tomato",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -130,7 +136,8 @@
                 "name": "Strawberry",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -138,7 +145,8 @@
                 "name": "Chili Pepper",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -146,7 +154,8 @@
                 "name": "Mint",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             },
             {
                 "getInfoAlt": "More information",
@@ -154,7 +163,8 @@
                 "name": "Oregano",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "priceTag": "price per pod"
+                "priceTag": "price per pod",
+                "discount": "SAVE 25%"
             }
         ]
     },
