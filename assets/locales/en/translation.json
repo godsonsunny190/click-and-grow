@@ -65,91 +65,96 @@
     },
 
     "plantCards": {
-        "sectionTitle": "Plant Collection",
-        "pricePerPod": "price per pod",
-        "savePercent": "SAVE 25%",
+        "title": "Most popular picks",
+        "subtitle": "Foolproof favorites that just work.",
         "exploreButton": "Explore all Plants",
-        "getInfoAlt": "get info image",
-        "plusIconAlt": "plus icon",
-        "plants": [{
-                "id": "basil",
+        "items": [{
+                "getInfoAlt": "More information",
+                "imageAlt": "Basil plant",
                 "name": "Basil",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Basil plant"
+                "priceTag": "price per pod"
             },
             {
-                "id": "lavender",
+                "getInfoAlt": "More information",
+                "imageAlt": "Lavender plant",
                 "name": "Lavender",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Lavender plant"
+                "priceTag": "price per pod"
             },
             {
-                "id": "green-lettuce",
-                "name": "Green Lettuce",
-                "pack": "9-Pack",
-                "price": "$2.77",
-                "alt": "Green Lettuce"
-            },
-            {
-                "id": "fruit-veggie-mix",
-                "name": "Fruit And Veggie Mix",
-                "pack": "9-Pack",
-                "price": "$3.32",
-                "alt": "Fruit and Veggie Mix"
-            },
-            {
-                "id": "cilantro",
-                "name": "Cilantro (Coriander)",
+                "getInfoAlt": "More information",
+                "imageAlt": "Cilantro plant",
+                "name": "Cilantro",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Cilantro (Coriander)"
+                "priceTag": "price per pod"
             },
             {
-                "id": "grow-anything",
-                "name": "Grow Anything",
-                "pack": "30-Pack",
-                "price": "$1.99",
-                "alt": "Grow Anything"
-            },
-            {
-                "id": "mini-tomato",
-                "name": "Mini Tomato",
+                "getInfoAlt": "More information",
+                "imageAlt": "Thyme plant",
+                "name": "Thyme",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Mini Tomato"
+                "priceTag": "price per pod"
             },
             {
-                "id": "wild-strawberry",
-                "name": "Wild Strawberry",
+                "getInfoAlt": "More information",
+                "imageAlt": "Rosemary plant",
+                "name": "Rosemary",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Wild Strawberry"
+                "priceTag": "price per pod"
             },
             {
-                "id": "peppermint",
-                "name": "Peppermint",
+                "getInfoAlt": "More information",
+                "imageAlt": "Parsley plant",
+                "name": "Parsley",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "image": "./assets/images/index/Peppermint_plant_1200x960_94879717-b93f-4eb2-bb7c-571eddd6f2a5_600x460_crop_top.jpg",
-                "alt": "Peppermint"
+                "priceTag": "price per pod"
             },
             {
-                "id": "chives",
-                "name": "Chives",
+                "getInfoAlt": "More information",
+                "imageAlt": "Tomato plant",
+                "name": "Tomato",
                 "pack": "3-Pack",
                 "price": "$4.31",
-                "alt": "Chives"
+                "priceTag": "price per pod"
             },
             {
-                "id": "green-lettuce-discount",
-                "name": "Green Lettuce",
+                "getInfoAlt": "More information",
+                "imageAlt": "Strawberry plant",
+                "name": "Strawberry",
                 "pack": "3-Pack",
-                "originalPrice": "$4.31",
-                "discountPrice": "$3.23",
-                "discount": "SAVE 25%",
-                "alt": "Green Lettuce"
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "More information",
+                "imageAlt": "Chili Pepper plant",
+                "name": "Chili Pepper",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "More information",
+                "imageAlt": "Mint plant",
+                "name": "Mint",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
+            },
+            {
+                "getInfoAlt": "More information",
+                "imageAlt": "Oregano plant",
+                "name": "Oregano",
+                "pack": "3-Pack",
+                "price": "$4.31",
+                "priceTag": "price per pod"
             }
         ]
     },

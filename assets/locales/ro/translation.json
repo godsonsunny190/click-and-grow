@@ -65,93 +65,99 @@
     },
 
     "plantCards": {
-        "sectionTitle": "Colecția de Plante",
-        "pricePerPod": "preț per capsulă",
-        "savePercent": "ECONOMISIȚI 25%",
-        "exploreButton": "Explorați toate Plantele",
-        "getInfoAlt": "imagine pentru informații",
-        "plants": [{
-                "id": "basil",
+        "title": "Cele mai populare alegeri",
+        "subtitle": "Favorite sigure care funcționează mereu.",
+        "exploreButton": "Explorează toate plantele",
+        "items": [{
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de busuioc",
                 "name": "Busuioc",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Plantă de busuioc"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "lavender",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de lavandă",
                 "name": "Lavandă",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Plantă de lavandă"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "green-lettuce",
-                "name": "Salată Verde",
-                "pack": "Pachet de 9",
-                "price": "$2.77",
-                "alt": "Salată Verde"
-            },
-            {
-                "id": "fruit-veggie-mix",
-                "name": "Mix de Fructe și Legume",
-                "pack": "Pachet de 9",
-                "price": "$3.32",
-                "alt": "Mix de Fructe și Legume"
-            },
-            {
-                "id": "cilantro",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de coriandru",
                 "name": "Coriandru",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Coriandru"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "grow-anything",
-                "name": "Crește Orice",
-                "pack": "Pachet de 30",
-                "price": "$1.99",
-                "alt": "Crește Orice"
-            },
-            {
-                "id": "mini-tomato",
-                "name": "Roșii Mici",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de cimbru",
+                "name": "Cimbru",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Roșii Mici"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "wild-strawberry",
-                "name": "Căpșuni Sălbatice",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de rozmarin",
+                "name": "Rozmarin",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Căpșuni Sălbatice"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "peppermint",
-                "name": "Mentă Pipărată",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de pătrunjel",
+                "name": "Pătrunjel",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Mentă Pipărată"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "chives",
-                "name": "Arpagic",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de roșii",
+                "name": "Roșii",
                 "pack": "Pachet de 3",
                 "price": "$4.31",
-                "alt": "Arpagic"
+                "priceTag": "preț per capsulă"
             },
             {
-                "id": "green-lettuce-discount",
-                "name": "Salată Verde",
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de căpșuni",
+                "name": "Căpșuni",
                 "pack": "Pachet de 3",
-                "originalPrice": "$4.31",
-                "discountPrice": "$3.23",
-                "discount": "ECONOMISIȚI 25%",
-                "alt": "Salată Verde"
+                "price": "$4.31",
+                "priceTag": "preț per capsulă"
+            },
+            {
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de ardei iute",
+                "name": "Ardei iute",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "priceTag": "preț per capsulă"
+            },
+            {
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de mentă",
+                "name": "Mentă",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "priceTag": "preț per capsulă"
+            },
+            {
+                "getInfoAlt": "Mai multe informații",
+                "imageAlt": "Plantă de oregano",
+                "name": "Oregano",
+                "pack": "Pachet de 3",
+                "price": "$4.31",
+                "priceTag": "preț per capsulă"
             }
         ]
     },
-
 
     "features": {
         "sectionTitle": "Crește mai inteligent, nu mai greu",
