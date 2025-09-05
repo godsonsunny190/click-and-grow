@@ -170,202 +170,6 @@
         ]
     },
 
-    "plantFilter": {
-        "title": "Toate Plantele",
-        "description": "Alegeți din peste 65 de varietăți de ierburi, flori, frunze verzi și plante fructifere.",
-        "filterTitle": "Filtrează și caută plante",
-        "searchPlaceholder": "Căutare după numele plantei",
-        "closeButtonAlt": "buton închidere",
-        "nav": {
-            "allPosts": "Toate Postările",
-            "fruits": "Fructe",
-            "greens": "Verdeață",
-            "herbs": "Ierburi",
-            "flowers": "Flori",
-            "growAnything": "Crește Orice",
-            "mixes": "Mixturi"
-        },
-        "getInfoAlt": "imagine informații",
-        "addButtonAlt": "pictogramă plus",
-        "pricePerPod": "preț pe capsulă",
-        "items": {
-            "chiliPepperMix": {
-                "name": "Mix de Ardei Iuți",
-                "pack": "Pachet 9",
-                "alt": "Mix de Ardei Iuți"
-            },
-            "chiliPepper": {
-                "name": "Ardei Iute",
-                "pack": "Pachet 3",
-                "alt": "Ardei Iute"
-            },
-            "dwarfPea": {
-                "name": "Mazăre Pitică",
-                "pack3": "Pachet 3",
-                "pack9": "Pachet 9",
-                "alt": "Mazăre Pitică"
-            },
-            "fruitAndVeggieMix": {
-                "name": "Mix Fructe și Legume",
-                "pack": "Pachet 9",
-                "alt": "Mix Fructe și Legume"
-            },
-            "miniTomato": {
-                "name": "Roșii Cherry",
-                "pack3": "Pachet 3",
-                "pack9": "Pachet 9",
-                "alt": "Roșii Cherry"
-            },
-            "piriPiriChiliPepper": {
-                "name": "Ardei Iute Piri Piri",
-                "pack": "Pachet 3",
-                "alt": "Ardei Iute Piri Piri"
-            },
-            "purpleChiliPepper": {
-                "name": "Ardei Iute Violet",
-                "pack": "Pachet 3",
-                "alt": "Ardei Iute Violet"
-            },
-            "redHotChiliPepper": {
-                "name": "Ardei Iute Roșu",
-                "pack": "Pachet 3",
-                "alt": "Ardei Iute Roșu"
-            },
-            "redSweetPepper": {
-                "name": "Ardei Dulce Roșu",
-                "pack": "Pachet 3",
-                "alt": "Ardei Dulce Roșu"
-            },
-            "wildStrawberry": {
-                "name": "Căpșuni Sălbatice",
-                "pack3": "Pachet 3",
-                "pack9": "Pachet 9",
-                "alt": "Căpșuni Sălbatice"
-            },
-            "yellowChiliPepper": {
-                "name": "Ardei Iute Galben",
-                "pack": "Pachet 3",
-                "alt": "Ardei Iute Galben"
-            },
-            "yellowTomato": {
-                "name": "Roșii Galbene",
-                "pack3": "Pachet 3",
-                "pack9": "Pachet 9",
-                "alt": "Roșii Galbene"
-            },
-            "yellowSweetPepper": {
-                "name": "Ardei Dulce Galben",
-                "pack": "Pachet 3",
-                "alt": "Ardei Dulce Galben"
-            },
-            "arugula30Pack": {
-                "name": "Rucola",
-                "pack": "Pachet 30",
-                "alt": "Rucola Pachet 30"
-            },
-            "arugulaPlant": {
-                "name": "Rucola",
-                "pack": "Plantă",
-                "alt": "Plantă Rucola"
-            },
-            "asianCuisineMix9Pack": {
-                "name": "Amestec Bucătărie Asiatică",
-                "pack": "Pachet de 9",
-                "alt": "Amestec Bucătărie Asiatică"
-            },
-            "greenChard": {
-                "name": "Spanac Verde",
-                "pack": "Pachet de 3",
-                "alt": "Spanac Verde"
-            },
-            "greenKale": {
-                "name": "Varză Kale Verde",
-                "pack": "Pachet de 3",
-                "alt": "Varză Kale Verde"
-            },
-            "greenLettucePlant": {
-                "name": "Lăptucă Verde",
-                "pack": "Plantă",
-                "alt": "Lăptucă Verde"
-            },
-            "greenLettuce30Pack": {
-                "name": "Lăptucă Verde",
-                "pack": "Pachet de 30",
-                "alt": "Lăptucă Verde Pachet de 30"
-            },
-            "greenSorrel": {
-                "name": "Măcriș Verde",
-                "pack": "Pachet de 3",
-                "alt": "Măcriș Verde"
-            },
-            "italianKale": {
-                "name": "Varză Kale Italiană",
-                "pack": "Pachet de 3",
-                "alt": "Varză Kale Italiană Pachet de 3"
-            },
-            "oakleafLettuce": {
-                "name": "Lăptucă Frunză de Stejar",
-                "pack": "Pachet de 3",
-                "alt": "Lăptucă Frunză de Stejar Pachet de 3"
-            },
-            "pakChoi30Pack": {
-                "name": "Pak Choi",
-                "pack": "Pachet de 30",
-                "alt": "Pak Choi Pachet de 30"
-            },
-            "pakChoiPlant": {
-                "name": "Pak Choi",
-                "pack": "Plantă",
-                "alt": "Pak Choi"
-            },
-            "rainbowChard": {
-                "name": "Spanac Curcubeu",
-                "pack": "Pachet de 3",
-                "alt": "Spanac Curcubeu"
-            },
-            "redKale": {
-                "name": "Varză Kale Roșie",
-                "pack": "Plantă",
-                "alt": "Varză Kale Roșie"
-            },
-            "redLettuce3Pack": {
-                "name": "Lăptucă Roșie",
-                "pack": "Pachet de 3",
-                "alt": "Lăptucă Roșie Pachet de 3"
-            },
-            "redLettuce30Pack": {
-                "name": "Lăptucă Roșie",
-                "pack": "Pachet de 30",
-                "alt": "Lăptucă Roșie Pachet de 30"
-            },
-            "redRomaineLettuce": {
-                "name": "Lăptucă Romană Roșie",
-                "pack": "Pachet de 3",
-                "alt": "Lăptucă Romană Roșie Pachet de 3"
-            },
-            "romaineLettuce30Pack": {
-                "name": "Lăptucă Romană",
-                "pack": "Pachet de 30",
-                "alt": "Lăptucă Romană Pachet de 30"
-            },
-            "romaineLettucePlant": {
-                "name": "Lăptucă Romană",
-                "pack": "Plantă",
-                "alt": "Lăptucă Romană"
-            },
-            "greenSaladMix": {
-                "name": "Amestec Salată Verde",
-                "pack": "Amestec",
-                "alt": "Amestec Salată Verde"
-            },
-            "asianCuisineMix": {
-                "name": "Amestec Bucătărie Asiatică",
-                "pack": "Amestec",
-                "alt": "Amestec Bucătărie Asiatică"
-            }
-        }
-    },
-
     "features": {
         "sectionTitle": "Crește mai inteligent, nu mai greu",
         "sectionSubtitle": "Începe grădinăritul interior cu noi",
@@ -1473,6 +1277,513 @@
         "shipping": {
             "title": "Livrare și garanție"
         }
+    },
+
+    "plantFilter": {
+        "title": "Toate plantele",
+        "description": "Alegeți din peste 65 de varietăți de ierburi, flori, verdeață și plante fructifere.",
+        "filterTitle": "Filtrează și caută plante",
+        "searchPlaceholder": "Caută după numele plantei",
+        "closeButtonAlt": "buton închidere",
+        "nav": {
+            "allPosts": "Toate produsele",
+            "fruits": "Fructe",
+            "greens": "Verdeață",
+            "herbs": "Ierburi",
+            "flowers": "Flori",
+            "growAnything": "Cultivă orice",
+            "mixes": "Mixuri"
+        },
+        "getInfoAlt": "imagine informații",
+        "addButtonAlt": "icon plus",
+        "pricePerPod": "preț pe capsulă",
+        "items": [{
+                "alt": "Mix de ardei iute",
+                "name": "Mix de ardei iute",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Ardei iute",
+                "name": "Ardei iute",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mazăre pitică",
+                "name": "Mazăre pitică",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mazăre pitică",
+                "name": "Mazăre pitică",
+                "pack": "Pachet de 9",
+                "price": "2,49 $",
+                "originalPrice": "3,32 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Mix de fructe și legume",
+                "name": "Mix de fructe și legume",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Roșii mini",
+                "name": "Roșii mini",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Roșii mini",
+                "name": "Roșii mini",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Ardei iute Piri Piri",
+                "name": "Ardei iute Piri Piri",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Ardei iute violet",
+                "name": "Ardei iute violet",
+                "pack": "Pachet de 3",
+                "price": "3,23 $",
+                "originalPrice": "4,31 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Ardei iute roșu",
+                "name": "Ardei iute roșu",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Ardei dulce roșu",
+                "name": "Ardei dulce roșu",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Căpșuni sălbatice",
+                "name": "Căpșuni sălbatice",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Căpșuni sălbatice",
+                "name": "Căpșuni sălbatice",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Ardei iute galben",
+                "name": "Ardei iute galben",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Roșii galbene",
+                "name": "Roșii galbene",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Roșii galbene",
+                "name": "Roșii galbene",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Ardei dulce galben",
+                "name": "Ardei dulce galben",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Ardei dulce galben",
+                "name": "Ardei dulce galben",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+
+            {
+                "alt": "Rucola 30-Pack",
+                "name": "Rucola",
+                "pack": "Pachet de 30",
+                "price": "5,99 $"
+            },
+            {
+                "alt": "Plantă de Rucola",
+                "name": "Rucola",
+                "pack": "Plantă",
+                "price": "3,99 $"
+            },
+            {
+                "alt": "Plantă de Rucola",
+                "name": "Rucola",
+                "pack": "Plantă",
+                "price": "2,99 $"
+            },
+            {
+                "alt": "Mix Bucătărie Asiatică",
+                "name": "Mix Bucătărie Asiatică",
+                "pack": "Pachet de 9",
+                "price": "4,50 $"
+            },
+            {
+                "alt": "Spanac Verde",
+                "name": "Spanac Verde",
+                "pack": "Pachet de 3",
+                "price": "2,50 $"
+            },
+            {
+                "alt": "Varză Kale Verde",
+                "name": "Varză Kale Verde",
+                "pack": "Pachet de 3",
+                "price": "2,99 $"
+            },
+            {
+                "alt": "Varză Kale Verde",
+                "name": "Varză Kale Verde",
+                "pack": "Pachet de 3",
+                "price": "2,99 $"
+            },
+            {
+                "alt": "Lăptucă Verde",
+                "name": "Lăptucă Verde",
+                "pack": "Plantă",
+                "price": "3,20 $"
+            },
+            {
+                "alt": "Lăptucă Verde 30-Pack",
+                "name": "Lăptucă Verde",
+                "pack": "Pachet de 30",
+                "price": "5,50 $"
+            },
+            {
+                "alt": "Măcriș Verde",
+                "name": "Măcriș Verde",
+                "pack": "Pachet de 3",
+                "price": "2,60 $"
+            },
+            {
+                "alt": "Varză Kale Italiană 3-Pack",
+                "name": "Varză Kale Italiană",
+                "pack": "Pachet de 3",
+                "price": "3,10 $"
+            },
+            {
+                "alt": "Varză Kale Italiană 3-Pack",
+                "name": "Varză Kale Italiană",
+                "pack": "Pachet de 3",
+                "price": "3,10 $"
+            },
+            {
+                "alt": "Lăptucă Oakleaf 3-Pack",
+                "name": "Lăptucă Oakleaf",
+                "pack": "Pachet de 3",
+                "price": "2,70 $"
+            },
+            {
+                "alt": "Pak Choi 30-Pack",
+                "name": "Pak Choi",
+                "pack": "Pachet de 30",
+                "price": "5,40 $"
+            },
+            {
+                "alt": "Pak Choi",
+                "name": "Pak Choi",
+                "pack": "Plantă",
+                "price": "2,80 $"
+            },
+            {
+                "alt": "Pak Choi",
+                "name": "Pak Choi",
+                "pack": "Plantă",
+                "price": "2,80 $"
+            },
+            {
+                "alt": "Spanac Curcubeu",
+                "name": "Spanac Curcubeu",
+                "pack": "Pachet de 3",
+                "price": "3,40 $"
+            },
+            {
+                "alt": "Varză Kale Roșie",
+                "name": "Varză Kale Roșie",
+                "pack": "Plantă",
+                "price": "3,00 $"
+            },
+            {
+                "alt": "Lăptucă Roșie 3-Pack",
+                "name": "Lăptucă Roșie",
+                "pack": "Pachet de 3",
+                "price": "2,50 $"
+            },
+            {
+                "alt": "Lăptucă Roșie 30-Pack",
+                "name": "Lăptucă Roșie",
+                "pack": "Pachet de 30",
+                "price": "5,50 $"
+            },
+            {
+                "alt": "Lăptucă Romană Roșie 3-Pack",
+                "name": "Lăptucă Romană Roșie",
+                "pack": "Pachet de 3",
+                "price": "2,60 $"
+            },
+            {
+                "alt": "Lăptucă Romană Roșie 3-Pack",
+                "name": "Lăptucă Romană Roșie",
+                "pack": "Pachet de 3",
+                "price": "2,60 $"
+            },
+            {
+                "alt": "Lăptucă Romană 30-Pack",
+                "name": "Lăptucă Romană",
+                "pack": "Pachet de 30",
+                "price": "5,60 $"
+            },
+            {
+                "alt": "Lăptucă Romană",
+                "name": "Lăptucă Romană",
+                "pack": "Plantă",
+                "price": "2,40 $"
+            },
+            {
+                "alt": "Lăptucă Romană",
+                "name": "Lăptucă Romană",
+                "pack": "Plantă",
+                "price": "2,40 $"
+            },
+            {
+                "alt": "Mix Salată Verde",
+                "name": "Mix Salată Verde",
+                "pack": "Mix",
+                "price": "3,20 $"
+            },
+            {
+                "alt": "Mix Bucătărie Asiatică",
+                "name": "Mix Bucătărie Asiatică",
+                "pack": "Mix",
+                "price": "3,50 $"
+            },
+            {
+                "alt": "Rucola 30-Pack",
+                "name": "Rucola",
+                "pack": "Pachet de 30",
+                "price": "5,20 $"
+            },
+            {
+                "alt": "Plantă de Rucola",
+                "name": "Rucola",
+                "pack": "Plantă",
+                "price": "2,20 $"
+            },
+            {
+                "alt": "Plantă de Rucola",
+                "name": "Rucola",
+                "pack": "Plantă",
+                "price": "2,20 $"
+            },
+            {
+                "alt": "Panselă Neagră",
+                "name": "Panselă Neagră",
+                "pack": "Pachet de 30",
+                "price": "2,39 $"
+            },
+            {
+                "alt": "Panselă Neagră 3-Pack",
+                "name": "Panselă Neagră",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busy Lizzie 3-Pack",
+                "name": "Busy Lizzie",
+                "pack": "Pachet de 3",
+                "price": "Stoc epuizat"
+            },
+            {
+                "alt": "Calendula 3-Pack",
+                "name": "Calendula",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Crista Cocosului 3-Pack",
+                "name": "Crista Cocosului",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Albăstrea 3-Pack",
+                "name": "Albăstrea",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Gazania 3-Pack",
+                "name": "Gazania",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Lavandă 3-Pack",
+                "name": "Lavandă",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Lavandă 9-Pack",
+                "name": "Lavandă",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Trandafir de Muschi 3-Pack",
+                "name": "Trandafir de Muschi",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Urzică Pictată 3-Pack",
+                "name": "Urzică Pictată",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Petunia 3-Pack",
+                "name": "Petunia",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Panselă Roșie 30-Pack",
+                "name": "Panselă Roșie",
+                "pack": "Pachet de 30",
+                "price": "2,39 $"
+            },
+            {
+                "alt": "Alyssum Dulce 3-Pack",
+                "name": "Alyssum Dulce",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Panselă Roșie 3-Pack",
+                "name": "Panselă Roșie",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Gura-leului Alb 3-Pack",
+                "name": "Gura-leului Alb",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mix Flori Vibrante 9-Pack",
+                "name": "Mix Flori Vibrante",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Floarea-Soarelui Mini 3-Pack",
+                "name": "Floarea-Soarelui Mini",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Cultivă Orice 3-Pack",
+                "name": "Cultivă Orice",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Cultivă Orice (Opti...) 3-Pack",
+                "name": "Cultivă Orice (Opti...)",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Cultivă Orice 30-Pack",
+                "name": "Cultivă Orice",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Cultivă Orice 9-Pack",
+                "name": "Cultivă Orice",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Mix Bucătărie Asiatică 9-Pack",
+                "name": "Mix Bucătărie Asiatică",
+                "pack": "Pachet de 9",
+                "price": "2,07 $",
+                "originalPrice": "2,77 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Mix Varietăți de Busuioc 9-Pack",
+                "name": "Mix Varietăți de Busuioc",
+                "pack": "Pachet de 9",
+                "price": "2,07 $",
+                "originalPrice": "2,77 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Mix Ceai Calmant 9-Pack",
+                "name": "Mix Ceai Calmant",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Mix Ardei Iute 9-Pack",
+                "name": "Mix Ardei Iute",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Mix Fructe și Legume 9-Pack",
+                "name": "Mix Fructe și Legume",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Mix Verdeață pentru Salată 9-Pack",
+                "name": "Mix Verdeață pentru Salată",
+                "pack": "Pachet de 9",
+                "price": "2,71 $"
+            },
+            {
+                "alt": "Mix Condimente pentru Friptură 9-Pack",
+                "name": "Mix Condimente pentru Friptură",
+                "pack": "Pachet de 9",
+                "price": "2,07 $",
+                "originalPrice": "2,77 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Mix Flori Vibrante 9-Pack",
+                "name": "Mix Flori Vibrante",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Mix Smoothie 9-Pack",
+                "name": "Mix Smoothie",
+                "pack": "Pachet de 9",
+                "price": "3,32 $",
+                "discount": "LIMITAT"
+            }
+        ]
     },
 
 

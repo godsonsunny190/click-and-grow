@@ -1362,184 +1362,497 @@
         "getInfoAlt": "get info image",
         "addButtonAlt": "plus icon",
         "pricePerPod": "price per pod",
-        "items": {
-            "chiliPepperMix": {
+
+        "items": [{
+                "alt": "Chili Pepper Mix",
                 "name": "Chili Pepper Mix",
                 "pack": "9-Pack",
-                "alt": "Chili Pepper Mix"
+                "price": "$3.32"
             },
-            "chiliPepper": {
+            {
+                "alt": "Chili Pepper",
                 "name": "Chili Pepper",
                 "pack": "3-Pack",
-                "alt": "Chili Pepper"
+                "price": "$4.31"
             },
-            "dwarfPea": {
+            {
+                "alt": "Dwarf Pea",
                 "name": "Dwarf Pea",
-                "pack3": "3-Pack",
-                "pack9": "9-Pack",
-                "alt": "Dwarf Pea"
+                "pack": "3-Pack",
+                "price": "$4.31"
             },
-            "fruitAndVeggieMix": {
+            {
+                "alt": "Dwarf Pea",
+                "name": "Dwarf Pea",
+                "pack": "9-Pack",
+                "price": "$2.49",
+                "originalPrice": "$3.32",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Fruit And Veggie Mix",
                 "name": "Fruit And Veggie Mix",
                 "pack": "9-Pack",
-                "alt": "Fruit And Veggie Mix"
+                "price": "$3.32"
             },
-            "miniTomato": {
+            {
+                "alt": "Mini Tomato",
                 "name": "Mini Tomato",
-                "pack3": "3-Pack",
-                "pack9": "9-Pack",
-                "alt": "Mini Tomato"
+                "pack": "3-Pack",
+                "price": "$4.31"
             },
-            "piriPiriChiliPepper": {
+            {
+                "alt": "Mini Tomato",
+                "name": "Mini Tomato",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Piri Piri Chili Pepper",
                 "name": "Piri Piri Chili Pepper",
                 "pack": "3-Pack",
-                "alt": "Piri Piri Chili Pepper"
+                "price": "$4.31"
             },
-            "purpleChiliPepper": {
+            {
+                "alt": "Purple Chili Pepper",
                 "name": "Purple Chili Pepper",
                 "pack": "3-Pack",
-                "alt": "Purple Chili Pepper"
+                "price": "$3.23",
+                "originalPrice": "$4.31",
+                "discount": "SAVE 25%"
             },
-            "redHotChiliPepper": {
+            {
+                "alt": "Red Hot Chili Pepper",
                 "name": "Red Hot Chili Pepper",
                 "pack": "3-Pack",
-                "alt": "Red Hot Chili Pepper"
+                "price": "$4.31"
             },
-            "redSweetPepper": {
+            {
+                "alt": "Red Sweet Pepper",
                 "name": "Red Sweet Pepper",
                 "pack": "3-Pack",
-                "alt": "Red Sweet Pepper"
+                "price": "$4.31"
             },
-            "wildStrawberry": {
+            {
+                "alt": "Wild Strawberry",
                 "name": "Wild Strawberry",
-                "pack3": "3-Pack",
-                "pack9": "9-Pack",
-                "alt": "Wild Strawberry"
+                "pack": "3-Pack",
+                "price": "$4.31"
             },
-            "yellowChiliPepper": {
+            {
+                "alt": "Wild Strawberry",
+                "name": "Wild Strawberry",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Yellow Chili Pepper",
                 "name": "Yellow Chili Pepper",
                 "pack": "3-Pack",
-                "alt": "Yellow Chili Pepper"
+                "price": "$4.31"
             },
-            "yellowTomato": {
+            {
+                "alt": "Yellow Tomato",
                 "name": "Yellow Tomato",
-                "pack3": "3-Pack",
-                "pack9": "9-Pack",
-                "alt": "Yellow Tomato"
+                "pack": "3-Pack",
+                "price": "$4.31"
             },
-            "yellowSweetPepper": {
+            {
+                "alt": "Yellow Tomato",
+                "name": "Yellow Tomato",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Yellow Sweet Pepper",
                 "name": "Yellow Sweet Pepper",
                 "pack": "3-Pack",
-                "alt": "Yellow Sweet Pepper"
+                "price": "$4.31"
             },
-            "arugula30Pack": {
+            {
+                "alt": "Yellow Sweet Pepper",
+                "name": "Yellow Sweet Pepper",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+
+            {
+                "alt": "Arugula 30-Pack",
                 "name": "Arugula",
                 "pack": "30-Pack",
-                "alt": "Arugula 30-Pack"
+                "price": "$5.99"
             },
-        
-            "arugulaPlant": {
+            {
+                "alt": "Arugula Plant",
                 "name": "Arugula",
                 "pack": "Plant",
-                "alt": "Arugula Plant"
+                "price": "$3.99"
             },
-            "asianCuisineMix9Pack": {
+            {
+                "alt": "Arugula Plant",
+                "name": "Arugula",
+                "pack": "Plant",
+                "price": "$2.99"
+            },
+            {
+                "alt": "Asian Cuisine Mix",
                 "name": "Asian Cuisine Mix",
                 "pack": "9-Pack",
-                "alt": "Asian Cuisine Mix"
+                "price": "$4.50"
             },
-            "greenChard": {
+            {
+                "alt": "Green Chard",
                 "name": "Green Chard",
                 "pack": "3-Pack",
-                "alt": "Green Chard"
+                "price": "$2.50"
             },
-            "greenKale": {
+            {
+                "alt": "Green Kale",
                 "name": "Green Kale",
                 "pack": "3-Pack",
-                "alt": "Green Kale"
+                "price": "$2.99"
             },
-            "greenLettucePlant": {
+            {
+                "alt": "Green Kale",
+                "name": "Green Kale",
+                "pack": "3-Pack",
+                "price": "$2.99"
+            },
+            {
+                "alt": "Green Lettuce",
                 "name": "Green Lettuce",
                 "pack": "Plant",
-                "alt": "Green Lettuce"
+                "price": "$3.20"
             },
-            "greenLettuce30Pack": {
+            {
+                "alt": "Green Lettuce 30-Pack",
                 "name": "Green Lettuce",
                 "pack": "30-Pack",
-                "alt": "Green Lettuce 30-Pack"
+                "price": "$5.50"
             },
-            "greenSorrel": {
+            {
+                "alt": "Green Sorrel",
                 "name": "Green Sorrel",
                 "pack": "3-Pack",
-                "alt": "Green Sorrel"
+                "price": "$2.60"
             },
-            "italianKale": {
+            {
+                "alt": "Italian Kale 3-Pack",
                 "name": "Italian Kale",
                 "pack": "3-Pack",
-                "alt": "Italian Kale 3-Pack"
+                "price": "$3.10"
             },
-            "oakleafLettuce": {
+            {
+                "alt": "Italian Kale 3-Pack",
+                "name": "Italian Kale",
+                "pack": "3-Pack",
+                "price": "$3.10"
+            },
+            {
+                "alt": "Oakleaf Lettuce 3-Pack",
                 "name": "Oakleaf Lettuce",
                 "pack": "3-Pack",
-                "alt": "Oakleaf Lettuce 3-Pack"
+                "price": "$2.70"
             },
-            "pakChoi30Pack": {
+            {
+                "alt": "Pak Choi 30-Pack",
                 "name": "Pak Choi",
                 "pack": "30-Pack",
-                "alt": "Pak Choi 30-Pack"
+                "price": "$5.40"
             },
-            "pakChoiPlant": {
+            {
+                "alt": "Pak Choi",
                 "name": "Pak Choi",
                 "pack": "Plant",
-                "alt": "Pak Choi"
+                "price": "$2.80"
             },
-            "rainbowChard": {
+            {
+                "alt": "Pak Choi",
+                "name": "Pak Choi",
+                "pack": "Plant",
+                "price": "$2.80"
+            },
+            {
+                "alt": "Rainbow Chard",
                 "name": "Rainbow Chard",
                 "pack": "3-Pack",
-                "alt": "Rainbow Chard"
+                "price": "$3.40"
             },
-            "redKale": {
+            {
+                "alt": "Red Kale",
                 "name": "Red Kale",
                 "pack": "Plant",
-                "alt": "Red Kale"
+                "price": "$3.00"
             },
-            "redLettuce3Pack": {
+            {
+                "alt": "Red Lettuce 3-Pack",
                 "name": "Red Lettuce",
                 "pack": "3-Pack",
-                "alt": "Red Lettuce 3-Pack"
+                "price": "$2.50"
             },
-            "redLettuce30Pack": {
+            {
+                "alt": "Red Lettuce 30-Pack",
                 "name": "Red Lettuce",
                 "pack": "30-Pack",
-                "alt": "Red Lettuce 30-Pack"
+                "price": "$5.50"
             },
-            "redRomaineLettuce": {
+            {
+                "alt": "Red Romaine Lettuce 3-Pack",
                 "name": "Red Romaine Lettuce",
                 "pack": "3-Pack",
-                "alt": "Red Romaine Lettuce 3-Pack"
+                "price": "$2.60"
             },
-            "romaineLettuce30Pack": {
+            {
+                "alt": "Red Romaine Lettuce 3-Pack",
+                "name": "Red Romaine Lettuce",
+                "pack": "3-Pack",
+                "price": "$2.60"
+            },
+            {
+                "alt": "Romaine Lettuce 30-Pack",
                 "name": "Romaine Lettuce",
                 "pack": "30-Pack",
-                "alt": "Romaine Lettuce 30-Pack"
+                "price": "$5.60"
             },
-            "romaineLettucePlant": {
+            {
+                "alt": "Romaine Lettuce",
                 "name": "Romaine Lettuce",
                 "pack": "Plant",
-                "alt": "Romaine Lettuce"
+                "price": "$2.40"
             },
-            "greenSaladMix": {
+            {
+                "alt": "Romaine Lettuce",
+                "name": "Romaine Lettuce",
+                "pack": "Plant",
+                "price": "$2.40"
+            },
+            {
+                "alt": "Green Salad Mix",
                 "name": "Green Salad Mix",
                 "pack": "Mix",
-                "alt": "Green Salad Mix"
+                "price": "$3.20"
             },
-            "asianCuisineMix": {
+            {
+                "alt": "Asian Cuisine Mix",
                 "name": "Asian Cuisine Mix",
                 "pack": "Mix",
-                "alt": "Asian Cuisine Mix"
+                "price": "$3.50"
+            },
+            {
+                "alt": "Arugula 30-Pack",
+                "name": "Arugula",
+                "pack": "30-Pack",
+                "price": "$5.20"
+            },
+            {
+                "alt": "Arugula Plant",
+                "name": "Arugula",
+                "pack": "Plant",
+                "price": "$2.20"
+            },
+            {
+                "alt": "Arugula Plant",
+                "name": "Arugula",
+                "pack": "Plant",
+                "price": "$2.20"
+            },
+            {
+                "alt": "Black Pansy",
+                "name": "Black Pansy",
+                "pack": "30-Pack",
+                "price": "$2.39"
+            },
+            {
+                "alt": "Black Pansy 3-Pack",
+                "name": "Black Pansy",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Busy Lizzie 3-Pack",
+                "name": "Busy Lizzie",
+                "pack": "3-Pack",
+                "price": "Sold out"
+            },
+            {
+                "alt": "Calendula 3-Pack",
+                "name": "Calendula",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Cockscomb 3-Pack",
+                "name": "Cockscomb",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Cornflower 3-Pack",
+                "name": "Cornflower",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Gazania 3-Pack",
+                "name": "Gazania",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lavender 3-Pack",
+                "name": "Lavender",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lavender 9-Pack",
+                "name": "Lavender",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Moss Rose 3-Pack",
+                "name": "Moss Rose",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Painted Nettle 3-Pack",
+                "name": "Painted Nettle",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Petunia 3-Pack",
+                "name": "Petunia",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Red Pansy 30-Pack",
+                "name": "Red Pansy",
+                "pack": "30-Pack",
+                "price": "$2.39"
+            },
+            {
+                "alt": "Sweet Alyssum 3-Pack",
+                "name": "Sweet Alyssum",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Red Pansy 3-Pack",
+                "name": "Red Pansy",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "White Snapdragon 3-Pack",
+                "name": "White Snapdragon",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Vibrant Flower Mix 9-Pack",
+                "name": "Vibrant Flower Mix",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Mini Sunflower 3-Pack",
+                "name": "Mini Sunflower",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+
+            {
+                "alt": "Grow Anything 3-Pack",
+                "name": "Grow Anything",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Grow Anything (Opti...) 3-Pack",
+                "name": "Grow Anything (Opti...)",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Grow Anything 30-Pack",
+                "name": "Grow Anything",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Grow Anything 9-Pack",
+                "name": "Grow Anything",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Asian Cuisine Mix 9-Pack",
+                "name": "Asian Cuisine Mix",
+                "pack": "9-Pack",
+                "price": "$2.07",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Basil Variety Mix 9-Pack",
+                "name": "Basil Variety Mix",
+                "pack": "9-Pack",
+                "price": "$2.07",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Calming Tea Mix 9-Pack",
+                "name": "Calming Tea Mix",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Chili Pepper Mix 9-Pack",
+                "name": "Chili Pepper Mix",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Fruit And Veggie Mix 9-Pack",
+                "name": "Fruit And Veggie Mix",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Salad Greens Mix 9-Pack",
+                "name": "Salad Greens Mix",
+                "pack": "9-Pack",
+                "price": "$2.71"
+            },
+            {
+                "alt": "Steak Seasoning Mix 9-Pack",
+                "name": "Steak Seasoning Mix",
+                "pack": "9-Pack",
+                "price": "$2.07",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Vibrant Flower Mix 9-Pack",
+                "name": "Vibrant Flower Mix",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Smoothie Mix 9-Pack",
+                "name": "Smoothie Mix",
+                "pack": "9-Pack",
+                "price": "$3.32",
+                "discount": "LIMITED"
             }
-        }
+        ]
     },
+
 
 
 

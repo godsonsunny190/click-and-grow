@@ -15,14 +15,14 @@ const updateContent = () =>
     .forEach((el) => (el.innerHTML = i18next.t(el.getAttribute("data-i18n"))));
 
 (async () => {
-  const ro = await loadTranslation("ro");
+  const en = await loadTranslation("en");
   i18next.init(
     {
-      lng: "ro",
-      fallbackLng: "ro",
+      lng: "en",
+      fallbackLng: "en",
       resources: {
-        ro: {
-          translation: ro,
+        en: {
+          translation: en,
         },
       },
     },
