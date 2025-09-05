@@ -170,6 +170,202 @@
         ]
     },
 
+    "plantFilter": {
+        "title": "Toate Plantele",
+        "description": "Alegeți din peste 65 de varietăți de ierburi, flori, frunze verzi și plante fructifere.",
+        "filterTitle": "Filtrează și caută plante",
+        "searchPlaceholder": "Căutare după numele plantei",
+        "closeButtonAlt": "buton închidere",
+        "nav": {
+            "allPosts": "Toate Postările",
+            "fruits": "Fructe",
+            "greens": "Verdeață",
+            "herbs": "Ierburi",
+            "flowers": "Flori",
+            "growAnything": "Crește Orice",
+            "mixes": "Mixturi"
+        },
+        "getInfoAlt": "imagine informații",
+        "addButtonAlt": "pictogramă plus",
+        "pricePerPod": "preț pe capsulă",
+        "items": {
+            "chiliPepperMix": {
+                "name": "Mix de Ardei Iuți",
+                "pack": "Pachet 9",
+                "alt": "Mix de Ardei Iuți"
+            },
+            "chiliPepper": {
+                "name": "Ardei Iute",
+                "pack": "Pachet 3",
+                "alt": "Ardei Iute"
+            },
+            "dwarfPea": {
+                "name": "Mazăre Pitică",
+                "pack3": "Pachet 3",
+                "pack9": "Pachet 9",
+                "alt": "Mazăre Pitică"
+            },
+            "fruitAndVeggieMix": {
+                "name": "Mix Fructe și Legume",
+                "pack": "Pachet 9",
+                "alt": "Mix Fructe și Legume"
+            },
+            "miniTomato": {
+                "name": "Roșii Cherry",
+                "pack3": "Pachet 3",
+                "pack9": "Pachet 9",
+                "alt": "Roșii Cherry"
+            },
+            "piriPiriChiliPepper": {
+                "name": "Ardei Iute Piri Piri",
+                "pack": "Pachet 3",
+                "alt": "Ardei Iute Piri Piri"
+            },
+            "purpleChiliPepper": {
+                "name": "Ardei Iute Violet",
+                "pack": "Pachet 3",
+                "alt": "Ardei Iute Violet"
+            },
+            "redHotChiliPepper": {
+                "name": "Ardei Iute Roșu",
+                "pack": "Pachet 3",
+                "alt": "Ardei Iute Roșu"
+            },
+            "redSweetPepper": {
+                "name": "Ardei Dulce Roșu",
+                "pack": "Pachet 3",
+                "alt": "Ardei Dulce Roșu"
+            },
+            "wildStrawberry": {
+                "name": "Căpșuni Sălbatice",
+                "pack3": "Pachet 3",
+                "pack9": "Pachet 9",
+                "alt": "Căpșuni Sălbatice"
+            },
+            "yellowChiliPepper": {
+                "name": "Ardei Iute Galben",
+                "pack": "Pachet 3",
+                "alt": "Ardei Iute Galben"
+            },
+            "yellowTomato": {
+                "name": "Roșii Galbene",
+                "pack3": "Pachet 3",
+                "pack9": "Pachet 9",
+                "alt": "Roșii Galbene"
+            },
+            "yellowSweetPepper": {
+                "name": "Ardei Dulce Galben",
+                "pack": "Pachet 3",
+                "alt": "Ardei Dulce Galben"
+            },
+            "arugula30Pack": {
+                "name": "Rucola",
+                "pack": "Pachet 30",
+                "alt": "Rucola Pachet 30"
+            },
+            "arugulaPlant": {
+                "name": "Rucola",
+                "pack": "Plantă",
+                "alt": "Plantă Rucola"
+            },
+            "asianCuisineMix9Pack": {
+                "name": "Amestec Bucătărie Asiatică",
+                "pack": "Pachet de 9",
+                "alt": "Amestec Bucătărie Asiatică"
+            },
+            "greenChard": {
+                "name": "Spanac Verde",
+                "pack": "Pachet de 3",
+                "alt": "Spanac Verde"
+            },
+            "greenKale": {
+                "name": "Varză Kale Verde",
+                "pack": "Pachet de 3",
+                "alt": "Varză Kale Verde"
+            },
+            "greenLettucePlant": {
+                "name": "Lăptucă Verde",
+                "pack": "Plantă",
+                "alt": "Lăptucă Verde"
+            },
+            "greenLettuce30Pack": {
+                "name": "Lăptucă Verde",
+                "pack": "Pachet de 30",
+                "alt": "Lăptucă Verde Pachet de 30"
+            },
+            "greenSorrel": {
+                "name": "Măcriș Verde",
+                "pack": "Pachet de 3",
+                "alt": "Măcriș Verde"
+            },
+            "italianKale": {
+                "name": "Varză Kale Italiană",
+                "pack": "Pachet de 3",
+                "alt": "Varză Kale Italiană Pachet de 3"
+            },
+            "oakleafLettuce": {
+                "name": "Lăptucă Frunză de Stejar",
+                "pack": "Pachet de 3",
+                "alt": "Lăptucă Frunză de Stejar Pachet de 3"
+            },
+            "pakChoi30Pack": {
+                "name": "Pak Choi",
+                "pack": "Pachet de 30",
+                "alt": "Pak Choi Pachet de 30"
+            },
+            "pakChoiPlant": {
+                "name": "Pak Choi",
+                "pack": "Plantă",
+                "alt": "Pak Choi"
+            },
+            "rainbowChard": {
+                "name": "Spanac Curcubeu",
+                "pack": "Pachet de 3",
+                "alt": "Spanac Curcubeu"
+            },
+            "redKale": {
+                "name": "Varză Kale Roșie",
+                "pack": "Plantă",
+                "alt": "Varză Kale Roșie"
+            },
+            "redLettuce3Pack": {
+                "name": "Lăptucă Roșie",
+                "pack": "Pachet de 3",
+                "alt": "Lăptucă Roșie Pachet de 3"
+            },
+            "redLettuce30Pack": {
+                "name": "Lăptucă Roșie",
+                "pack": "Pachet de 30",
+                "alt": "Lăptucă Roșie Pachet de 30"
+            },
+            "redRomaineLettuce": {
+                "name": "Lăptucă Romană Roșie",
+                "pack": "Pachet de 3",
+                "alt": "Lăptucă Romană Roșie Pachet de 3"
+            },
+            "romaineLettuce30Pack": {
+                "name": "Lăptucă Romană",
+                "pack": "Pachet de 30",
+                "alt": "Lăptucă Romană Pachet de 30"
+            },
+            "romaineLettucePlant": {
+                "name": "Lăptucă Romană",
+                "pack": "Plantă",
+                "alt": "Lăptucă Romană"
+            },
+            "greenSaladMix": {
+                "name": "Amestec Salată Verde",
+                "pack": "Amestec",
+                "alt": "Amestec Salată Verde"
+            },
+            "asianCuisineMix": {
+                "name": "Amestec Bucătărie Asiatică",
+                "pack": "Amestec",
+                "alt": "Amestec Bucătărie Asiatică"
+            }
+        }
+    },
+
     "features": {
         "sectionTitle": "Crește mai inteligent, nu mai greu",
         "sectionSubtitle": "Începe grădinăritul interior cu noi",

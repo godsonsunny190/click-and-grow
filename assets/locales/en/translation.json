@@ -1344,6 +1344,213 @@
         }
     },
 
+    "plantFilter": {
+        "title": "All Plants",
+        "description": "Choose from over 65 varieties of herbs, flowers, leafy greens, and fruiting plants.",
+        "filterTitle": "Filter and search plants",
+        "searchPlaceholder": "Search by Plant Name",
+        "closeButtonAlt": "close button",
+        "nav": {
+            "allPosts": "All Posts",
+            "fruits": "Fruits",
+            "greens": "Greens",
+            "herbs": "Herbs",
+            "flowers": "Flowers",
+            "growAnything": "Grow Anything",
+            "mixes": "Mixes"
+        },
+        "getInfoAlt": "get info image",
+        "addButtonAlt": "plus icon",
+        "pricePerPod": "price per pod",
+        "items": {
+            "chiliPepperMix": {
+                "name": "Chili Pepper Mix",
+                "pack": "9-Pack",
+                "alt": "Chili Pepper Mix"
+            },
+            "chiliPepper": {
+                "name": "Chili Pepper",
+                "pack": "3-Pack",
+                "alt": "Chili Pepper"
+            },
+            "dwarfPea": {
+                "name": "Dwarf Pea",
+                "pack3": "3-Pack",
+                "pack9": "9-Pack",
+                "alt": "Dwarf Pea"
+            },
+            "fruitAndVeggieMix": {
+                "name": "Fruit And Veggie Mix",
+                "pack": "9-Pack",
+                "alt": "Fruit And Veggie Mix"
+            },
+            "miniTomato": {
+                "name": "Mini Tomato",
+                "pack3": "3-Pack",
+                "pack9": "9-Pack",
+                "alt": "Mini Tomato"
+            },
+            "piriPiriChiliPepper": {
+                "name": "Piri Piri Chili Pepper",
+                "pack": "3-Pack",
+                "alt": "Piri Piri Chili Pepper"
+            },
+            "purpleChiliPepper": {
+                "name": "Purple Chili Pepper",
+                "pack": "3-Pack",
+                "alt": "Purple Chili Pepper"
+            },
+            "redHotChiliPepper": {
+                "name": "Red Hot Chili Pepper",
+                "pack": "3-Pack",
+                "alt": "Red Hot Chili Pepper"
+            },
+            "redSweetPepper": {
+                "name": "Red Sweet Pepper",
+                "pack": "3-Pack",
+                "alt": "Red Sweet Pepper"
+            },
+            "wildStrawberry": {
+                "name": "Wild Strawberry",
+                "pack3": "3-Pack",
+                "pack9": "9-Pack",
+                "alt": "Wild Strawberry"
+            },
+            "yellowChiliPepper": {
+                "name": "Yellow Chili Pepper",
+                "pack": "3-Pack",
+                "alt": "Yellow Chili Pepper"
+            },
+            "yellowTomato": {
+                "name": "Yellow Tomato",
+                "pack3": "3-Pack",
+                "pack9": "9-Pack",
+                "alt": "Yellow Tomato"
+            },
+            "yellowSweetPepper": {
+                "name": "Yellow Sweet Pepper",
+                "pack": "3-Pack",
+                "alt": "Yellow Sweet Pepper"
+            },
+            "arugula30Pack": {
+                "name": "Arugula",
+                "pack": "30-Pack",
+                "alt": "Arugula 30-Pack"
+            },
+        
+            "arugulaPlant": {
+                "name": "Arugula",
+                "pack": "Plant",
+                "alt": "Arugula Plant"
+            },
+            "asianCuisineMix9Pack": {
+                "name": "Asian Cuisine Mix",
+                "pack": "9-Pack",
+                "alt": "Asian Cuisine Mix"
+            },
+            "greenChard": {
+                "name": "Green Chard",
+                "pack": "3-Pack",
+                "alt": "Green Chard"
+            },
+            "greenKale": {
+                "name": "Green Kale",
+                "pack": "3-Pack",
+                "alt": "Green Kale"
+            },
+            "greenLettucePlant": {
+                "name": "Green Lettuce",
+                "pack": "Plant",
+                "alt": "Green Lettuce"
+            },
+            "greenLettuce30Pack": {
+                "name": "Green Lettuce",
+                "pack": "30-Pack",
+                "alt": "Green Lettuce 30-Pack"
+            },
+            "greenSorrel": {
+                "name": "Green Sorrel",
+                "pack": "3-Pack",
+                "alt": "Green Sorrel"
+            },
+            "italianKale": {
+                "name": "Italian Kale",
+                "pack": "3-Pack",
+                "alt": "Italian Kale 3-Pack"
+            },
+            "oakleafLettuce": {
+                "name": "Oakleaf Lettuce",
+                "pack": "3-Pack",
+                "alt": "Oakleaf Lettuce 3-Pack"
+            },
+            "pakChoi30Pack": {
+                "name": "Pak Choi",
+                "pack": "30-Pack",
+                "alt": "Pak Choi 30-Pack"
+            },
+            "pakChoiPlant": {
+                "name": "Pak Choi",
+                "pack": "Plant",
+                "alt": "Pak Choi"
+            },
+            "rainbowChard": {
+                "name": "Rainbow Chard",
+                "pack": "3-Pack",
+                "alt": "Rainbow Chard"
+            },
+            "redKale": {
+                "name": "Red Kale",
+                "pack": "Plant",
+                "alt": "Red Kale"
+            },
+            "redLettuce3Pack": {
+                "name": "Red Lettuce",
+                "pack": "3-Pack",
+                "alt": "Red Lettuce 3-Pack"
+            },
+            "redLettuce30Pack": {
+                "name": "Red Lettuce",
+                "pack": "30-Pack",
+                "alt": "Red Lettuce 30-Pack"
+            },
+            "redRomaineLettuce": {
+                "name": "Red Romaine Lettuce",
+                "pack": "3-Pack",
+                "alt": "Red Romaine Lettuce 3-Pack"
+            },
+            "romaineLettuce30Pack": {
+                "name": "Romaine Lettuce",
+                "pack": "30-Pack",
+                "alt": "Romaine Lettuce 30-Pack"
+            },
+            "romaineLettucePlant": {
+                "name": "Romaine Lettuce",
+                "pack": "Plant",
+                "alt": "Romaine Lettuce"
+            },
+            "greenSaladMix": {
+                "name": "Green Salad Mix",
+                "pack": "Mix",
+                "alt": "Green Salad Mix"
+            },
+            "asianCuisineMix": {
+                "name": "Asian Cuisine Mix",
+                "pack": "Mix",
+                "alt": "Asian Cuisine Mix"
+            }
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
 
     "footer": {
         "quickLinks": {
