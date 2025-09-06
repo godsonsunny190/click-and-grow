@@ -836,7 +836,8 @@
     "plantSection": {
         "title": "Most popular picks",
         "subtitle": "Foolproof favorites that just work.",
-        "items": [{
+        "items": [
+            {
                 "getInfoAlt": "get info image",
                 "imageAlt": "Basil plant",
                 "name": "Basil",
@@ -1363,7 +1364,8 @@
         "addButtonAlt": "plus icon",
         "pricePerPod": "price per pod",
 
-        "items": [{
+        "items": [
+            {
                 "alt": "Chili Pepper Mix",
                 "name": "Chili Pepper Mix",
                 "pack": "9-Pack",
@@ -1475,7 +1477,6 @@
                 "pack": "3-Pack",
                 "price": "$4.31"
             },
-
             {
                 "alt": "Arugula 30-Pack",
                 "name": "Arugula",
