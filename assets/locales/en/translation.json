@@ -1849,8 +1849,289 @@
                 "pack": "9-Pack",
                 "price": "$3.32",
                 "discount": "LIMITED"
+            },
+            {
+                "alt": "Apple Mint 3-Pack",
+                "name": "Apple Mint",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Basil 30-Pack",
+                "name": "Basil",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Basil 3-Pack",
+                "name": "Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Basil 9-Pack",
+                "name": "Basil",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Basil Variety Mix 9-Pack",
+                "name": "Basil Variety Mix",
+                "pack": "9-Pack",
+                "price": "$2.07",
+                "originalPrice": "$2.77"
+            },
+            {
+                "alt": "Calming Tea Mix 9-Pack",
+                "name": "Calming Tea Mix",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Catnip 3-Pack",
+                "name": "Catnip",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Chives 3-Pack",
+                "name": "Chives",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Chives 9-Pack",
+                "name": "Chives",
+                "pack": "9-Pack",
+                "price": "$2.49",
+                "originalPrice": "$3.32"
+            },
+            {
+                "alt": "Cilantro (Coriander) 30-Pack",
+                "name": "Cilantro (Coriander)",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Cilantro (Coriander) 3-Pack",
+                "name": "Cilantro (Coriander)",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Cilantro (Coriander) 9-Pack",
+                "name": "Cilantro (Coriander)",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Cinnamon Basil 3-Pack",
+                "name": "Cinnamon Basil",
+                "pack": "3-Pack",
+                "price": "$3.23",
+                "originalPrice": "$4.31"
+            },
+            {
+                "alt": "Curly Parsley 30-Pack",
+                "name": "Curly Parsley",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Curly Parsley 3-Pack",
+                "name": "Curly Parsley",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Curly Parsley 9-Pack",
+                "name": "Curly Parsley",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Dill 30-Pack",
+                "name": "Dill",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Dill 3-Pack",
+                "name": "Dill",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Dill 9-Pack",
+                "name": "Dill",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Greek Basil 3-Pack",
+                "name": "Greek Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Garden Sage 3-Pack",
+                "name": "Garden Sage",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Holy Basil 3-Pack",
+                "name": "Holy Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lavender 3-Pack",
+                "name": "Lavender",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lavender 9-Pack",
+                "name": "Lavender",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Leaf Celery 3-Pack",
+                "name": "Leaf Celery",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lemon Balm 3-Pack",
+                "name": "Lemon Balm",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lemon Basil 3-Pack",
+                "name": "Lemon Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Lime Basil 3-Pack",
+                "name": "Lime Basil",
+                "pack": "3-Pack",
+                "price": "$3.23"
+            },
+            {
+                "alt": "Marjoram 3-Pack",
+                "name": "Marjoram",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Marseille Basil 3-Pack",
+                "name": "Marseille Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Oregano 3-Pack",
+                "name": "Oregano",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Oregano 9-Pack",
+                "name": "Oregano",
+                "pack": "9-Pack",
+                "price": "$3.32"
+            },
+            {
+                "alt": "Peppermint 3-Pack",
+                "name": "Peppermint",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Peppermint 9-Pack",
+                "name": "Peppermint",
+                "pack": "9-Pack",
+                "price": "$2.77"
+            },
+            {
+                "alt": "Plain Parsley 3-Pack",
+                "name": "Plain Parsley",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Red Basil 3-Pack",
+                "name": "Red Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Steaks Seasoning Mix 9-Pack",
+                "name": "Steaks Seasoning Mix",
+                "pack": "9-Pack",
+                "price": "$2.07",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Thai Basil 3-Pack",
+                "name": "Thai Basil",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Thai Basil 9-Pack",
+                "name": "Thai Basil",
+                "pack": "9-Pack",
+                "price": "$2.49",
+                "originalPrice": "$3.32",
+                "discount": "SAVE 25%"
+            },
+            {
+                "alt": "Thyme 30-Pack",
+                "name": "Thyme",
+                "pack": "30-Pack",
+                "price": "$1.99"
+            },
+            {
+                "alt": "Thyme 3-Pack",
+                "name": "Thyme",
+                "pack": "3-Pack",
+                "price": "$4.31"
+            },
+            {
+                "alt": "Thyme 9-Pack",
+                "name": "Thyme",
+                "pack": "9-Pack",
+                "price": "$2.49",
+                "originalPrice": "$3.32",
+                "discount": "SAVE 25%"
             }
         ]
+    },
+
+    "modalSection": {
+        "items": [{
+            "name": "Basil",
+            "pack": "3-Pack",
+            "price": "$4.31",
+            "discount": "SAVE 25%",
+            "modal": {
+                "title": "Basil Plant Pods",
+                "subtitle": "Grow fresh Basil in your indoor herb garden!",
+                "description": "Basil is often called the king of herbs for a reason. It is a great source of vitamin A, grows easily and adds flavour to everything from pizza to pasta to salads. Basil will transform your food experiences and your health. All hail to the king Basil soon to be growing in your Click & Grow indoor herb garden!",
+                "benefitsTitle": "Click & Grow Basil benefits:",
+                "benefits": [
+                    "Basil is a great source of vitamins and antioxidants",
+                    "Growing basil is 100% hassle-free in your Click & Grow indoor herb garden",
+                    "You'll get a garden-to-plate experience from your own kitchen."
+                ]
+            }
+        }]
     },
 
 

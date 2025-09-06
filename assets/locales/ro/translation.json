@@ -1782,8 +1782,278 @@
                 "pack": "Pachet de 9",
                 "price": "3,32 $",
                 "discount": "LIMITAT"
+            },
+            {
+                "alt": "Mentă de Măr 3-Pack",
+                "name": "Mentă de Măr",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc 30-Pack",
+                "name": "Busuioc",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Busuioc 3-Pack",
+                "name": "Busuioc",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc 9-Pack",
+                "name": "Busuioc",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Mix Varietăți de Busuioc 9-Pack",
+                "name": "Mix Varietăți de Busuioc",
+                "pack": "Pachet de 9",
+                "price": "2,07 $",
+                "originalPrice": "2,77 $"
+            },
+            {
+                "alt": "Mix Ceai Calmant 9-Pack",
+                "name": "Mix Ceai Calmant",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Iarba Pisicii 3-Pack",
+                "name": "Iarba Pisicii",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Arpagic 3-Pack",
+                "name": "Arpagic",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Arpagic 9-Pack",
+                "name": "Arpagic",
+                "pack": "Pachet de 9",
+                "price": "2,49 $",
+                "originalPrice": "3,32 $"
+            },
+            {
+                "alt": "Coriandru (Coriandru) 30-Pack",
+                "name": "Coriandru (Coriandru)",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Coriandru (Coriandru) 3-Pack",
+                "name": "Coriandru (Coriandru)",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Coriandru (Coriandru) 9-Pack",
+                "name": "Coriandru (Coriandru)",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Busuioc de Scorțișoară 3-Pack",
+                "name": "Busuioc de Scorțișoară",
+                "pack": "Pachet de 3",
+                "price": "3,23 $",
+                "originalPrice": "4,31 $"
+            },
+            {
+                "alt": "Pătrunjel Creț 30-Pack",
+                "name": "Pătrunjel Creț",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Pătrunjel Creț 3-Pack",
+                "name": "Pătrunjel Creț",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Pătrunjel Creț 9-Pack",
+                "name": "Pătrunjel Creț",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Mărar 30-Pack",
+                "name": "Mărar",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Mărar 3-Pack",
+                "name": "Mărar",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mărar 9-Pack",
+                "name": "Mărar",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Busuioc Grecesc 3-Pack",
+                "name": "Busuioc Grecesc",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Salvie de Grădină 3-Pack",
+                "name": "Salvie de Grădină",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc Sfânt 3-Pack",
+                "name": "Busuioc Sfânt",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            }, {
+                "alt": "Lavandă 9-Pack",
+                "name": "Lavandă",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Țelină de Frunze 3-Pack",
+                "name": "Țelină de Frunze",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Melisă 3-Pack",
+                "name": "Melisă",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc de Lămâie 3-Pack",
+                "name": "Busuioc de Lămâie",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc de Lămâie Verde 3-Pack",
+                "name": "Busuioc de Lămâie Verde",
+                "pack": "Pachet de 3",
+                "price": "3,23 $"
+            },
+            {
+                "alt": "Marjar 3-Pack",
+                "name": "Marjar",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc Marseille 3-Pack",
+                "name": "Busuioc Marseille",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Oregano 3-Pack",
+                "name": "Oregano",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Oregano 9-Pack",
+                "name": "Oregano",
+                "pack": "Pachet de 9",
+                "price": "3,32 $"
+            },
+            {
+                "alt": "Mentă Piperată 3-Pack",
+                "name": "Mentă Piperată",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mentă Piperată 9-Pack",
+                "name": "Mentă Piperată",
+                "pack": "Pachet de 9",
+                "price": "2,77 $"
+            },
+            {
+                "alt": "Pătrunjel Simplu 3-Pack",
+                "name": "Pătrunjel Simplu",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc Roșu 3-Pack",
+                "name": "Busuioc Roșu",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Mix Condimente pentru Fripturi 9-Pack",
+                "name": "Mix Condimente pentru Fripturi",
+                "pack": "Pachet de 9",
+                "price": "2,07 $",
+                "originalPrice": "2,77 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Busuioc Thai 3-Pack",
+                "name": "Busuioc Thai",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Busuioc Thai 9-Pack",
+                "name": "Busuioc Thai",
+                "pack": "Pachet de 9",
+                "price": "2,49 $",
+                "originalPrice": "3,32 $",
+                "discount": "ECONOMISEȘTE 25%"
+            },
+            {
+                "alt": "Cimbru 30-Pack",
+                "name": "Cimbru",
+                "pack": "Pachet de 30",
+                "price": "1,99 $"
+            },
+            {
+                "alt": "Cimbru 3-Pack",
+                "name": "Cimbru",
+                "pack": "Pachet de 3",
+                "price": "4,31 $"
+            },
+            {
+                "alt": "Cimbru 9-Pack",
+                "name": "Cimbru",
+                "pack": "Pachet de 9",
+                "price": "2,49 $",
+                "originalPrice": "3,32 $",
+                "discount": "ECONOMISEȘTE 25%"
             }
         ]
+    },
+
+    "modalSection": {
+        "items": [{
+            "modal": {
+                "title": "Capsule de busuioc",
+                "subtitle": "Cultivă busuioc proaspăt în grădina ta de interior!",
+                "description": "Busuiocul este adesea numit regele ierburilor și pe bună dreptate. Este o sursă excelentă de vitamina A, crește ușor și adaugă savoare de la pizza la paste și salate. Busuiocul îți va transforma mesele și sănătatea. Toată cinstea regelui Busuioc, care va crește în curând în grădina ta Click & Grow!",
+                "benefitsTitle": "Beneficiile Click & Grow Busuioc:",
+                "benefits": [
+                    "Busuiocul este o sursă excelentă de vitamine și antioxidanți",
+                    "Creșterea busuiocului este 100% fără griji în grădina ta Click & Grow",
+                    "Vei avea o experiență de la grădină direct în farfurie, chiar din bucătăria ta."
+                ]
+            }
+        }]
     },
 
 

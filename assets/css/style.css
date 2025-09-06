@@ -11662,6 +11662,12 @@ p {
   padding: 0;
   border: none;
   display: flex;
+  background-image: url(../images/icons/alert.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: co;
+  width: 18px;
+  height: 18px;
 }
 .plantcard-image {
   margin-bottom: 4px;
