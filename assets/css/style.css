@@ -10824,6 +10824,10 @@ body {
   background-color: #fcfaf6;
 }
 
+main {
+  overflow-x: hidden;
+}
+
 a {
   text-decoration: none;
   color: #747474;
@@ -11146,7 +11150,7 @@ p {
 }
 @media (max-width: 1199.98px) {
   .header_menu {
-    height: calc(100% - 140px);
+    min-height: calc(100% - 140px);
   }
 }
 .header_menu ul {
@@ -11190,6 +11194,7 @@ p {
 .header_menulist-product {
   display: flex;
   align-items: center;
+  position: relative;
 }
 .header_menulist-product::after {
   content: "";
@@ -11204,33 +11209,56 @@ p {
   transition: all 0.18s ease;
   margin-bottom: -3px;
 }
-.header_menulist-product:hover::after {
-  border-left: 1.9px solid #b23f0d;
-  border-top: 1.9px solid #b23f0d;
-  transition: all 0.18s ease;
-  transform: rotate(45deg);
+@media (max-width: 991.98px) {
+  .header_menulist-product::after {
+    position: absolute;
+    top: 23px;
+    right: 0;
+  }
 }
-.header_menulist-product:hover .header_menulist-dropdown {
-  transform: scaleY(1);
-  opacity: 1;
-  visibility: visible;
+@media (max-width: 991.98px) {
+  .header_menulist-product {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 992px) {
+  .header_menulist-product:hover::after {
+    border-left: 1.9px solid #b23f0d;
+    border-top: 1.9px solid #b23f0d;
+    transition: all 0.18s ease;
+    transform: rotate(45deg);
+  }
+  .header_menulist-product:hover .header_menulist-dropdown {
+    transform: scaleY(1);
+    opacity: 1;
+    visibility: visible;
+  }
 }
 .header_menulist-productli a {
   padding-right: 15px;
 }
-.header_menulist-dropdown {
-  position: absolute;
-  left: 0;
-  top: 100%;
-  background-color: #fcfaf6;
-  width: 100%;
-  border-top: 1px solid #eee;
-  border-bottom: 1px solid #eee;
-  transform: scaleY(0);
-  visibility: hidden;
-  opacity: 1;
-  transform-origin: top center;
-  transition: all 0.18s ease;
+@media (max-width: 991.98px) {
+  .header_menulist-dropdown {
+    display: none;
+    width: 100%;
+  }
+}
+@media (min-width: 992px) {
+  .header_menulist-dropdown {
+    position: absolute;
+    left: 0;
+    top: 100%;
+    background-color: #fcfaf6;
+    width: 100%;
+    border-top: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+    transform: scaleY(0);
+    visibility: hidden;
+    opacity: 1;
+    transform-origin: top center;
+    transition: all 0.18s ease;
+  }
 }
 .header_menulist-dropdown ul {
   display: flex;
@@ -11665,7 +11693,7 @@ p {
   background-image: url(../images/icons/alert.svg);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: co;
+  background-size: contain;
   width: 18px;
   height: 18px;
 }

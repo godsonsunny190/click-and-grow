@@ -1,4 +1,18 @@
 /* ===================================== */
+/*            DROPDOWN JS            */
+/* ===================================== */
+$(document).on("click", ".header_menulist li", function (e) {
+  e.stopPropagation();
+  var $submenu = $(this).children(".header_menulist-dropdown");
+  if ($submenu.is(":visible")) {
+    $submenu.stop().slideUp(300);
+  } else {
+    $(".header_menulist-dropdown").stop().slideUp(300);
+    $submenu.stop().slideDown(300);
+  }
+});
+
+/* ===================================== */
 /*         FILTER PROJECT JS             */
 /* ===================================== */
 $(window).on("load", function () {

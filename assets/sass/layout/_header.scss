@@ -33,7 +33,7 @@
         margin: 0 auto;
 
         @include media-breakpoint-down(xl) {
-            height: calc(100% - 140px);
+            min-height: calc(100% - 140px);
         }
 
         ul {
@@ -79,9 +79,11 @@
 
     &_menulist {
 
+
         &-product {
             display: flex;
             align-items: center;
+            position: relative;
 
             &::after {
                 content: "";
@@ -95,20 +97,34 @@
                 border-bottom: none;
                 transition: all .18s ease;
                 margin-bottom: -3px;
+
+                @include media-breakpoint-down(lg) {
+                    position: absolute;
+                    top: 23px;
+                    right: 0;
+                }
             }
 
-            &:hover {
-                &::after {
-                    border-left: 1.9px solid $color-0d;
-                    border-top: 1.9px solid $color-0d;
-                    transition: all .18s ease;
-                    transform: rotate(45deg);
-                }
 
-                .header_menulist-dropdown {
-                    transform: scaleY(1);
-                    opacity: 1;
-                    visibility: visible;
+            @include media-breakpoint-down(lg) {
+                @include flexColumn;
+            }
+
+            @include media-breakpoint-up(lg) {
+
+                &:hover {
+                    &::after {
+                        border-left: 1.9px solid $color-0d;
+                        border-top: 1.9px solid $color-0d;
+                        transition: all .18s ease;
+                        transform: rotate(45deg);
+                    }
+
+                    .header_menulist-dropdown {
+                        transform: scaleY(1);
+                        opacity: 1;
+                        visibility: visible;
+                    }
                 }
             }
 
@@ -118,18 +134,25 @@
         }
 
         &-dropdown {
-            position: absolute;
-            left: 0;
-            top: 100%;
-            background-color: $color-f6;
-            width: 100%;
-            border-top: 1px solid #eee;
-            border-bottom: 1px solid #eee;
-            transform: scaleY(0);
-            visibility: hidden;
-            opacity: 1;
-            transform-origin: top center;
-            transition: all .18s ease;
+            @include media-breakpoint-down(lg) {
+                display: none;
+                width: 100%;
+            }
+
+            @include media-breakpoint-up(lg) {
+                position: absolute;
+                left: 0;
+                top: 100%;
+                background-color: $color-f6;
+                width: 100%;
+                border-top: 1px solid #eee;
+                border-bottom: 1px solid #eee;
+                transform: scaleY(0);
+                visibility: hidden;
+                opacity: 1;
+                transform-origin: top center;
+                transition: all .18s ease;
+            }
 
             ul {
                 @include flexCenter;
@@ -298,6 +321,7 @@
     }
 
     .offcanvas {
+
 
         &-body {
             align-items: center;

@@ -19,16 +19,18 @@ initLenis();
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("exampleModal");
 
-  modal.addEventListener("show.bs.modal", function () {
-    if (lenis) {
-      lenis.destroy();
-      lenis = null;
-    }
-  });
+  if (modal) {
+    modal.addEventListener("show.bs.modal", function () {
+      if (lenis) {
+        lenis.destroy();
+        lenis = null;
+      }
+    });
 
-  modal.addEventListener("hidden.bs.modal", function () {
-    setTimeout(() => {
-      initLenis();
-    }, 100);
-  });
+    modal.addEventListener("hidden.bs.modal", function () {
+      setTimeout(() => {
+        initLenis();
+      }, 100);
+    });
+  }
 });
