@@ -11194,7 +11194,11 @@ p {
 .header_menulist-product {
   display: flex;
   align-items: center;
-  position: relative;
+}
+@media (max-width: 991.98px) {
+  .header_menulist-product {
+    position: relative;
+  }
 }
 .header_menulist-product::after {
   content: "";

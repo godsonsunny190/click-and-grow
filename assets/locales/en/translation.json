@@ -836,8 +836,7 @@
     "plantSection": {
         "title": "Most popular picks",
         "subtitle": "Foolproof favorites that just work.",
-        "items": [
-            {
+        "items": [{
                 "getInfoAlt": "get info image",
                 "imageAlt": "Basil plant",
                 "name": "Basil",
@@ -1364,8 +1363,7 @@
         "addButtonAlt": "plus icon",
         "pricePerPod": "price per pod",
 
-        "items": [
-            {
+        "items": [{
                 "alt": "Chili Pepper Mix",
                 "name": "Chili Pepper Mix",
                 "pack": "9-Pack",
@@ -1589,115 +1587,135 @@
                 "alt": "Red Lettuce 3-Pack",
                 "name": "Red Lettuce",
                 "pack": "3-Pack",
-                "price": "$2.50"
+                "price": "$2.50",
+                "discount": "SAVE 25%"
+
             },
             {
                 "alt": "Red Lettuce 30-Pack",
                 "name": "Red Lettuce",
                 "pack": "30-Pack",
-                "price": "$5.50"
+                "price": "$5.50",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Red Romaine Lettuce 3-Pack",
                 "name": "Red Romaine Lettuce",
                 "pack": "3-Pack",
-                "price": "$2.60"
+                "price": "$2.60",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Red Romaine Lettuce 3-Pack",
                 "name": "Red Romaine Lettuce",
                 "pack": "3-Pack",
-                "price": "$2.60"
+                "price": "$2.60",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Romaine Lettuce 30-Pack",
                 "name": "Romaine Lettuce",
                 "pack": "30-Pack",
-                "price": "$5.60"
+                "price": "$5.60",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Romaine Lettuce",
                 "name": "Romaine Lettuce",
                 "pack": "Plant",
-                "price": "$2.40"
+                "price": "$2.40",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Romaine Lettuce",
                 "name": "Romaine Lettuce",
                 "pack": "Plant",
-                "price": "$2.40"
+                "price": "$2.40",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Green Salad Mix",
                 "name": "Green Salad Mix",
                 "pack": "Mix",
-                "price": "$3.20"
+                "price": "$3.20",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Asian Cuisine Mix",
                 "name": "Asian Cuisine Mix",
                 "pack": "Mix",
-                "price": "$3.50"
+                "price": "$3.50",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Arugula 30-Pack",
                 "name": "Arugula",
                 "pack": "30-Pack",
-                "price": "$5.20"
+                "price": "$5.20",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Arugula Plant",
                 "name": "Arugula",
                 "pack": "Plant",
-                "price": "$2.20"
+                "price": "$2.20",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Arugula Plant",
                 "name": "Arugula",
                 "pack": "Plant",
-                "price": "$2.20"
+                "price": "$2.20",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Black Pansy",
                 "name": "Black Pansy",
                 "pack": "30-Pack",
-                "price": "$2.39"
+                "price": "$2.39",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Black Pansy 3-Pack",
                 "name": "Black Pansy",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Busy Lizzie 3-Pack",
                 "name": "Busy Lizzie",
                 "pack": "3-Pack",
-                "price": "Sold out"
+                "price": "Sold out",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Calendula 3-Pack",
                 "name": "Calendula",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Cockscomb 3-Pack",
                 "name": "Cockscomb",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Cornflower 3-Pack",
                 "name": "Cornflower",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Gazania 3-Pack",
                 "name": "Gazania",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Lavender 3-Pack",
