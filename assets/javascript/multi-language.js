@@ -15,27 +15,29 @@ const updateContent = () =>
     .forEach((el) => (el.innerHTML = i18next.t(el.getAttribute("data-i18n"))));
 
 (async () => {
-  const ro = await loadTranslation("ro");
+  const savedLang = localStorage.getItem("language") || "ro";
+  const translations = await loadTranslation(savedLang);
+
   i18next.init(
     {
-      lng: "ro",
+      lng: savedLang,
       fallbackLng: "ro",
       resources: {
-        ro: {
-          translation: ro,
+        [savedLang]: {
+          translation: translations,
         },
       },
     },
     updateContent
   );
+  const currentLangText = document.getElementById("current-lang-text");
+  if (currentLangText) currentLangText.textContent = savedLang.toUpperCase();
 })();
 
 async function changeLanguage(lang) {
   const currentLangText = document.getElementById("current-lang-text");
 
-  if (lang === "en") currentLangText.textContent = "EN";
-  if (lang === "ru") currentLangText.textContent = "RU";
-  if (lang === "ro") currentLangText.textContent = "RO";
+  if (currentLangText) currentLangText.textContent = lang.toUpperCase();
 
   const data = await loadTranslation(lang);
   if (data) {
@@ -43,6 +45,7 @@ async function changeLanguage(lang) {
     i18next.changeLanguage(lang, () => {
       updateContent();
     });
+    localStorage.setItem("language", lang);
   }
   document.querySelector(".language-dropdown").classList.remove("show");
 }
@@ -52,7 +55,6 @@ function toggleDropdown() {
   dropdown.classList.toggle("show");
 }
 
-// Close dropdown if clicked outside
 window.addEventListener("click", function (e) {
   const dropdown = document.querySelector(".language-dropdown");
   if (!dropdown.contains(e.target)) {

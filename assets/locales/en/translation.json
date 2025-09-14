@@ -1898,7 +1898,8 @@
                 "name": "Basil Variety Mix",
                 "pack": "9-Pack",
                 "price": "$2.07",
-                "originalPrice": "$2.77"
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Calming Tea Mix 9-Pack",
@@ -1948,7 +1949,8 @@
                 "name": "Cinnamon Basil",
                 "pack": "3-Pack",
                 "price": "$3.23",
-                "originalPrice": "$4.31"
+                "originalPrice": "$4.31",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Curly Parsley 30-Pack",
@@ -2086,7 +2088,9 @@
                 "alt": "Red Basil 3-Pack",
                 "name": "Red Basil",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Steaks Seasoning Mix 9-Pack",
@@ -2100,7 +2104,9 @@
                 "alt": "Thai Basil 3-Pack",
                 "name": "Thai Basil",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "originalPrice": "$2.77",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Thai Basil 9-Pack",
@@ -2120,7 +2126,9 @@
                 "alt": "Thyme 3-Pack",
                 "name": "Thyme",
                 "pack": "3-Pack",
-                "price": "$4.31"
+                "price": "$4.31",
+                "originalPrice": "$3.32",
+                "discount": "SAVE 25%"
             },
             {
                 "alt": "Thyme 9-Pack",
@@ -2152,17 +2160,6 @@
             }
         }]
     },
-
-
-
-
-
-
-
-
-
-
-
 
 
     "footer": {

@@ -801,5 +801,19 @@
         "getInfoIcon": "./assets/images/icons/alert.svg",
         "plusIcon": "./assets/images/icons/plus.png",
         "productUrl": "product-detail.html"
+    },
+    {
+        "id": 59,
+        "name": "Chili Pepper Mix",
+        "pack": "9-Pack",
+        "price": 3.32,
+        "originalPrice": null,
+        "discount": null,
+        "pricePerPod": "price per pod",
+        "image": "./assets/images/plant-plot/fruits/Fruit-and-Veggie-Mix-1280x960_600x460_crop_top.webp",
+        "alt": "Chili Pepper Mix",
+        "getInfoIcon": "./assets/images/icons/alert.svg",
+        "plusIcon": "./assets/images/icons/plus.png",
+        "productUrl": "product-detail.html"
     }
 ]
